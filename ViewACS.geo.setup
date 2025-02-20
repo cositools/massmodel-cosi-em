@@ -1,0 +1,29 @@
+# The COSI SMEX mass model - view the detectorhead only
+
+Name COSI-SMEX 
+Version 7
+
+
+# Always check the surrounbding sphere if you make changes to anything
+SurroundingSphere 80  0.0  0.0  -45.0  80.0
+#ShowSurroundingSphere  true
+
+# Required include files
+Include COSISMEX.GlobalDimensions.geo
+Include COSISMEX.mat
+Include COSISMEX.ACS.geo
+Include COSISMEX.BGO.det
+
+
+# Volume definitions:
+
+Volume WorldVolume
+WorldVolume.Visibility 0
+WorldVolume.Material vacuum
+WorldVolume.Shape TUBS 0 300 400 0 360
+WorldVolume.Mother 0
+
+ShieldedTelescope.Mother WorldVolume
+ShieldedTelescope.Position 0.0 0.0 {ShieldedHeight+4.5}
+
+

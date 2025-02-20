@@ -1,0 +1,18 @@
+#------------------------------------------------------------
+# Detector information:
+
+Voxel3D     BGO_Coinc_sideX_neg
+BGO_Coinc_sideX_neg.DetectorVolume     BGOsideXneg_ACTIVE
+BGO_Coinc_sideX_neg.SensitiveVolume    BGOsideXneg_ACTIVE
+BGO_Coinc_sideX_neg.VoxelNumber        2 12 19
+BGO_Coinc_sideX_neg.Offset             0 0 0
+BGO_Coinc_sideX_neg.TriggerThreshold   80.0
+BGO_Coinc_sideX_neg.EnergyResolution   Gauss    0.0    0.0   10.0
+BGO_Coinc_sideX_neg.EnergyResolution   Gauss  100.0  100.0   10.0
+BGO_Coinc_sideX_neg.NoiseThresholdEqualsTriggerThreshold true
+
+Trigger BgoVeto_sideX_neg
+BgoVeto_sideX_neg.Veto false
+BgoVeto_sideX_neg.TriggerByDetector true
+BgoVeto_sideX_neg.Detector BGO_Coinc_sideX_neg 1
+

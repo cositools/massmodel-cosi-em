@@ -1,0 +1,55 @@
+# The COSI SMEX mass model - view the cryostat only
+
+Name COSI-SMEX 
+Version 7
+
+
+# Always check the surrounding sphere if you make changes to anything
+SurroundingSphere 80  0.0  0.0  -45.0  80.0
+ShowSurroundingSphere  false
+
+# Required include files
+Include COSISMEX.GlobalDimensions.geo
+Include COSISMEX.mat
+Include COSISMEX.Ge.Inactive.geo
+Include COSISMEX.Ge.Q0D0.geo
+Include COSISMEX.Ge.Q0D1.geo
+Include COSISMEX.Ge.SimsOnly.Q0D0.det
+Include COSISMEX.Ge.SimsOnly.Q0D1.det
+Include COSISMEX.Cryostat.geo
+#Include COSISMEX.Cryocooler.geo 
+
+# Volume definitions:
+
+Volume WorldVolume
+WorldVolume.Visibility 0
+WorldVolume.Material vacuum
+WorldVolume.Shape TUBS 0 300 400 0 360
+WorldVolume.Mother 0
+
+#Volume Cryocooler
+#Cryocooler.Material vacuum
+#Cryocooler.Visibility 0
+#Cryocooler.Color 1
+#Cryocooler.Shape BRIK {BGOinnerX + 2*BGOsideThick+BGOWallFullThickness+2*PMTlength} {BGOinnerY + 2*BGOsideThick+BGOWallFullThickness+2*PMTlength} {ShieldedHeight+0.5}
+
+#Cryocooler.Mother WorldVolume
+#Cryocooler.Position 0.0 0.0 0.0
+
+Volume ShieldedTelescope
+ShieldedTelescope.Material vacuum
+ShieldedTelescope.Visibility 0
+ShieldedTelescope.Color 1
+ShieldedTelescope.Shape BRIK {BGOinnerX + 2*BGOsideThick+BGOWallFullThickness+2*PMTlength} {BGOinnerY + 2*BGOsideThick+BGOWallFullThickness+2*PMTlength} {ShieldedHeight+0.5}
+
+#ShieldedTelescope.Mother WorldVolume
+#ShieldedTelescope.Position 0.0 0.0 0.0
+
+#Volume Telescope
+#Telescope.Material vacuum
+#Telescope.Visibility 0
+#Telescope.Color 1
+#Telescope.Shape BRIK {BGOinnerX + 2*BGOsideThick+BGOWallFullThickness+2*PMTlength} {BGOinnerY + 2*BGOsideThick+BGOWallFullThickness+2*PMTlength} {ShieldedHeight+0.5}
+
+Telescope.Mother WorldVolume
+Telescope.Position 0.0 0.0 0.0

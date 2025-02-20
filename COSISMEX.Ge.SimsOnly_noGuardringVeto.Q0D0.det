@@ -1,0 +1,73 @@
+#------------------------------------------------------------
+# Detector information:
+
+# Attention this is the detector information for the SIMULATIONS, not for revan
+# In ortder to ensure it is not usedf for the normal analysis, the trigger threshold is set x100 higher
+
+Strip3D               Q0D0
+
+Q0D0.SensitiveVolume      Q0D0_GeWafer
+Q0D0.DetectorVolume       Q0D0_GeWafer
+
+Q0D0.Offset               0.0 0.0
+Q0D0.StripNumber          2048 2048
+
+Q0D0.EnergyResolution   Gauss     0.0     0.0    1.04
+Q0D0.EnergyResolution   Gauss    100.0    100.0  1.04
+Q0D0.EnergyResolution   Gauss    300.0    300.0  1.10
+Q0D0.EnergyResolution   Gauss   1000.0   1000.0  1.32
+Q0D0.EnergyResolution   Gauss   3000.0   3000.0  1.94
+Q0D0.EnergyResolution   Gauss  10000.0  10000.0  4.14
+
+# Both
+Q0D0.DepthResolutionThreshold 25.0
+Q0D0.DepthResolution      0.0  { 0.084 / 2.35 }
+Q0D0.DepthResolution     25.0  { 0.084 / 2.35 }
+Q0D0.DepthResolution     50.0  { 0.070 / 2.35 }
+Q0D0.DepthResolution    100.0  { 0.060 / 2.35 }
+Q0D0.DepthResolution    200.0  { 0.052 / 2.35 }
+Q0D0.DepthResolution    500.0  { 0.042 / 2.35 }
+Q0D0.DepthResolution   1000.0  { 0.036 / 2.35 }
+Q0D0.DepthResolution   2000.0  { 0.031 / 2.35 }
+Q0D0.DepthResolution   5000.0  { 0.031 / 2.35 }
+
+Q0D0.TriggerThreshold     130.
+Q0D0.NoiseThresholdEqualsTriggerThreshold  True
+
+
+
+Simple GuardRingDetector_Q0D0
+
+GuardRingDetector_Q0D0.SensitiveVolume     GeWaferGuardRing_Q0D0
+GuardRingDetector_Q0D0.DetectorVolume      GeWaferGuardRing_Q0D0
+
+GuardRingDetector_Q0D0.TriggerThreshold      400
+GuardRingDetector_Q0D0.NoiseThresholdEqualsTriggerThreshold true
+
+GuardRingDetector_Q0D0.EnergyResolution Gaus 10      10        3
+GuardRingDetector_Q0D0.EnergyResolution Gaus 20      20        3
+GuardRingDetector_Q0D0.EnergyResolution Gaus 50      50        3
+GuardRingDetector_Q0D0.EnergyResolution Gaus 100     100       3
+GuardRingDetector_Q0D0.EnergyResolution Gaus 200     200       3
+GuardRingDetector_Q0D0.EnergyResolution Gaus 500     500       3
+GuardRingDetector_Q0D0.EnergyResolution Gaus 1000    1000      3
+GuardRingDetector_Q0D0.EnergyResolution Gaus 2000    2000      3
+GuardRingDetector_Q0D0.EnergyResolution Gaus 5000    5000      3
+
+
+
+#------------------------------------------------------------
+# Trigger information:
+
+Trigger GeTrigger_Q0D0
+GeTrigger_Q0D0.Detector Q0D0 1
+GeTrigger_Q0D0.TriggerByChannel true
+GeTrigger_Q0D0.Veto false
+
+Trigger GuardRingVeto_Q0D0
+GuardRingVeto_Q0D0.Veto false
+GuardRingVeto_Q0D0.TriggerByChannel true
+GuardRingVeto_Q0D0.Detector GuardRingDetector_Q0D0 1
+
+
+

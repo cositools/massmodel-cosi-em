@@ -1,0 +1,23 @@
+# Test the effecitive area at 511 keV
+
+# Global parameters:
+Version               1
+Geometry              ../COSISMEX.sim.geo.setup
+
+# Physics list
+PhysicsListEM                        LivermorePol
+
+# Output formats
+StoreSimulationInfo                  all
+
+# Run parameters:
+Run EffectiveArea
+EffectiveArea.FileName                      EffectiveArea.511keV
+EffectiveArea.Triggers                      10000
+
+EffectiveArea.Source EffectiveArea_FirstSource
+EffectiveArea_FirstSource.ParticleType      1
+EffectiveArea_FirstSource.Beam              FarFieldPointSource 0 0  
+EffectiveArea_FirstSource.Spectrum          Mono  511.0
+EffectiveArea_FirstSource.Flux              1000.0
+

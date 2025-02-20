@@ -1,0 +1,492 @@
+#
+
+
+Name materials
+Version 0.1
+
+AbsorptionFileDirectory ./absorptions
+
+## **************************************************************************
+## Stuff from the original default material file I had to take back ...:
+
+Material vacuum
+vacuum.Density                  1E-16
+vacuum.Component                H 1
+
+Material aluminum
+aluminum.Density               2.7
+aluminum.Component             Al 1
+
+Material beryllium
+beryllium.Density               1.858
+beryllium.Component             Be 1
+
+
+
+
+## ****************************************************
+## MATERIALS from Georg's MAX with TGRS-Ge Monolith
+
+# Material definitions: 
+Material al_2024_5056
+al_2024_5056.Density 0.48
+al_2024_5056.ComponentByMass Mg 0.03275
+al_2024_5056.ComponentByMass Al 0.9292
+al_2024_5056.ComponentByMass Si 0.004
+al_2024_5056.ComponentByMass Ti 0.00075
+al_2024_5056.ComponentByMass Cr 0.00115
+al_2024_5056.ComponentByMass Mn 0.00365
+al_2024_5056.ComponentByMass Fe 0.0045
+al_2024_5056.ComponentByMass Cu 0.02225
+al_2024_5056.ComponentByMass Zn 0.00175
+
+Material ti_6
+ti_6.Density 0.888
+ti_6.ComponentByMass Al 0.06
+ti_6.ComponentByMass Fe 0.0025
+ti_6.ComponentByMass O 0.002
+ti_6.ComponentByMass V 0.04
+ti_6.ComponentByMass Ti 0.8955
+
+Material prop_mixt
+prop_mixt.Density 0.127
+prop_mixt.ComponentByMass H 0.12538
+prop_mixt.ComponentByMass He 0.00341
+prop_mixt.ComponentByMass N 0.87121
+
+Material cold_gas
+cold_gas.Density 0.149
+cold_gas.ComponentByMass N 1
+
+Material inox1810
+inox1810.Density 9.147
+inox1810.ComponentByMass Cr 0.18
+inox1810.ComponentByMass Ni 0.1
+inox1810.ComponentByMass Fe 0.72
+
+Material al6061
+al6061.Density 2.6989
+al6061.ComponentByMass Si 0.006
+al6061.ComponentByMass Fe 0.0035
+al6061.ComponentByMass Cu 0.0028
+al6061.ComponentByMass Mn 0.0008
+al6061.ComponentByMass C 0.01
+al6061.ComponentByMass Cr 0.002
+al6061.ComponentByMass Zn 0.0013
+al6061.ComponentByMass Ti 0.0008
+al6061.ComponentByMass Al 0.9728
+
+
+Material al6061_honeycomb
+al6061_honeycomb.Density 0.052
+al6061_honeycomb.ComponentByMass Si 0.006
+al6061_honeycomb.ComponentByMass Fe 0.0035
+al6061_honeycomb.ComponentByMass Cu 0.0028
+al6061_honeycomb.ComponentByMass Mn 0.0008
+al6061_honeycomb.ComponentByMass C 0.01
+al6061_honeycomb.ComponentByMass Cr 0.002
+al6061_honeycomb.ComponentByMass Zn 0.0013
+al6061_honeycomb.ComponentByMass Ti 0.0008
+al6061_honeycomb.ComponentByMass Al 0.9728
+
+#Material al7075 t6
+Material al7075
+al7075.Density 2.81
+al7075.ComponentByMass Si 0.004
+al7075.ComponentByMass Fe 0.005
+al7075.ComponentByMass Cu 0.016
+al7075.ComponentByMass Mn 0.003
+al7075.ComponentByMass Mg 0.025
+al7075.ComponentByMass Cr 0.0023
+al7075.ComponentByMass Zn 0.056
+al7075.ComponentByMass Ti 0.002
+al7075.ComponentByMass Al 0.8867
+
+Material nicd_cells
+nicd_cells.Density 10
+nicd_cells.ComponentByMass H 0.015
+nicd_cells.ComponentByMass C 0.011
+nicd_cells.ComponentByMass N 0.002
+nicd_cells.ComponentByMass O 0.153
+nicd_cells.ComponentByMass K 0.021
+nicd_cells.ComponentByMass Fe 0.317
+nicd_cells.ComponentByMass Co 0.004
+nicd_cells.ComponentByMass Ni 0.331
+nicd_cells.ComponentByMass Cd 0.146
+
+Material isot_cu
+isot_cu.Density 8.933
+isot_cu.ComponentByMass Cu 1
+
+Material electr
+electr.Density 10
+electr.ComponentByMass H 0.0124
+electr.ComponentByMass C 0.1969
+electr.ComponentByMass N 0.018
+electr.ComponentByMass O 0.1349
+electr.ComponentByMass C 0.005
+electr.ComponentByMass Al 0.2578
+electr.ComponentByMass Si 0.005
+electr.ComponentByMass Ca 0.0056
+electr.ComponentByMass Ti 0.0135
+electr.ComponentByMass Cr 0.0003
+electr.ComponentByMass Fe 0.0693
+electr.ComponentByMass Ni 0.0364
+electr.ComponentByMass Cu 0.1245
+electr.ComponentByMass Zn 0.0406
+electr.ComponentByMass Sn 0.0032
+electr.ComponentByMass Ta 0.0766
+
+Material DIB_Electronic_DensityControlled
+DIB_Electronic_DensityControlled.Density 1.78
+DIB_Electronic_DensityControlled.ComponentByMass H 0.0124
+DIB_Electronic_DensityControlled.ComponentByMass C 0.1969
+DIB_Electronic_DensityControlled.ComponentByMass N 0.018
+DIB_Electronic_DensityControlled.ComponentByMass O 0.1349
+DIB_Electronic_DensityControlled.ComponentByMass C 0.005
+DIB_Electronic_DensityControlled.ComponentByMass Al 0.2578
+DIB_Electronic_DensityControlled.ComponentByMass Si 0.005
+DIB_Electronic_DensityControlled.ComponentByMass Ca 0.0056
+DIB_Electronic_DensityControlled.ComponentByMass Ti 0.0135
+DIB_Electronic_DensityControlled.ComponentByMass Cr 0.0003
+DIB_Electronic_DensityControlled.ComponentByMass Fe 0.0693
+DIB_Electronic_DensityControlled.ComponentByMass Ni 0.0364
+DIB_Electronic_DensityControlled.ComponentByMass Cu 0.1245
+DIB_Electronic_DensityControlled.ComponentByMass Zn 0.0406
+DIB_Electronic_DensityControlled.ComponentByMass Sn 0.0032
+DIB_Electronic_DensityControlled.ComponentByMass Ta 0.0766
+
+Material c_epoxy
+c_epoxy.Density 1.628
+c_epoxy.ComponentByMass C 0.917
+c_epoxy.ComponentByMass H 0.02
+c_epoxy.ComponentByMass O 0.063
+
+# C21H25ClO5
+Material Epoxy
+Epoxy.Density 2.29
+Epoxy.ComponentByAtoms C  21
+Epoxy.ComponentByAtoms H  25
+Epoxy.ComponentByAtoms O   5
+Epoxy.ComponentByAtoms Cl  1
+
+Material bgo
+bgo.Density 7.13
+bgo.ComponentByAtoms Bi 4
+bgo.ComponentByAtoms Ge 3
+bgo.ComponentByAtoms O 12
+
+Material bgopmtmix
+bgopmtmix.Density 1
+bgopmtmix.ComponentByMass C 0.05
+bgopmtmix.ComponentByMass Cu 0.1
+bgopmtmix.ComponentByMass Si 0.05
+bgopmtmix.ComponentByMass Al 0.8
+
+Material bronze_544
+bronze_544.Density 8.89
+bronze_544.ComponentByMass Sn 0.04
+bronze_544.ComponentByMass P 0.00255
+bronze_544.ComponentByMass Fe 0.0005
+bronze_544.ComponentByMass Pb 0.035
+bronze_544.ComponentByMass Zn 0.03
+bronze_544.ComponentByMass Cu 0.89195
+
+Material mg_az31b
+mg_az31b.Density 1.77
+mg_az31b.ComponentByMass Al 0.03
+mg_az31b.ComponentByMass Fe 3e-05
+mg_az31b.ComponentByMass Ni 3e-05
+mg_az31b.ComponentByMass Zn 0.01
+mg_az31b.ComponentByMass Ca 0.0002
+mg_az31b.ComponentByMass C 0.95699
+mg_az31b.ComponentByMass Cu 0.00025
+mg_az31b.ComponentByMass Mn 0.002
+mg_az31b.ComponentByMass Si 0.0005
+
+Material plastic
+plastic.Density 1.032
+plastic.ComponentByMass H 0.0853
+plastic.ComponentByMass C 0.9147
+
+Material cal_src
+cal_src.Density 2.662
+cal_src.ComponentByAtoms K 2
+cal_src.ComponentByAtoms S 1
+cal_src.ComponentByAtoms O 4
+
+Material molsv
+molsv.Density 1
+molsv.ComponentByMass O 0.493
+molsv.ComponentByMass Si 0.234
+molsv.ComponentByMass Al 0.185
+molsv.ComponentByMass Na 0.088
+
+Material hget
+hget.Density 8.7
+hget.ComponentByMass O 0.131
+hget.ComponentByMass Pd 0.869
+
+Material inor
+inor.Density 7.31
+inor.ComponentByMass In 1
+
+
+Material steel_302
+steel_302.Density 7.86
+steel_302.ComponentByMass C 0.0015
+steel_302.ComponentByMass Fe 0.69775
+steel_302.ComponentByMass Ni 0.09
+steel_302.ComponentByMass S 0.0003
+steel_302.ComponentByMass Cr 0.18
+steel_302.ComponentByMass Mn 0.02
+steel_302.ComponentByMass P 0.00045
+steel_302.ComponentByMass Si 0.01
+
+Material steel_304
+steel_304.Density 8.0
+steel_304.ComponentByMass C 0.00035
+steel_304.ComponentByMass Si 0.005
+steel_304.ComponentByMass Mn 0.01
+steel_304.ComponentByMass P 0.00025
+steel_304.ComponentByMass S 0.00015
+steel_304.ComponentByMass Cr 0.185
+steel_304.ComponentByMass Ni 0.0925
+steel_304.ComponentByMass Fe 0.7062
+steel_304.ComponentByMass N 0.00055
+
+#Material steel_a286
+#steel_a286.Density 7.92
+#steel_a286.ComponentByMass C 0.0004
+#steel_a286.ComponentByMass Mn 0.01
+#steel_a286.ComponentByMass Si 0.005
+#steel_a286.ComponentByMass S 0.000125
+#steel_a286.ComponentByMass P 0.000125
+#steel_a286.ComponentByMass Cr 0.1475
+#steel_a286.ComponentByMass Ti 0.02125
+#steel_a286.ComponentByMass Ni 0.255
+#steel_a286.ComponentByMass Mo 0.0125
+#steel_a286.ComponentByMass V 0.003
+#steel_a286.ComponentByMass Al 0.00175
+#steel_a286.ComponentByMass B 0.00065
+#steel_a286.ComponentByMass Fe 0.5427
+
+Material steel_4130
+steel_4130.Density 7.83
+steel_4130.ComponentByMass C 0.00305
+steel_4130.ComponentByMass Cr .0095
+steel_4130.ComponentByMass Mn .005
+steel_4130.ComponentByMass Mo .002
+steel_4130.ComponentByMass P .000175
+steel_4130.ComponentByMass Si .0025
+steel_4130.ComponentByMass S .0002
+steel_4130.ComponentByMass Fe .977575
+
+Material teflon
+teflon.Density 2.2
+teflon.ComponentByAtoms F 4
+teflon.ComponentByAtoms C 2
+
+Material ti_5
+ti_5.Density 4.48
+ti_5.ComponentByMass Al 0.05
+ti_5.ComponentByMass O 0.002
+ti_5.ComponentByMass Ti 0.918
+ti_5.ComponentByMass Fe 0.005
+ti_5.ComponentByMass Sn 0.025
+
+Material nit_fil
+nit_fil.Density 0.001197
+nit_fil.ComponentByMass N 1
+
+Material gold
+gold.Density 19.3
+gold.ComponentByMass Au 1
+
+
+Material steel_a286
+steel_a286.Density 7.92
+steel_a286.ComponentByMass Al 0.0018
+steel_a286.ComponentByMass B 6e-05
+steel_a286.ComponentByMass C 0.0004
+steel_a286.ComponentByMass Cr 0.148
+steel_a286.ComponentByMass Fe 0.54209
+steel_a286.ComponentByMass Mn 0.01
+steel_a286.ComponentByMass Mo 0.013
+steel_a286.ComponentByMass Ni 0.255
+steel_a286.ComponentByMass P 0.0002
+steel_a286.ComponentByMass S 0.00015
+steel_a286.ComponentByMass Si 0.005
+steel_a286.ComponentByMass Ti 0.0213
+steel_a286.ComponentByMass V 0.003
+
+Material germanium
+germanium.Density 5.323
+germanium.ComponentByMass Ge 1
+
+
+
+Material active_ge_recoil
+active_ge_recoil.Density 5.323
+active_ge_recoil.ComponentByMass Ge 1
+
+
+Material tin
+tin.Density 7.2
+tin.ComponentByMass  Sn 1
+
+Material solder
+solder.Density 8.5
+solder.ComponentByMass Sn 0.6
+solder.ComponentByMass Pb 0.4
+
+
+## ****************************************************
+## MATERIALS from NCT file
+
+Material ro4003   // one of circuit board materials by Rogers Corporation
+                  // used in NCT
+ro4003.Density            1.79
+ro4003.ComponentByMass    C    0.1520        // C
+ro4003.ComponentByMass    O    0.4290        // O
+ro4003.ComponentByMass    H    0.0180        // H
+ro4003.ComponentByMass    Si    0.3300        // Si
+ro4003.ComponentByMass    Ca    0.0370        // Ca
+ro4003.ComponentByMass    Al     0.0190        // Al
+ro4003.ComponentByMass    B    0.0110        // B
+ro4003.ComponentByMass    K    0.0010        // K
+ro4003.ComponentByMass    Mg    0.0050        // Mg
+
+
+Material roTMM3   // one of circuit board materials by Rogers Corporation
+                  // used in NCT
+roTMM3.Density            1.78
+roTMM3.ComponentByMass    C    0.1201        // C
+roTMM3.ComponentByMass    O    0.4270        // O
+roTMM3.ComponentByMass    H    0.0198        // H
+roTMM3.ComponentByMass    Si    0.3616        // Si
+roTMM3.ComponentByMass    Ti    0.0153        // Ti
+roTMM3.ComponentByMass    Ba    0.0098        // Ba
+roTMM3.ComponentByMass    Ca    0.0022        // Ca
+roTMM3.ComponentByMass    Al     0.0011        // Al
+roTMM3.ComponentByMass    B    0.0003        // B
+roTMM3.ComponentByMass    Mg    0.0002        // Mg
+roTMM3.ComponentByMass    S    0.0010        // S
+
+
+Material indium
+indium.Density                  7.310
+indium.Component                In  1
+
+Material copper
+copper.Density                  8.96
+copper.Component                Cu  1
+
+
+// stainless steel according to P.Turin for NCT screws
+Material Steel_18_8
+Steel_18_8.Density              7.87
+Steel_18_8.ComponentByMass      Cr  0.18   // Cr
+Steel_18_8.ComponentByMass      Ni  0.09   // Ni
+Steel_18_8.ComponentByMass      C  0.013  // C
+Steel_18_8.ComponentByMass      Fe  0.717   // Fe
+
+
+Material INST_ACsupport    // Support for AC including wiring (carbon fiber + misc)
+INST_ACsupport.Density               0.144
+INST_ACsupport.ComponentByMass       C  0.98     // C
+INST_ACsupport.ComponentByMass       Cu 0.01     // Cu
+INST_ACsupport.ComponentByMass       Al 0.01     // Al
+
+
+// from ACT example files - thinned-out electronics goo (INST_Elect)
+
+Material Elect      //Generic electronics composite for telescope base
+Elect.Density            0.5
+Elect.ComponentByMass    O  0.10   // O
+Elect.ComponentByMass    Al  0.50   // Al
+Elect.ComponentByMass    Si  0.10   // Si
+Elect.ComponentByMass    Fe  0.05   // Fe
+Elect.ComponentByMass    Cu  0.15   // Cu
+Elect.ComponentByMass    Sn  0.05   // Sn
+Elect.ComponentByMass    Pb  0.05   // Pb
+
+Material CarbonCyanateEster
+CarbonCyanateEster.Density          1.2
+CarbonCyanateEster.ComponentByMass  C   0.9191
+CarbonCyanateEster.ComponentByMass  N   0.0310
+CarbonCyanateEster.ComponentByMass  O   0.0354
+CarbonCyanateEster.ComponentByMass  H   0.0145
+
+Material CsI
+CsI.Density                     4.5
+CsI.Component                   Cs  1
+CsI.Component                   I   1 
+
+#Thallium doped
+Material NaI
+NaI.Density                     3.67
+NaI.Component                   Na  1
+NaI.Component                   I   1
+NaI.Component                   Tl   1
+
+
+
+Material Class1Cap
+Class1Cap.Density 0.4956
+Class1Cap.Component Zn 1
+Class1Cap.Component Mg 1
+Class1Cap.Component Ti 1
+Class1Cap.Component O 3
+                           
+# Add materials from BTO geometry file
+Material Al2O3
+Al2O3.Density                 3.95
+Al2O3.Component               Al  2
+Al2O3.Component               O   3
+
+Material Stanal32 //AlMgSiSnBi
+Stanal32.Density              2.70
+Stanal32.Component            Al  1
+Stanal32.Component            Mg  1
+Stanal32.Component            Si  1
+Stanal32.Component            Sn  1
+Stanal32.Component            Bi  1
+
+# Placeholder for glass, until we get the proper formula 
+# Just using good ol silicon dioxide 
+Material Glass
+Glass.Density                 2.65 
+Glass.Component               Si  1
+Glass.Component               O   1
+
+
+Material Tungsten
+Tungsten.Density  19.3
+Tungsten.Component W 1
+
+#Assumed max values for Ni and Ti
+Material A286
+A286.Density                  7.92
+A286.ComponentByMass          C .0008
+A286.ComponentByMass          Mn .02
+A286.ComponentByMass          P .00025
+A286.ComponentByMass          S .00025
+A286.ComponentByMass          Si .01
+A286.ComponentByMass          Cr .135
+A286.ComponentByMass          Ni .27
+A286.ComponentByMass          Mo .01
+A286.ComponentByMass          Ti .0235
+A286.ComponentByMass          V .001
+A286.ComponentByMass          Al .0035
+A286.ComponentByMass          B .00003
+A286.ComponentByMass          Fe .52487
+
+
+Material Silicon
+Silicon.Density 2.33
+Silicon.Component Si 1
+
+Material Nickel
+Nickel.Density 8.9
+Nickel.Component Ni 1

@@ -1,0 +1,27 @@
+# The COSI SMEX mass model - view the germanium detector only
+
+Name COSI-SMEX 
+Version 7
+
+
+# Always check the surrounbding sphere if you make changes to anything
+SurroundingSphere 80  0.0  0.0  -45.0  80.0
+#ShowSurroundingSphere  true
+
+# Required include files
+Include COSISMEX.GlobalDimensions.geo
+Include COSISMEX.mat
+Include COSISMEX.Ge.Inactive.geo
+
+# Volume definitions:
+
+Volume WorldVolume
+WorldVolume.Visibility 0
+WorldVolume.Material vacuum
+WorldVolume.Shape TUBS 0 300 400 0 360
+WorldVolume.Mother 0
+
+SingleDetector.Position 0 0 0
+SingleDetector.Mother WorldVolume
+
+

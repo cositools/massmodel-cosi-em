@@ -1,0 +1,32 @@
+Version 21
+
+
+# You have to correct this surounding sphere:
+SurroundingSphere 85  0.0  0.0  -42.0  85.0
+ShowSurroundingSphere  false
+
+
+Include COSISMEX.mat
+Include COSISMEX.GlobalDimensions.geo
+
+Include COSISMEX.Ge.Inactive.geo
+Include COSISMEX.Ge.Q0D0.geo
+Include COSISMEX.Ge.Q0D1.geo
+Include COSISMEX.Ge.O64.Q0D0.det
+Include COSISMEX.Ge.O64.Q0D1.det
+Include COSISMEX.Cryostat.geo
+Include COSISMEX.ACS.geo
+Include COSISMEX.BGO_activated.det
+
+
+# Volume definitions:
+
+Volume WorldVolume
+WorldVolume.Visibility 1
+WorldVolume.Material vacuum
+WorldVolume.Shape TUBS 0 376 400 0 360
+WorldVolume.Mother 0
+
+ShieldedTelescope.Mother WorldVolume
+ShieldedTelescope.Rotation 0.0 0.0 0.0
+ShieldedTelescope.Position 0 0 0

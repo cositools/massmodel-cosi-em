@@ -1,0 +1,84 @@
+//------------------------------------------------------------
+// Detector information:
+
+
+Strip3D               Q0D1
+
+Q0D1.SensitiveVolume      Q0D1_GeWafer
+Q0D1.DetectorVolume       Q0D1_GeWafer
+
+Q0D1.Offset                0.0 0.0
+Q0D1.StripNumber            64  64
+
+# COSI
+Q0D1.EnergyResolution   Gauss      0.0      0.0  1.32
+Q0D1.EnergyResolution   Gauss     60.0     60.0  1.32
+Q0D1.EnergyResolution   Gauss    122.0    122.0  1.42
+Q0D1.EnergyResolution   Gauss    365.0    365.0  1.58
+Q0D1.EnergyResolution   Gauss    662.0    662.0  1.68
+Q0D1.EnergyResolution   Gauss   1275.0   1275.0  1.79
+Q0D1.EnergyResolution   Gauss   1836.0   1836.0  1.86
+
+Q0D1.Overflow 1800
+
+# Both
+Q0D1.DepthResolutionThreshold 20.0
+Q0D1.DepthResolution      0.0  { 0.3 / 2.35 }
+Q0D1.DepthResolution     20.0  { 0.3 / 2.35 }
+Q0D1.DepthResolution     50.0  { 0.1 / 2.35 }
+Q0D1.DepthResolution     60.0  { 0.08 / 2.35 }
+Q0D1.DepthResolution     70.0  { 0.075 / 2.35 }
+Q0D1.DepthResolution     80.0  { 0.065 / 2.35 }
+Q0D1.DepthResolution    122.0  { 0.06 / 2.35 }
+Q0D1.DepthResolution    356.0  { 0.05 / 2.35 }
+Q0D1.DepthResolution    662.0  { 0.05 / 2.35 }
+Q0D1.DepthResolution   1836.0  { 0.05 / 2.35 }
+
+
+# ASIC
+Q0D1.TriggerThreshold     18
+Q0D1.NoiseThresholdEqualsTriggerThreshold  True
+
+
+# If I go smaller it gets too slow
+Q0D1.EnergyPerElectron 0.2
+
+# Jarred scaled to 1500 V
+Q0D1.DriftConstant  0.007
+
+
+
+Simple GuardRingDetector_Q0D1
+
+GuardRingDetector_Q0D1.SensitiveVolume     GeWaferGuardRing_Q0D1
+GuardRingDetector_Q0D1.DetectorVolume      GeWaferGuardRing_Q0D1
+
+GuardRingDetector_Q0D1.TriggerThreshold      30
+GuardRingDetector_Q0D1.NoiseThresholdEqualsTriggerThreshold true
+
+GuardRingDetector_Q0D1.EnergyResolution Gaus 10      10        3.3
+GuardRingDetector_Q0D1.EnergyResolution Gaus 20      20        3.3
+GuardRingDetector_Q0D1.EnergyResolution Gaus 50      50        3.3
+GuardRingDetector_Q0D1.EnergyResolution Gaus 100     100       3.3
+GuardRingDetector_Q0D1.EnergyResolution Gaus 200     200       3.3
+GuardRingDetector_Q0D1.EnergyResolution Gaus 500     500       3.3
+GuardRingDetector_Q0D1.EnergyResolution Gaus 1000    1000      3.3
+GuardRingDetector_Q0D1.EnergyResolution Gaus 2000    2000      3.3
+GuardRingDetector_Q0D1.EnergyResolution Gaus 5000    5000      3.3
+
+
+
+#------------------------------------------------------------
+# Trigger information:
+
+Trigger GeTrigger_Q0D1
+GeTrigger_Q0D1.Detector Q0D1 1
+GeTrigger_Q0D1.TriggerByChannel true
+GeTrigger_Q0D1.Veto false
+
+
+Trigger GuardRingVeto_Q0D1
+GuardRingVeto_Q0D1.Veto true
+GuardRingVeto_Q0D1.TriggerByChannel true
+GuardRingVeto_Q0D1.Detector GuardRingDetector_Q0D1 1
+

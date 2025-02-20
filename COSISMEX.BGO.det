@@ -1,0 +1,16 @@
+#------------------------------------------------------------
+# Detector information:
+
+Scintillator     BGO_Coinc_sideX_neg
+BGO_Coinc_sideX_neg.DetectorVolume     BGOsideXneg_ACTIVE
+BGO_Coinc_sideX_neg.SensitiveVolume    BGOsideXneg_ACTIVE
+BGO_Coinc_sideX_neg.TriggerThreshold   80.0
+BGO_Coinc_sideX_neg.EnergyResolution   Gauss    0.0    0.0   10.0
+BGO_Coinc_sideX_neg.EnergyResolution   Gauss  100.0  100.0   10.0
+BGO_Coinc_sideX_neg.NoiseThresholdEqualsTriggerThreshold true
+
+Trigger BgoVeto_sideX_neg
+BgoVeto_sideX_neg.Veto true
+BgoVeto_sideX_neg.TriggerByDetector true
+BgoVeto_sideX_neg.Detector BGO_Coinc_sideX_neg 1
+                                                   
