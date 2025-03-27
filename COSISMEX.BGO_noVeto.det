@@ -1,44 +1,50 @@
 #------------------------------------------------------------
 # Detector information:
 
-Scintillator     BGO_X0_0
+
+Voxel3D     BGO_X0_0
 BGO_X0_0.DetectorVolume	    BGO_X0_0_Crystal
 BGO_X0_0.SensitiveVolume    BGO_X0_0_Crystal
+BGO_X0_0.VoxelNumber        2 12 19
+BGO_X0_0.Offset             0 0 0
 BGO_X0_0.TriggerThreshold   80.0
 BGO_X0_0.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_X0_0.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_X0_0.NoiseThresholdEqualsTriggerThreshold true
 
-Scintillator     BGO_X0_1
-BGO_X0_1.DetectorVolume     BGO_X0_1_Crystal
+Voxel3D     BGO_X0_1
+BGO_X0_1.DetectorVolume	    BGO_X0_1_Crystal
 BGO_X0_1.SensitiveVolume    BGO_X0_1_Crystal
+BGO_X0_1.VoxelNumber        2 12 19
+BGO_X0_1.Offset             0 0 0
 BGO_X0_1.TriggerThreshold   80.0
 BGO_X0_1.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_X0_1.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_X0_1.NoiseThresholdEqualsTriggerThreshold true
 
-Scintillator     BGO_X0_2
-BGO_X0_2.DetectorVolume     BGO_X0_2_Crystal
+Voxel3D     BGO_X0_2
+BGO_X0_2.DetectorVolume	    BGO_X0_2_Crystal
 BGO_X0_2.SensitiveVolume    BGO_X0_2_Crystal
+BGO_X0_2.VoxelNumber        2 12 19
+BGO_X0_2.Offset             0 0 0
 BGO_X0_2.TriggerThreshold   80.0
 BGO_X0_2.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_X0_2.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_X0_2.NoiseThresholdEqualsTriggerThreshold true
 
 
-
 Trigger BGO_Veto_X0_0
-BGO_Veto_X0_0.Veto true
+BGO_Veto_X0_0.Veto false
 BGO_Veto_X0_0.TriggerByDetector true
 BGO_Veto_X0_0.Detector BGO_X0_0 1
 
 Trigger BGO_Veto_X0_1
-BGO_Veto_X0_1.Veto true
+BGO_Veto_X0_1.Veto false
 BGO_Veto_X0_1.TriggerByDetector true
 BGO_Veto_X0_1.Detector BGO_X0_1 1
  
 Trigger BGO_Veto_X0_2
-BGO_Veto_X0_2.Veto true
+BGO_Veto_X0_2.Veto false
 BGO_Veto_X0_2.TriggerByDetector true
 BGO_Veto_X0_2.Detector BGO_X0_2 1
-                                                  
+ 

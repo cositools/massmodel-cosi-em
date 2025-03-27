@@ -16,7 +16,7 @@ Include COSISMEX.Ge.O64.Q0D0.det
 Include COSISMEX.Ge.O64.Q0D1.det
 Include COSISMEX.Cryostat.geo
 Include COSISMEX.ACS.geo
-Include COSISMEX.BGO_activated.det
+Include COSISMEX.BGO_noVeto.det
 
 
 # Volume definitions:
