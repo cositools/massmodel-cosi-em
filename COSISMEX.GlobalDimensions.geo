@@ -102,7 +102,7 @@ Echo "Detector Y gap (0.45): DetYHalfGap"
 #The center of the detector to the top of the DHB frame should be 1.15 cm
 Constant DetZPos { - CryoLidZ+ColdfingerBasePosZ+0.5*CryostatXYFullThickness + DHB_HalfHeight+1.15}
 Constant IngotRadius { 2* 2.54}
-Constant DetectorHalfHeight 0.75
+Constant DetectorHalfHeight 0.7575
 Constant DetectorHalfWidth 4.025
 Constant GuardRingSize      0.3
 
@@ -629,6 +629,9 @@ Constant bto_box_width 10.2
 Constant bto_box_height 9.31
 
 Constant bto_box_electronics_height 0.658
+
+# Directory for absorption file
+CrossSectionFilesDirectory /Users/parshad/Software/Nuclearizer_outputs/absorptions
 
 
 
