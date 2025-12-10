@@ -6,8 +6,8 @@
 
 Strip3D               Q0D1
 
-Q0D1.SensitiveVolume      Q0D1_GeWafer
-Q0D1.DetectorVolume       Q0D1_GeWafer
+Q0D1.SensitiveVolume      GeWafer_Q0D1
+Q0D1.DetectorVolume       GeWafer_Q0D1
 
 Q0D1.Offset               0.0 0.0
 Q0D1.StripNumber          2048 2048

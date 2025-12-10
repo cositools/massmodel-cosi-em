@@ -1,8 +1,7 @@
 Constant DetectorHalfHeight 0.75
+Constant IngotRadius 5.08
 Constant DetectorHalfWidth 4.025
-Constant IngotRadius {2*2.54}
 Constant GuardRingSize 0.3
-
 
 # A single germanium detector volume
 # COSI SMEX model
@@ -16,6 +15,7 @@ Detector_Q0D0.Material vacuum
 Detector_Q0D0.Shape BRIK  6.1225  5.791  {DetectorHalfHeight+.9+.4}
 Detector_Q0D0.Visibility 0
 Detector_Q0D0.Virtual true
+
 
 # Redoing this to follow EXACTLY what is done in special Max
 # Create the whole wafer

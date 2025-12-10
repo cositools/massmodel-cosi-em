@@ -101,10 +101,7 @@ Echo "Detector Y gap (0.45): DetYHalfGap"
 #Constant DetZPos { - CryoLidZ+ColdfingerBasePosZ+0.5*CryostatXYFullThickness + DHB_HalfHeight}
 #The center of the detector to the top of the DHB frame should be 1.15 cm
 Constant DetZPos { - CryoLidZ+ColdfingerBasePosZ+0.5*CryostatXYFullThickness + DHB_HalfHeight+1.15}
-Constant IngotRadius { 2* 2.54}
-Constant DetectorHalfHeight 0.75
-Constant DetectorHalfWidth 4.025
-Constant GuardRingSize      0.3
+
 
 #######################################################
 # Detector Holder Base
