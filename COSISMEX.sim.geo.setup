@@ -12,8 +12,8 @@ Include COSISMEX.mat
 Include COSISMEX.GlobalDimensions.geo
 
 Include COSISMEX.Ge.Inactive.geo
-Include COSISMEX.Ge.Q0D0.geo
-Include COSISMEX.Ge.Q0D1.geo
+Include COSISMEX.Ge.DetectorBuild.Q0D0.geo
+Include COSISMEX.Ge.DetectorBuild.Q0D1.geo
 Include COSISMEX.Ge.SimsOnly.Q0D0.det
 Include COSISMEX.Ge.SimsOnly.Q0D1.det
 Include COSISMEX.Cryostat.geo

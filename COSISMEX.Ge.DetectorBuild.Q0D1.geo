@@ -59,7 +59,7 @@ Volume GeWaferGuardRing_Q0D1
 GeWaferGuardRing_Q0D1.Material active_ge_recoil
 GeWaferGuardRing_Q0D1.Visibility 1
 GeWaferGuardRing_Q0D1.Color 3
-GeWaferGuardRing_Q0D1.Shape GuardRing
+GeWaferGuardRing_Q0D1.Shape GuardRing_Q0D1
 GeWaferGuardRing_Q0D1.Position  {-0.6555+Xshift} {0.0+Yshift} {Zshift}
 GeWaferGuardRing_Q0D1.Mother Detector_Q0D1
 
@@ -87,14 +87,14 @@ Shape TUBE WaferCutDisk2_Q0D1
 WaferCutDisk2_Q0D1.Parameters 0.0 IngotRadius 0.00025
 
 Shape Intersection AlDead2_Q0D1
-AlDead2_Q0D1.Parameters stripsAl2 WaferCutDisk2
+AlDead2_Q0D1.Parameters stripsAl2_Q0D1 WaferCutDisk2_Q0D1
 
 # Al dead layer on the bottom
 Volume stripsAlbot_Q0D1
 stripsAlbot_Q0D1.Material aluminum
 stripsAlbot_Q0D1.Visibility 1
 stripsAlbot_Q0D1.Color 7
-stripsAlbot_Q0D1.Shape AlDead2
+stripsAlbot_Q0D1.Shape AlDead2_Q0D1
 stripsAlbot_Q0D1.Mother Detector_Q0D1
 stripsAlbot_Q0D1.Position {-0.6555+Xshift} {0.0+Yshift} {-0.80025+Zshift}
 
@@ -153,7 +153,7 @@ Orientation HolderBlockHole1Ori_Q0D1
 HolderBlockHole1Ori_Q0D1.Position -0.076 0.411 -0.5905
 
 Shape Subtraction HolderBlockMinusHole1_Q0D1
-HolderBlockMinusHole1_Q0D1.Parameters HolderBlock HolderBlockHole1 HolderBlockHole1Ori
+HolderBlockMinusHole1_Q0D1.Parameters HolderBlock_Q0D1 HolderBlockHole1_Q0D1 HolderBlockHole1Ori_Q0D1
 
 Shape BRIK HolderBlockHole2_Q0D1
 HolderBlockHole2_Q0D1.Parameters 3.9125 4.78 0.334
@@ -232,7 +232,7 @@ Orientation HolderBlockHole6Ori_Q0D1
 HolderBlockHole6Ori_Q0D1.Position 0.0 -4.611 -0.5905
 
 Shape Subtraction HolderBlockMinusBrikHole6_Q0D1
-HolderBlockMinusBrikHole6_Q0D1.Parameters HolderBlockMinusTrdHole4_Q0D1 HolderBlockHole6 HolderBlockHole6Ori_Q0D1
+HolderBlockMinusBrikHole6_Q0D1.Parameters HolderBlockMinusTrdHole4_Q0D1 HolderBlockHole6_Q0D1 HolderBlockHole6Ori_Q0D1
 
 Shape BRIK HolderBlockHole7_Q0D1
 HolderBlockHole7_Q0D1.Parameters 0.4445 0.39 0.265
@@ -502,7 +502,7 @@ Volume LVL1_Q0D1
 LVL1_Q0D1.Material ro4003
 LVL1_Q0D1.Visibility 1
 LVL1_Q0D1.Color 52
-LVL1_Q0D1.Shape LVBlockMinusLVL6
+LVL1_Q0D1.Shape LVBlockMinusLVL6_Q0D1
 LVL1_Q0D1.Mother Detector_Q0D1
 #LVL1_Q0D1.Position {-0.1435+Xshift} {-3.691+Yshift} 0.967
 # Seems like the LV board is shifted slightly off center. Having a hard time getting this measurement
@@ -595,7 +595,7 @@ Volume HVL1_Q0D1
 HVL1_Q0D1.Material ro4003
 HVL1_Q0D1.Visibility 1
 HVL1_Q0D1.Color 94
-HVL1_Q0D1.Shape HVBlockMinusHVLH5
+HVL1_Q0D1.Shape HVBlockMinusHVLH5_Q0D1
 HVL1_Q0D1.Mother Detector_Q0D1
 HVL1_Q0D1.Position {-5.085+Xshift} {-0.4+Yshift} {.934+Zshift}
 #HVL1_Q0D1.Position {-5.085+Xshift} {-0.4+Yshift} .88
@@ -634,7 +634,7 @@ HVL5_Q0D1.Material roTMM3
 HVL5_Q0D1.Mother Detector_Q0D1
 HVL5_Q0D1.Visibility 1
 HVL5_Q0D1.Color 3
-HVL5_Q0D1.Shape HVL5BlockMinusH3
+HVL5_Q0D1.Shape HVL5BlockMinusH3_Q0D1
 #HVL5.Position {-6.808+Xshift} {-0.4+Yshift} -0.062
 #HVL5.Position {-6.808+Xshift} {-0.4+Yshift} -.0185
 HVL5_Q0D1.Position {-6.808+Xshift} {-0.4+Yshift} {.0355+Zshift}
@@ -771,7 +771,7 @@ Volume DetClamp_Q0D1
 DetClamp_Q0D1.Material steel_4130
 DetClamp_Q0D1.Visibility 1
 DetClamp_Q0D1.Color 67
-DetClamp_Q0D1.Shape BigClampPlusSmallClamp2
+DetClamp_Q0D1.Shape BigClampPlusSmallClamp2_Q0D1
 DetClamp_Q0D1.Rotation 0.0 0.0 90.0
 DetClamp_Q0D1.Position {3.9485+Xshift}  {0.0+Yshift}  {-1.048+Zshift}
 DetClamp_Q0D1.Mother Detector_Q0D1
@@ -780,7 +780,7 @@ Volume DetClamp2_Q0D1
 DetClamp2_Q0D1.Material steel_4130
 DetClamp2_Q0D1.Visibility 1
 DetClamp2_Q0D1.Color 67
-DetClamp2_Q0D1.Shape BigClampPlusSmallClamp2
+DetClamp2_Q0D1.Shape BigClampPlusSmallClamp2_Q0D1
 DetClamp2_Q0D1.Rotation 0.0 0.0 90.0
 DetClamp2_Q0D1.Position {-5.253+Xshift}  {0.0+Yshift}  {-1.048+Zshift}
 DetClamp2_Q0D1.Mother Detector_Q0D1
