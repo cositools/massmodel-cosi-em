@@ -102,6 +102,7 @@ Echo "Detector Y gap (0.45): DetYHalfGap"
 #The center of the detector to the top of the DHB frame should be 1.15 cm
 Constant DetZPos { - CryoLidZ+ColdfingerBasePosZ+0.5*CryostatXYFullThickness + DHB_HalfHeight+1.15}
 
+Constant ActiveGeDWidth {64*0.1162}
 
 #######################################################
 # Detector Holder Base

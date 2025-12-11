@@ -4,9 +4,14 @@ f = open("COSISMEX.Ge.DetectorBuild.geo.template","r")
 gedtemplate = f.read()
 f.close()
 
-IngotRadius = 2*2.54
-DetectorHalfHeight = [0.75, 0.75]
-DetectorHalfWidth = 4.025
+#Listed for GeD_0 (HP52217-1), GeD_1 (Mirion "good EM1" (M61574))
+CrystalDiameter_A = [10.10, 9.97]
+HandleSpan_B = [9.6, 9.54]
+DetectorWidthX_C = [8.0, 8.03]
+DetectorWidthY_D = [8.0, 8.04]
+DetectorHeight_E = [1.5, 1.49]
+HandleThickness_F = [0.6, 0.61]
+HandleBridgeThickness_G = [0.13, 0.13] 
 GuardRingSize = 0.3
 
 fnames = []
@@ -14,12 +19,16 @@ fnames = []
 detlines = ['']
 triggerlines = [ '' ]
 
-for i,detheight in enumerate(DetectorHalfHeight):
+for i,detheight in enumerate(DetectorHeight_E):
 
-	lines = ['Constant DetectorHalfHeight ' + str(detheight),\
-			'Constant IngotRadius ' + str(IngotRadius),\
-			'Constant DetectorHalfWidth ' + str(DetectorHalfWidth),\
-			'Constant GuardRingSize ' + str(GuardRingSize),\
+	lines = ['Constant CrystalDiameter_Q0D' + str(i) + ' ' + str(CrystalDiameter_A[i]),\
+			'Constant HandleSpan_Q0D' + str(i) + ' ' + str(HandleSpan_B[i]),\
+			'Constant DetectorWidthX_Q0D' + str(i) + ' ' + str(DetectorWidthX_C[i]),\
+			'Constant DetectorWidthY_Q0D' + str(i) + ' ' + str(DetectorWidthY_D[i]),\
+			'Constant DetectorHeight_Q0D' + str(i) + ' ' + str(DetectorHeight_E[i]),\
+			'Constant HandleThickness_Q0D' + str(i) + ' ' + str(HandleThickness_F[i]),\
+			'Constant HandleBridgeThickness_Q0D' + str(i) + ' ' + str(HandleBridgeThickness_G[i]),\
+			'Constant GuardRingSize_Q0D' + str(i) + ' ' + str(GuardRingSize),\
 			'']
 
 	fname = 'COSISMEX.Ge.DetectorBuild.Q0D' + str(i) + '.geo'; fnames.append(fname)

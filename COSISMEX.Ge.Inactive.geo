@@ -1,3 +1,9 @@
+Constant IngotRadius { 2* 2.54}
+Constant DetectorHalfHeight 0.75
+Constant DetectorHalfWidth 4.025
+Constant GuardRingSize      0.3
+
+
 # A single germanium detector volume
 # COSI SMEX model
 #These constants were used to make the detector sit nicely in the mother volume

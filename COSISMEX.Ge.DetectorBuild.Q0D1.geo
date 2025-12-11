@@ -1,7 +1,11 @@
-Constant DetectorHalfHeight 0.75
-Constant IngotRadius 5.08
-Constant DetectorHalfWidth 4.025
-Constant GuardRingSize 0.3
+Constant CrystalDiameter_Q0D1 9.97
+Constant HandleSpan_Q0D1 9.54
+Constant DetectorWidthX_Q0D1 8.03
+Constant DetectorWidthY_Q0D1 8.04
+Constant DetectorHeight_Q0D1 1.49
+Constant HandleThickness_Q0D1 0.61
+Constant HandleBridgeThickness_Q0D1 0.13
+Constant GuardRingSize_Q0D1 0.3
 
 # A single germanium detector volume
 # COSI SMEX model
@@ -12,7 +16,7 @@ Constant Zshift 0.0
 
 Volume Detector_Q0D1
 Detector_Q0D1.Material vacuum
-Detector_Q0D1.Shape BRIK  6.1225  5.791  {DetectorHalfHeight+.9+.4}
+Detector_Q0D1.Shape BRIK  6.1225  5.791  {{DetectorHeight_Q0D1/2.0} + 0.9 + 0.4}
 Detector_Q0D1.Visibility 0
 Detector_Q0D1.Virtual true
 
@@ -20,20 +24,20 @@ Detector_Q0D1.Virtual true
 # Redoing this to follow EXACTLY what is done in special Max
 # Create the whole wafer
 Shape BRIK WaferOuterBox_Q0D1
-WaferOuterBox_Q0D1.Parameters DetectorHalfWidth  DetectorHalfWidth  DetectorHalfHeight
+WaferOuterBox_Q0D1.Parameters {DetectorWidthX_Q0D1/2.0}  {DetectorWidthY_Q0D1/2.0}  {DetectorHeight_Q0D1/2.0}
 
 Shape TUBE WaferCutDisk_Q0D1
-WaferCutDisk_Q0D1.Parameters 0.0 IngotRadius DetectorHalfHeight
+WaferCutDisk_Q0D1.Parameters 0.0 {CrystalDiameter_Q0D1/2.0} {DetectorHeight_Q0D1/2.0}
 
 Shape Intersection WholeWafer_Q0D1
 WholeWafer_Q0D1.Parameters WaferOuterBox_Q0D1 WaferCutDisk_Q0D1
 
 # Create the active wafer
 Shape BRIK ActiveWaferOuterBox_Q0D1
-ActiveWaferOuterBox_Q0D1.Parameters { DetectorHalfWidth - GuardRingSize }  { DetectorHalfWidth - GuardRingSize }  DetectorHalfHeight
+ActiveWaferOuterBox_Q0D1.Parameters {ActiveGeDWidth/2}  {ActiveGeDWidth/2}  {DetectorHeight_Q0D1/2.0}
 
 Shape TUBE ActiveWaferCutDisk_Q0D1
-ActiveWaferCutDisk_Q0D1.Parameters 0.0 { IngotRadius - GuardRingSize } DetectorHalfHeight
+ActiveWaferCutDisk_Q0D1.Parameters 0.0 {CrystalDiameter_Q0D1/2.0 - GuardRingSize_Q0D1} {DetectorHeight_Q0D1/2.0}
 
 Shape Intersection ActiveWafer_Q0D1
 ActiveWafer_Q0D1.Parameters ActiveWaferOuterBox_Q0D1 ActiveWaferCutDisk_Q0D1
@@ -53,14 +57,14 @@ GeWafer_Q0D1.Color 4
 GeWafer_Q0D1.Shape ActiveWafer_Q0D1
 #Come back and check this. Need to figure out where the 0,0 point is and what we are offsetting
 GeWafer_Q0D1.Mother Detector_Q0D1
-GeWafer_Q0D1.Position {-0.6555+Xshift} {0.0+Yshift} {Zshift}
+GeWafer_Q0D1.Position {-0.6555 + Xshift} {0.0 + Yshift} {Zshift}
 
 Volume GeWaferGuardRing_Q0D1
 GeWaferGuardRing_Q0D1.Material active_ge_recoil
 GeWaferGuardRing_Q0D1.Visibility 1
 GeWaferGuardRing_Q0D1.Color 3
 GeWaferGuardRing_Q0D1.Shape GuardRing_Q0D1
-GeWaferGuardRing_Q0D1.Position  {-0.6555+Xshift} {0.0+Yshift} {Zshift}
+GeWaferGuardRing_Q0D1.Position  {-0.6555 + Xshift} {0.0 + Yshift} {Zshift}
 GeWaferGuardRing_Q0D1.Mother Detector_Q0D1
 
 # Al dead layer on top
@@ -68,7 +72,7 @@ Shape BRIK stripsAl1_Q0D1
 stripsAl1_Q0D1.Parameters 3.71 3.71 0.00025
 
 Shape TUBE WaferCutDisk1_Q0D1
-WaferCutDisk1_Q0D1.Parameters 0.0 IngotRadius 0.00025
+WaferCutDisk1_Q0D1.Parameters 0.0 {CrystalDiameter_Q0D1/2.0} 0.00025
 
 Shape Intersection AlDead1_Q0D1
 AlDead1_Q0D1.Parameters stripsAl1_Q0D1 WaferCutDisk1_Q0D1
@@ -79,12 +83,12 @@ stripsAl_Q0D1.Visibility 1
 stripsAl_Q0D1.Color 7
 stripsAl_Q0D1.Shape AlDead1_Q0D1
 stripsAl_Q0D1.Mother Detector_Q0D1
-stripsAl_Q0D1.Position {-0.6555+Xshift} {0.0+Yshift} {0.80025+Zshift}
+stripsAl_Q0D1.Position {-0.6555 + Xshift} {0.0 + Yshift} {0.80025 + Zshift}
 
 Shape BRIK stripsAl2_Q0D1
 stripsAl2_Q0D1.Parameters 3.71 3.71 0.00025
 Shape TUBE WaferCutDisk2_Q0D1
-WaferCutDisk2_Q0D1.Parameters 0.0 IngotRadius 0.00025
+WaferCutDisk2_Q0D1.Parameters 0.0 {CrystalDiameter_Q0D1/2.0} 0.00025
 
 Shape Intersection AlDead2_Q0D1
 AlDead2_Q0D1.Parameters stripsAl2_Q0D1 WaferCutDisk2_Q0D1
@@ -96,47 +100,49 @@ stripsAlbot_Q0D1.Visibility 1
 stripsAlbot_Q0D1.Color 7
 stripsAlbot_Q0D1.Shape AlDead2_Q0D1
 stripsAlbot_Q0D1.Mother Detector_Q0D1
-stripsAlbot_Q0D1.Position {-0.6555+Xshift} {0.0+Yshift} {-0.80025+Zshift}
+stripsAlbot_Q0D1.Position {-0.6555 + Xshift} {0.0 + Yshift} {-0.80025 + Zshift}
 
 # Handles etc.
-Volume GeDead1_Q0D1
-GeDead1_Q0D1.Material germanium
-GeDead1_Q0D1.Visibility 1
-GeDead1_Q0D1.Color 6
-#GeDead1_Q0D1.Shape TRD1 1.21 2.88 0.076 0.39
-GeDead1_Q0D1.Shape TRD1 1.569 3.05 0.102 0.4155
+Volume GeHandleBridge_Q0D1
+GeHandleBridge_Q0D1.Material germanium
+GeHandleBridge_Q0D1.Visibility 1
+GeHandleBridge_Q0D1.Color 6
+#GeHandleBridge_Q0D1.Shape TRD1 1.21 2.88 0.076 0.39
+Constant GeHandleBridgeWidth_Q0D1 {HandleSpan_Q0D1/2 - DetectorWidthX_Q0D1/2}
+GeHandleBridge_Q0D1.Shape TRD1 1.569 3.05 {HandleBridgeThickness_Q0D1/2} {GeHandleBridgeWidth_Q0D1/2}
+#0.4155
 
-GeDead1_Q0D1.Copy GeDead1_Q0D1_01
-GeDead1_Q0D1.Copy GeDead1_Q0D1_02
+GeHandleBridge_Q0D1.Copy GeHandleBridge_1_Q0D1
+GeHandleBridge_Q0D1.Copy GeHandleBridge_2_Q0D1
 
-GeDead1_Q0D1_01.Mother Detector_Q0D1
-GeDead1_Q0D1_01.Position  {3.785+Xshift}  {0.0+Yshift}  {-0.698+Zshift}
-GeDead1_Q0D1_01.Rotation 90.0  0.0 -90.0
+GeHandleBridge_1_Q0D1.Mother Detector_Q0D1
+#GeHandleBridge_1_Q0D1.Position  {3.785 + Xshift}  {0.0 + Yshift}  {-0.698 + Zshift}
+GeHandleBridge_1_Q0D1.Position  {HandleSpan_Q0D1/2 - GeHandleBridgeWidth_Q0D1/2 -0.6555 + Xshift}  {0.0 + Yshift}  {{-DetectorHeight_Q0D1/2} + HandleBridgeThickness_Q0D1/2 + Zshift}
+GeHandleBridge_1_Q0D1.Rotation 90.0  0.0 -90.0
 
-GeDead1_Q0D1_02.Mother Detector_Q0D1
-#GeDead1_Q0D1_02.Position  {-0.655+Xshift}  {-4.41+Yshift}  -0.698
-GeDead1_Q0D1_02.Position  {-5.096+Xshift}  {0.0+Yshift}  {-0.698+Zshift}
-#GeDead1_Q0D1_02.Rotation 90.0  0.0  180.0
-GeDead1_Q0D1_02.Rotation 90.0  0.0  90.0
+GeHandleBridge_2_Q0D1.Mother Detector_Q0D1
+GeHandleBridge_2_Q0D1.Position  {{-HandleSpan_Q0D1/2} + GeHandleBridgeWidth_Q0D1/2 -0.6555 + Xshift}  {0.0 + Yshift}  {{-DetectorHeight_Q0D1/2} + HandleBridgeThickness_Q0D1/2 + Zshift}
+GeHandleBridge_2_Q0D1.Rotation 90.0  0.0  90.0
 
-Volume GeDead2_Q0D1
-GeDead2_Q0D1.Material germanium
-GeDead2_Q0D1.Visibility 1
-GeDead2_Q0D1.Color 6
-#GeDead2_Q0D1.Shape TRD1 1.21 2.54 0.30 0.287
-GeDead2_Q0D1.Shape TRD1 1.569 2.766 0.198 0.2875
+Volume GeHandle_Q0D1
+GeHandle_Q0D1.Material germanium
+GeHandle_Q0D1.Visibility 1
+GeHandle_Q0D1.Color 7
+#GeHandleBridge_Q0D1.Shape TRD1 1.21 2.54 0.30 0.287
+GeHandle_Q0D1.Shape TRD1 1.569 2.65 {HandleThickness_Q0D1/2 - HandleBridgeThickness_Q0D1/2} 0.2875
 
-GeDead2_Q0D1.Copy GeDead2_Q0D1_01
-GeDead2_Q0D1.Copy GeDead2_Q0D1_02
+GeHandle_Q0D1.Copy GeHandle_1_Q0D1
+GeHandle_Q0D1.Copy GeHandle_2_Q0D1
 
-GeDead2_Q0D1_01.Mother Detector_Q0D1
-GeDead2_Q0D1_01.Position  {3.913+Xshift}  {0.0+Yshift}  {-0.398+Zshift}
-GeDead2_Q0D1_01.Rotation 90.0  0.0 -90.0
+GeHandle_1_Q0D1.Mother Detector_Q0D1
+#GeHandle_1_Q0D1.Position  {3.913 + Xshift}  {0.0 + Yshift}  {-0.398 + Zshift}
+GeHandle_1_Q0D1.Position  {HandleSpan_Q0D1/2 - 0.2875 -0.6555 + Xshift}  {0.0 + Yshift}  {{-DetectorHeight_Q0D1/2} + HandleThickness_Q0D1/2 + HandleBridgeThickness_Q0D1/2 + Zshift}
+GeHandle_1_Q0D1.Rotation 90.0  0.0 -90.0
 
-
-GeDead2_Q0D1_02.Mother Detector_Q0D1
-GeDead2_Q0D1_02.Position  {-5.224+Xshift}   {0.0+Yshift}  {-0.398+Zshift}
-GeDead2_Q0D1_02.Rotation 90.0  0.0  90.0
+GeHandle_2_Q0D1.Mother Detector_Q0D1
+#GeHandle_2_Q0D1.Position  {-5.224 + Xshift}   {0.0 + Yshift}  {-0.398 + Zshift}
+GeHandle_2_Q0D1.Position  {{-HandleSpan_Q0D1/2} + 0.2875 -0.6555 + Xshift}   {0.0 + Yshift}  {{-DetectorHeight_Q0D1/2} + HandleThickness_Q0D1/2 + HandleBridgeThickness_Q0D1/2  + Zshift}
+GeHandle_2_Q0D1.Rotation 90.0  0.0  90.0
 
 
 /////////////////////////////////////////////////////////
@@ -416,7 +422,7 @@ Holder_Q0D1.Visibility 1
 Holder_QD00.Color 15
 Holder_Q0D1.Shape HolderBlockMinusRodHole_Q0D1
 Holder_Q0D1.Rotation 0.0 0.0 0.0
-Holder_Q0D1.Position {-0.6555+Xshift} {-0.574+Yshift} {-.0005+Zshift}
+Holder_Q0D1.Position {-0.6555 + Xshift} {-0.574 + Yshift} {-.0005 + Zshift}
 Holder_Q0D1.Mother Detector_Q0D1
 
 # adding new aluminum bar that is on the far end of the holder on the opposite side of the LV interposer board
@@ -426,7 +432,7 @@ AlBar_Q0D1.Visibility 1
 AlBar_Q0D1.Color 20
 AlBar_Q0D1.Shape Brik 3.9 0.0735 0.273
 #AlBar_Q0D1.Position  {-0.582+Xshift} {4.2495+Yshift} {-0.067+Zshift}
-AlBar_Q0D1.Position  {-.345+Xshift} {4.2345+Yshift} {-0.067+Zshift}
+AlBar_Q0D1.Position  {-.345 + Xshift} {4.2345 + Yshift} {-0.067 + Zshift}
 AlBar_Q0D1.Mother Detector_Q0D1
 
 
@@ -662,7 +668,7 @@ Volume DetSolder_Q0D1
 DetSolder_Q0D1.Material solder
 DetSolder_Q0D1.Visibility 1
 DetSolder_Q0D1.Color 12
-DetSolder_Q0D1.Shape BRIK DetectorHalfWidth .3 0.1217
+DetSolder_Q0D1.Shape BRIK {DetectorWidthX_Q0D1/2.0} .3 0.1217
 DetSolder_Q0D1.Rotation 90.0 0.0 90.0
 DetSolder_Q0D1.Position {(-6.808+Xshift)+2*0.5*0.574+.16+.1217} {(-0.4+Yshift)} {(.0355+Zshift)-.6401}
 DetSolder_Q0D1.Mother Detector_Q0D1
@@ -721,28 +727,34 @@ In_PassGe_Q0D1.Copy In_PassGe4_Q0D1
 
 
 In_PassGe1_Q0D1.Mother Detector_Q0D1
-In_PassGe1_Q0D1.Position {3.785+Xshift} {0.0+Yshift} {-0.195+Zshift}
+#In_PassGe1_Q0D1.Position {3.785+Xshift} {0.0+Yshift} {-0.145+Zshift}
+In_PassGe1_Q0D1.Position {3.785 + Xshift} {0.0 + Yshift} {{-DetectorHeight_Q0D1/2} + HandleThickness_Q0D1 + 0.005 + Zshift}
 In_PassGe2_Q0D1.Mother Detector_Q0D1
-In_PassGe2_Q0D1.Position {3.785+Xshift} {0.0+Yshift} {-0.08+Zshift}
+#In_PassGe2_Q0D1.Position {3.785+Xshift} {0.0+Yshift} {-0.125+Zshift}
+In_PassGe2_Q0D1.Position {3.785+Xshift} {0.0+Yshift} {{-DetectorHeight_Q0D1/2} + HandleThickness_Q0D1 + 0.025 + Zshift}
 In_PassGe3_Q0D1.Mother Detector_Q0D1
-In_PassGe3_Q0D1.Position {-5.096+Xshift} {0.0+Yshift} {-0.195+Zshift}
+#In_PassGe3_Q0D1.Position {-5.096+Xshift} {0.0+Yshift} {-0.145+Zshift}
+In_PassGe3_Q0D1.Position {-5.096+Xshift} {0.0+Yshift} {{-DetectorHeight_Q0D1/2} + HandleThickness_Q0D1 + 0.005 + Zshift}
 In_PassGe4_Q0D1.Mother Detector_Q0D1
-In_PassGe4_Q0D1.Position {-5.096+Xshift} {0.0+Yshift} {-0.08+Zshift}
+#In_PassGe4_Q0D1.Position {-5.096+Xshift} {0.0+Yshift} {-0.125+Zshift}
+In_PassGe4_Q0D1.Position {-5.096+Xshift} {0.0+Yshift} {{-DetectorHeight_Q0D1/2} + HandleThickness_Q0D1 + 0.025 + Zshift}
+
+
 
 Volume In_PassAlNi_Q0D1
 In_PassAlNi_Q0D1.Material indium
 In_PassAlNi_Q0D1.Visibility 1
-In_PassAlNi_Q0D1.Color 90
-In_PassAlNi_Q0D1.Shape BRIK .3555 1.2445 .05
+In_PassAlNi_Q0D1.Color 6
+In_PassAlNi_Q0D1.Shape BRIK .3555 1.2445 .005
 
 In_PassAlNi_Q0D1.Copy In_PassAlNi1_Q0D1
 In_PassAlNi_Q0D1.Copy In_PassAlNi2_Q0D1
 
-# Not sure why the same z positions are not working for In_PassGe3 and In_PassAlNi_Q0D12 but this is the only way I can remove the overlap.
+# Not sure why the same z positions are not working for In_PassGe3 and In_PassAlNi but this is the only way I can remove the overlap.
 In_PassAlNi1_Q0D1.Mother Detector_Q0D1
-In_PassAlNi1_Q0D1.Position {3.785+Xshift} {0.0+Yshift} {-0.140+Zshift}
+In_PassAlNi1_Q0D1.Position {3.785+Xshift} {0.0+Yshift} {{-DetectorHeight_Q0D1/2} + HandleThickness_Q0D1 + 0.015 + Zshift}
 In_PassAlNi2_Q0D1.Mother Detector_Q0D1
-In_PassAlNi2_Q0D1.Position {-5.096+Xshift} {0.0+Yshift} {-0.140+Zshift}
+In_PassAlNi2_Q0D1.Position {-5.096+Xshift} {0.0+Yshift} {{-DetectorHeight_Q0D1/2} + HandleThickness_Q0D1 + 0.015 + Zshift}
 
 # Not including the detector clamp buttons
 
