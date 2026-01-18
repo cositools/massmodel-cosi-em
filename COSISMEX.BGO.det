@@ -2,24 +2,24 @@
 # Detector information:
 
 Scintillator     BGO_X0_0
-BGO_X0_0.DetectorVolume	    BGO_X0_0_Crystal
-BGO_X0_0.SensitiveVolume    BGO_X0_0_Crystal
+BGO_X0_0.DetectorVolume	    ACS_X0_0
+BGO_X0_0.SensitiveVolume    ACS_X0_0
 BGO_X0_0.TriggerThreshold   80.0
 BGO_X0_0.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_X0_0.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_X0_0.NoiseThresholdEqualsTriggerThreshold true
 
 Scintillator     BGO_X0_1
-BGO_X0_1.DetectorVolume     BGO_X0_1_Crystal
-BGO_X0_1.SensitiveVolume    BGO_X0_1_Crystal
+BGO_X0_1.DetectorVolume     ACS_X0_1
+BGO_X0_1.SensitiveVolume    ACS_X0_1
 BGO_X0_1.TriggerThreshold   80.0
 BGO_X0_1.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_X0_1.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_X0_1.NoiseThresholdEqualsTriggerThreshold true
 
 Scintillator     BGO_X0_2
-BGO_X0_2.DetectorVolume     BGO_X0_2_Crystal
-BGO_X0_2.SensitiveVolume    BGO_X0_2_Crystal
+BGO_X0_2.DetectorVolume     ACS_X0_2
+BGO_X0_2.SensitiveVolume    ACS_X0_2
 BGO_X0_2.TriggerThreshold   80.0
 BGO_X0_2.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_X0_2.EnergyResolution   Gauss  100.0  100.0   10.0
