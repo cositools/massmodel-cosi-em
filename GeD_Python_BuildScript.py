@@ -21,20 +21,20 @@ triggerlines = [ '' ]
 
 for i,detheight in enumerate(DetectorHeight_E):
 
-	lines = ['Constant CrystalDiameter_Q0D' + str(i) + ' ' + str(CrystalDiameter_A[i]),\
-			'Constant HandleSpan_Q0D' + str(i) + ' ' + str(HandleSpan_B[i]),\
-			'Constant DetectorWidthX_Q0D' + str(i) + ' ' + str(DetectorWidthX_C[i]),\
-			'Constant DetectorWidthY_Q0D' + str(i) + ' ' + str(DetectorWidthY_D[i]),\
-			'Constant DetectorHeight_Q0D' + str(i) + ' ' + str(DetectorHeight_E[i]),\
-			'Constant HandleThickness_Q0D' + str(i) + ' ' + str(HandleThickness_F[i]),\
-			'Constant HandleBridgeThickness_Q0D' + str(i) + ' ' + str(HandleBridgeThickness_G[i]),\
-			'Constant GuardRingSize_Q0D' + str(i) + ' ' + str(GuardRingSize),\
+	lines = ['Constant CrystalDiameter_Q0-L' + str(i) + ' ' + str(CrystalDiameter_A[i]),\
+			'Constant HandleSpan_Q0-L' + str(i) + ' ' + str(HandleSpan_B[i]),\
+			'Constant DetectorWidthX_Q0-L' + str(i) + ' ' + str(DetectorWidthX_C[i]),\
+			'Constant DetectorWidthY_Q0-L' + str(i) + ' ' + str(DetectorWidthY_D[i]),\
+			'Constant DetectorHeight_Q0-L' + str(i) + ' ' + str(DetectorHeight_E[i]),\
+			'Constant HandleThickness_Q0-L' + str(i) + ' ' + str(HandleThickness_F[i]),\
+			'Constant HandleBridgeThickness_Q0-L' + str(i) + ' ' + str(HandleBridgeThickness_G[i]),\
+			'Constant GuardRingSize_Q0-L' + str(i) + ' ' + str(GuardRingSize),\
 			'']
 
-	fname = 'COSISMEX.Ge.DetectorBuild.Q0D' + str(i) + '.geo'; fnames.append(fname)
+	fname = 'COSISMEX.Ge.DetectorBuild.Q0-L' + str(i) + '.geo'; fnames.append(fname)
 	fout = open(fname,'w')
 	fout.writelines(map(lambda x:x + '\n',lines))
-	fout.write( gedtemplate.replace('QQQQ', 'Q0D'+str(i)) )
+	fout.write( gedtemplate.replace('QQ-QQ', 'Q0-L'+str(i)) )
 	fout.close()
 
 

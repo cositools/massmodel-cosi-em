@@ -4,8 +4,8 @@
 
 Strip3D               GeD_0
 
-GeD_0.SensitiveVolume      GeWafer_Q0D0
-GeD_0.DetectorVolume       GeWafer_Q0D0
+GeD_0.SensitiveVolume      GeWafer_Q0-L0
+GeD_0.DetectorVolume       GeWafer_Q0-L0
 
 GeD_0.Offset                0.0 0.0
 GeD_0.StripNumber            64  64
@@ -50,8 +50,8 @@ GeD_0.DriftConstant  0.007
 
 Simple GuardRingDetector_GeD_0
 
-GuardRingDetector_GeD_0.SensitiveVolume     GeWaferGuardRing_Q0D0
-GuardRingDetector_GeD_0.DetectorVolume      GeWaferGuardRing_Q0D0
+GuardRingDetector_GeD_0.SensitiveVolume     GeWaferGuardRing_Q0-L0
+GuardRingDetector_GeD_0.DetectorVolume      GeWaferGuardRing_Q0-L0
 
 GuardRingDetector_GeD_0.TriggerThreshold      30
 GuardRingDetector_GeD_0.NoiseThresholdEqualsTriggerThreshold true
