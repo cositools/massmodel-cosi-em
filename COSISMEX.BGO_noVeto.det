@@ -3,8 +3,8 @@
 
 
 Voxel3D     ACS_X0_0
-ACS_X0_0.DetectorVolume	    BGO_X0_0
-ACS_X0_0.SensitiveVolume    BGO_X0_0
+ACS_X0_0.DetectorVolume	    BGO_X0_0_Crystal
+ACS_X0_0.SensitiveVolume    BGO_X0_0_Crystal
 ACS_X0_0.VoxelNumber        2 12 19
 ACS_X0_0.Offset             0 0 0
 ACS_X0_0.TriggerThreshold   80.0
@@ -13,8 +13,8 @@ ACS_X0_0.EnergyResolution   Gauss  100.0  100.0   10.0
 ACS_X0_0.NoiseThresholdEqualsTriggerThreshold true
 
 Voxel3D     ACS_X0_1
-ACS_X0_1.DetectorVolume	    BGO_X0_1
-ACS_X0_1.SensitiveVolume    BGO_X0_1
+ACS_X0_1.DetectorVolume	    BGO_X0_1_Crystal
+ACS_X0_1.SensitiveVolume    BGO_X0_1_Crystal
 ACS_X0_1.VoxelNumber        2 12 19
 ACS_X0_1.Offset             0 0 0
 ACS_X0_1.TriggerThreshold   80.0
@@ -23,8 +23,8 @@ ACS_X0_1.EnergyResolution   Gauss  100.0  100.0   10.0
 ACS_X0_1.NoiseThresholdEqualsTriggerThreshold true
 
 Voxel3D     ACS_X0_2
-ACS_X0_2.DetectorVolume	    BGO_X0_2
-ACS_X0_2.SensitiveVolume    BGO_X0_2
+ACS_X0_2.DetectorVolume	    BGO_X0_2_Crystal
+ACS_X0_2.SensitiveVolume    BGO_X0_2_Crystal
 ACS_X0_2.VoxelNumber        2 12 19
 ACS_X0_2.Offset             0 0 0
 ACS_X0_2.TriggerThreshold   80.0
