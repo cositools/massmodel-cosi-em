@@ -631,7 +631,8 @@ Constant bto_box_height 9.31
 Constant bto_box_electronics_height 0.658
 
 # Directory for absorption file
-CrossSectionFilesDirectory /Users/parshad/Software/Nuclearizer_outputs/absorptions
+# CrossSectionFilesDirectory /Users/parshadkp/Software/Nuclearizer_files/crosssections
+# AbsorptionFileDirectory
 
 
 
