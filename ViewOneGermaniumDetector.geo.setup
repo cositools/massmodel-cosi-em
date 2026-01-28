@@ -11,8 +11,8 @@ SurroundingSphere 80  0.0  0.0  -45.0  80.0
 # Required include files
 Include COSISMEX.GlobalDimensions.geo
 Include COSISMEX.mat
-Include COSISMEX.Ge.DetectorBuild.Q0-L0.geo
-Include COSISMEX.Ge.O64.Q0-L0.det
+Include COSISMEX.Ge.DetectorBuild.Q0L0.geo
+Include COSISMEX.Ge.O64.Q0L0.det
 
 
 # Volume definitions:
@@ -23,7 +23,7 @@ WorldVolume.Material vacuum
 WorldVolume.Shape TUBS 0 300 400 0 360
 WorldVolume.Mother 0
 
-Detector_Q0-L0.Position 0 0 0
-Detector_Q0-L0.Mother WorldVolume
+Detector_Q0_L0.Position 0 0 0
+Detector_Q0_L0.Mother WorldVolume
 
 

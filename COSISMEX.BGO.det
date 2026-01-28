@@ -32,7 +32,7 @@ ACS_Veto_X0_0.Veto true
 ACS_Veto_X0_0.TriggerByDetector true
 ACS_Veto_X0_0.Detector ACS_X0_0 1
 
-Trigger BGO_Veto_X0_1
+Trigger ACS_Veto_X0_1
 ACS_Veto_X0_1.Veto true
 ACS_Veto_X0_1.TriggerByDetector true
 ACS_Veto_X0_1.Detector ACS_X0_1 1

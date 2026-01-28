@@ -12,10 +12,10 @@ Include COSISMEX.mat
 Include COSISMEX.GlobalDimensions.geo
 
 Include COSISMEX.Ge.Inactive.geo
-Include COSISMEX.Ge.DetectorBuild.Q0-L0.geo
-Include COSISMEX.Ge.DetectorBuild.Q0-L1.geo
-Include COSISMEX.Ge.SimsOnly.Q0-L0.det
-Include COSISMEX.Ge.SimsOnly.Q0-L1.det
+Include COSISMEX.Ge.DetectorBuild.Q0L0.geo
+Include COSISMEX.Ge.DetectorBuild.Q0L1.geo
+Include COSISMEX.Ge.SimsOnly.Q0L0.det
+Include COSISMEX.Ge.SimsOnly.Q0L1.det
 Include COSISMEX.Cryostat.geo
 Include COSISMEX.ACS.geo
 Include COSISMEX.BGO.det

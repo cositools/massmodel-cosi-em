@@ -904,13 +904,13 @@ For Z  2  { DetZPos}  {2.5660}
    SingleDetector_Copy%Z_Q0.Position {-DetX - DetXHalfGap} {DetY+DetYHalfGap} {$Z}
 Done
 
-Detector_Q0-L0.Mother Cryostat_Interior
-Detector_Q0-L0.Rotation 180 0 0
-Detector_Q0-L0.Position {-DetX - DetXHalfGap} {DetY + DetYHalfGap} {DetZPos + 2.566*3}
+Detector_Q0_L0.Mother Cryostat_Interior
+Detector_Q0_L0.Rotation 180 0 0
+Detector_Q0_L0.Position {-DetX - DetXHalfGap} {DetY + DetYHalfGap} {DetZPos + 2.566*3}
 
-Detector_Q0-L1.Mother Cryostat_Interior
-Detector_Q0-L1.Rotation 180 0 0
-Detector_Q0-L1.Position {-DetX - DetXHalfGap} {DetY + DetYHalfGap} {DetZPos + 2.566*2}
+Detector_Q0_L1.Mother Cryostat_Interior
+Detector_Q0_L1.Rotation 180 0 0
+Detector_Q0_L1.Position {-DetX - DetXHalfGap} {DetY + DetYHalfGap} {DetZPos + 2.566*2}
 
 
 ##########################################################
