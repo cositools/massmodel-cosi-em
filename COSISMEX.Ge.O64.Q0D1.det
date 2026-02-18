@@ -2,64 +2,56 @@
 // Detector information:
 
 
-MDVoxel3D               GeD_1
+Strip3D               GeD_1
 
 GeD_1.SensitiveVolume      Q0D1_GeWafer
 GeD_1.DetectorVolume       Q0D1_GeWafer
 
-GeD_1.Offset              0.0   0.0    0.0
-GeD_1.VoxelNumber         2048   2048    2048
+GeD_1.Offset                0.0 0.0
+GeD_1.StripNumber            64  64
 
 # COSI
-GeD_1.EnergyResolution Gaus 10      10        0.417
-GeD_1.EnergyResolution Gaus 20      20        0.425
-GeD_1.EnergyResolution Gaus 50      50        0.4375
-GeD_1.EnergyResolution Gaus 100     100       0.454
-GeD_1.EnergyResolution Gaus 200     200       0.492
-GeD_1.EnergyResolution Gaus 500     500       0.5875
-GeD_1.EnergyResolution Gaus 1000    1000      0.7217
-GeD_1.EnergyResolution Gaus 2000    2000      0.9317
-GeD_1.EnergyResolution Gaus 5000    5000      1.3819
-GeD_1.EnergyResolution Gaus 10000   10000     1.9094
-GeD_1.EnergyResolution Gaus 100000  100000    5.907
+GeD_1.EnergyResolution   Gauss      0.0      0.0  1.32
+GeD_1.EnergyResolution   Gauss     60.0     60.0  1.32
+GeD_1.EnergyResolution   Gauss    122.0    122.0  1.42
+GeD_1.EnergyResolution   Gauss    365.0    365.0  1.58
+GeD_1.EnergyResolution   Gauss    662.0    662.0  1.68
+GeD_1.EnergyResolution   Gauss   1275.0   1275.0  1.79
+GeD_1.EnergyResolution   Gauss   1836.0   1836.0  1.86
 
 GeD_1.Overflow 1800
 
 # Both
-# GeD_1.DepthResolutionThreshold 20.0
-# GeD_1.DepthResolution      0.0  { 0.3 / 2.35 }
-# GeD_1.DepthResolution     20.0  { 0.3 / 2.35 }
-# GeD_1.DepthResolution     50.0  { 0.1 / 2.35 }
-# GeD_1.DepthResolution     60.0  { 0.08 / 2.35 }
-# GeD_1.DepthResolution     70.0  { 0.075 / 2.35 }
-# GeD_1.DepthResolution     80.0  { 0.065 / 2.35 }
-# GeD_1.DepthResolution    122.0  { 0.06 / 2.35 }
-# GeD_1.DepthResolution    356.0  { 0.05 / 2.35 }
-# GeD_1.DepthResolution    662.0  { 0.05 / 2.35 }
-# GeD_1.DepthResolution   1836.0  { 0.05 / 2.35 }
+GeD_1.DepthResolutionThreshold 20.0
+GeD_1.DepthResolution      0.0  { 0.3 / 2.35 }
+GeD_1.DepthResolution     20.0  { 0.3 / 2.35 }
+GeD_1.DepthResolution     50.0  { 0.1 / 2.35 }
+GeD_1.DepthResolution     60.0  { 0.08 / 2.35 }
+GeD_1.DepthResolution     70.0  { 0.075 / 2.35 }
+GeD_1.DepthResolution     80.0  { 0.065 / 2.35 }
+GeD_1.DepthResolution    122.0  { 0.06 / 2.35 }
+GeD_1.DepthResolution    356.0  { 0.05 / 2.35 }
+GeD_1.DepthResolution    662.0  { 0.05 / 2.35 }
+GeD_1.DepthResolution   1836.0  { 0.05 / 2.35 }
 
 
 # ASIC
 GeD_1.TriggerThreshold     18
 GeD_1.NoiseThresholdEqualsTriggerThreshold  True
 
-GeD_0.FailureRate 0.0
 
 # If I go smaller it gets too slow
-# GeD_1.EnergyPerElectron 0.2
+GeD_1.EnergyPerElectron 0.2
 
 # Jarred scaled to 1500 V
-# GeD_1.DriftConstant  0.007
+GeD_1.DriftConstant  0.007
 
 
 
-MDVoxel3D GuardRingDetector_Q0D1
+Simple GuardRingDetector_Q0D1
 
 GuardRingDetector_Q0D1.SensitiveVolume     GeWaferGuardRing_Q0D1
 GuardRingDetector_Q0D1.DetectorVolume      GeWaferGuardRing_Q0D1
-
-GuardRingDetector_Q0D1.Offset              0.0   0.0    0.0
-GuardRingDetector_Q0D1.VoxelNumber         2048   2048    2048
 
 GuardRingDetector_Q0D1.TriggerThreshold      30
 GuardRingDetector_Q0D1.NoiseThresholdEqualsTriggerThreshold true
