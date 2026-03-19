@@ -1,6 +1,9 @@
 # massmodel-cosi-em
 Mass model for Engineering Model cryostat based on the CAD model
 
+To run the current geometry, use:
+'geomega -g COSI_CAD_EM.geo.setup'
+
 03/19/2026: This model contains:
 1. Cryostat box
 2. PIP deck
