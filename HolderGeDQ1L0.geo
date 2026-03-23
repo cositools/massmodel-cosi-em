@@ -1,6 +1,19 @@
 Include UpdatedHolderQ1L0_withButtons.200.geo.setup
 #Include HolderQ1L0_withButtons.200.geo.setup
 
+#Indium gasket to cold finder
+
+Volume IndiumGasketWrapper
+IndiumGasketWrapper.Shape BRIK 1000 1000 1000
+IndiumGasketWrapper.Material Vacuum
+IndiumGasketWrapper.Visibility 0
+IndiumGasketWrapper.Position 0.005019 0 0
+IndiumGasketWrapper.Rotation 0 0 0
+IndiumGasketWrapper.Virtual True
+IndiumGasketWrapper.Mother DetectorStackWrapper
+
+Include Indium_GasketQ1L0_DetectorHoldertoColdFinder.100.geo.setup
+
 #Joints and Isolators
 Include IndiumJointQ1L0_Holderside_Top.1.geo.setup
 Include IsolatorQ1L0_Holderside.10.geo.setup
@@ -34,17 +47,6 @@ DetectorHolderClampPadWrapper.Mother DetectorHolderClampWrapper
 
 Include Detector_Holder_Clamp_PadQ1L0_HVside.10.geo.setup
 Include Detector_Holder_Clamp_PadQ1L0_LVside.10.geo.setup
-
-Volume IndiumGasketWrapper
-IndiumGasketWrapper.Shape BRIK 1000 1000 1000
-IndiumGasketWrapper.Material Vacuum
-IndiumGasketWrapper.Visibility 0
-IndiumGasketWrapper.Position 0.005581 0 0
-IndiumGasketWrapper.Rotation 0 0 0
-IndiumGasketWrapper.Virtual True
-IndiumGasketWrapper.Mother DetectorStackWrapper
-
-Indium_GasketQ1L0_DetectorHoldertoColdFinder.100.geo.setup
 
 #Include LV (dc) interposer board
 
@@ -99,7 +101,7 @@ Volume HVInterposerTWrapper
 HVInterposerTWrapper.Shape BRIK 1000 1000 1000
 HVInterposerTWrapper.Material Vacuum
 HVInterposerTWrapper.Visibility 0
-HVInterposerTWrapper.Position -0.007285 0 0
+HVInterposerTWrapper.Position {-0.007285-0.000556} 0 0
 HVInterposerTWrapper.Rotation 0 0 0
 HVInterposerTWrapper.Virtual True
 HVInterposerTWrapper.Mother DetectorStackWrapper
