@@ -464,9 +464,21 @@ Material Germanium
 Germanium.Density               5.323
 Germanium.Component             Ge  1  
 
-
 Material BGO            
 BGO.Density               7.13
 BGO.Component             Bi  4  
 BGO.Component             Ge  3   
 BGO.Component             O   12   
+
+Material Peek
+Peek.Density                     1.31
+Peek.Component                   H   12   
+Peek.Component                   C   19  
+Peek.Component                   O   3  
+
+Material AlN
+AlN.Density		3.26
+AlN.Component 		Al 1
+AlN.Component		N 1
+
+
