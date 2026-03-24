@@ -75,7 +75,7 @@ stripsAl.Visibility 1
 stripsAl.Color 7
 stripsAl.Shape AlDead1
 stripsAl.Mother SingleDetector
-stripsAl.Position {-0.6555+Xshift} {0.0+Yshift} {0.80025+Zshift}
+stripsAl.Position {-0.6555+Xshift} {0.0+Yshift} {0.80025+Zshift+DetectorHalfHeight-0.75}
 
 Shape BRIK stripsAl2
 stripsAl2.Parameters 3.71 3.71 0.00025
@@ -92,7 +92,7 @@ stripsAlbot.Visibility 1
 stripsAlbot.Color 7
 stripsAlbot.Shape AlDead2
 stripsAlbot.Mother SingleDetector
-stripsAlbot.Position {-0.6555+Xshift} {0.0+Yshift} {-0.80025+Zshift}
+stripsAlbot.Position {-0.6555+Xshift} {0.0+Yshift} {-0.80025+Zshift-DetectorHalfHeight+0.75}
 
 
 # Handles
@@ -107,11 +107,11 @@ GeDead1.Copy GeDead1_01
 GeDead1.Copy GeDead1_02
 
 GeDead1_01.Mother SingleDetector
-GeDead1_01.Position  {3.785+Xshift}  {0.0+Yshift}  {-0.698+Zshift}
+GeDead1_01.Position  {3.785+Xshift}  {0.0+Yshift}  {-0.698+Zshift-DetectorHalfHeight+0.75}
 GeDead1_01.Rotation 90.0  0.0 -90.0
 
 GeDead1_02.Mother SingleDetector
-GeDead1_02.Position  {-5.096+Xshift}  {0.0+Yshift}  {-0.698+Zshift}
+GeDead1_02.Position  {-5.096+Xshift}  {0.0+Yshift}  {-0.698+Zshift-DetectorHalfHeight+0.75}
 GeDead1_02.Rotation 90.0  0.0  90.0
 
 Volume GeDead2
@@ -124,17 +124,11 @@ GeDead2.Copy GeDead2_01
 GeDead2.Copy GeDead2_02
 
 GeDead2_01.Mother SingleDetector
-GeDead2_01.Position  {3.913+Xshift}  {0.0+Yshift}  {-0.398+Zshift}
+GeDead2_01.Position  {3.913+Xshift}  {0.0+Yshift}  {-0.398+Zshift-DetectorHalfHeight+0.75}
 GeDead2_01.Rotation 90.0  0.0 -90.0
 
 GeDead2_02.Mother SingleDetector
-GeDead2_02.Position  {-5.224+Xshift}   {0.0+Yshift}  {-0.398+Zshift}
+GeDead2_02.Position  {-5.224+Xshift}   {0.0+Yshift}  {-0.398+Zshift-DetectorHalfHeight+0.75}
 GeDead2_02.Rotation 90.0  0.0  90.0
-
-LVL5.Mother SingleDetector
-LVL5.Shape BRIK 4.661 0.158 0.978
-LVL5.Visibility 1
-LVL5.Color 3
-LVL5.Position {-0.8335+Xshift} {-6.127+Yshift} {-0.0365+Zshift}
 
 
