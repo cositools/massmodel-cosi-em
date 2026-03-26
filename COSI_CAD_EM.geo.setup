@@ -1,0 +1,70 @@
+
+Name COSI-CAD-EM
+Version 1
+
+
+# You have to correct this surrounding sphere:
+#SurroundingSphere 89  0.0  0.0  -40.0  89.0
+#ShowSurroundingSphere  false
+
+# Volume definitions:
+
+Volume WorldVolume
+WorldVolume.Visibility 0
+WorldVolume.Material Vacuum
+WorldVolume.Shape BRIK 5000. 5000. 5000.
+WorldVolume.Mother 0
+
+Include EM-CAD.GlobalDimensions.geo
+Include EM-CAD.Materials.mat
+
+#EM Cryostat
+Include Cryostatbox.200.geo.setup
+
+#PIP deck
+Include PIPdeck.geo
+
+#ACS Shields
+Include EM_ACSWalls.geo
+
+
+#TESTS for Q1L0 detector and holder
+
+#Detector stack - Mother volume will change
+
+Volume DetectorStackWrapper
+DetectorStackWrapper.Shape BRIK 1000 1000 1000
+DetectorStackWrapper.Material Vacuum
+DetectorStackWrapper.Visibility 0
+DetectorStackWrapper.Position 0 0 0
+DetectorStackWrapper.Rotation 0 0 0
+DetectorStackWrapper.Virtual True
+DetectorStackWrapper.Mother WorldVolume
+
+#Detector Holder
+
+Include HolderGeDQ1L0.geo
+
+#Detector
+
+#X-position is CAD holder position {-7.639} + constants + shift
+#Y-position is CAD holder position {-0.752} + constants + shift
+#Z-position is CAD holder position {23.298} + shift
+Include GeDQ1L0.Inactive.geo
+SingleDetector.Position {-7.639 + 0.6555 + {IngotRadius - DetectorHalfWidth + GuardRingSize}+0.0782719} {-0.752-DetectorHalfWidth+GuardRingSize+0.0119285} {23.298+0.052831}
+SingleDetector.Mother DetectorStackWrapper
+
+#DetectorStackHolder
+Volume DetectorStackHolderWrapper
+DetectorStackHolderWrapper.Shape BRIK 1000 1000 1000
+DetectorStackHolderWrapper.Material Vacuum
+DetectorStackHolderWrapper.Visibility 0
+#DetectorStackHolderWrapper.Position 0.205172 0 0
+DetectorStackHolderWrapper.Position 0 0 0
+DetectorStackHolderWrapper.Rotation 0 0 0
+DetectorStackHolderWrapper.Virtual True
+DetectorStackHolderWrapper.Mother DetectorStackWrapper
+
+Include DetectorStackHolder.100.geo.setup
+
+
