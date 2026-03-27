@@ -48,37 +48,37 @@ GeD_1.DriftConstant  0.007
 
 
 
-Simple GuardRingDetector_Q0D1
+Simple GuardRingDetector_GeD_1
 
-GuardRingDetector_Q0D1.SensitiveVolume     GeWaferGuardRing_Q0D1
-GuardRingDetector_Q0D1.DetectorVolume      GeWaferGuardRing_Q0D1
+GuardRingDetector_GeD_1.SensitiveVolume     GeWaferGuardRing_Q0D1
+GuardRingDetector_GeD_1.DetectorVolume      GeWaferGuardRing_Q0D1
 
-GuardRingDetector_Q0D1.TriggerThreshold      30
-GuardRingDetector_Q0D1.NoiseThresholdEqualsTriggerThreshold true
+GuardRingDetector_GeD_1.TriggerThreshold      30
+GuardRingDetector_GeD_1.NoiseThresholdEqualsTriggerThreshold true
 
-GuardRingDetector_Q0D1.EnergyResolution Gaus 10      10        3.3
-GuardRingDetector_Q0D1.EnergyResolution Gaus 20      20        3.3
-GuardRingDetector_Q0D1.EnergyResolution Gaus 50      50        3.3
-GuardRingDetector_Q0D1.EnergyResolution Gaus 100     100       3.3
-GuardRingDetector_Q0D1.EnergyResolution Gaus 200     200       3.3
-GuardRingDetector_Q0D1.EnergyResolution Gaus 500     500       3.3
-GuardRingDetector_Q0D1.EnergyResolution Gaus 1000    1000      3.3
-GuardRingDetector_Q0D1.EnergyResolution Gaus 2000    2000      3.3
-GuardRingDetector_Q0D1.EnergyResolution Gaus 5000    5000      3.3
+GuardRingDetector_GeD_1.EnergyResolution Gaus 10      10        3.3
+GuardRingDetector_GeD_1.EnergyResolution Gaus 20      20        3.3
+GuardRingDetector_GeD_1.EnergyResolution Gaus 50      50        3.3
+GuardRingDetector_GeD_1.EnergyResolution Gaus 100     100       3.3
+GuardRingDetector_GeD_1.EnergyResolution Gaus 200     200       3.3
+GuardRingDetector_GeD_1.EnergyResolution Gaus 500     500       3.3
+GuardRingDetector_GeD_1.EnergyResolution Gaus 1000    1000      3.3
+GuardRingDetector_GeD_1.EnergyResolution Gaus 2000    2000      3.3
+GuardRingDetector_GeD_1.EnergyResolution Gaus 5000    5000      3.3
 
 
 
 #------------------------------------------------------------
 # Trigger information:
 
-Trigger GeTrigger_Q0D1
-GeTrigger_Q0D1.Detector GeD_1 1
-GeTrigger_Q0D1.TriggerByChannel true
-GeTrigger_Q0D1.Veto false
+Trigger GeTrigger_GeD_1
+GeTrigger_GeD_1.Detector GeD_1 1
+GeTrigger_GeD_1.TriggerByChannel true
+GeTrigger_GeD_1.Veto false
 
 
-Trigger GuardRingVeto_Q0D1
-GuardRingVeto_Q0D1.Veto true
-GuardRingVeto_Q0D1.TriggerByChannel true
-GuardRingVeto_Q0D1.Detector GuardRingDetector_Q0D1 1
+Trigger GuardRingVeto_GeD_1
+GuardRingVeto_GeD_1.Veto true
+GuardRingVeto_GeD_1.TriggerByChannel true
+GuardRingVeto_GeD_1.Detector GuardRingDetector_GeD_1 1
 
