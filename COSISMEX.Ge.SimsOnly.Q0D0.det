@@ -3,14 +3,23 @@
 
 # Attention this is the detector information for the SIMULATIONS, not for revan
 # In ortder to ensure it is not usedf for the normal analysis, the trigger threshold is set x100 higher
+Include COSISMEX.Ge.Q0D0.geo
 
+# Simple detector here is a combined volume for GeD and GR
 Simple               GeD_0
+
+Volume Q0D0_GeWafer
+Q0D0_GeWafer.Material active_ge_recoil
+Q0D0_GeWafer.Visibility 1
+Q0D0_GeWafer.Color 4
+Q0D0_GeWafer.Shape WholeWafer_Q0D0
+Q0D0_GeWafer.Mother DetectorQ0D0
+Q0D0_GeWafer.Position {-0.6555+Xshift} {0.0+Yshift} {Zshift}
+
 
 GeD_0.SensitiveVolume      Q0D0_GeWafer
 GeD_0.DetectorVolume       Q0D0_GeWafer
 
-# GeD_0.Offset               0.0 0.0
-# GeD_0.StripNumber          2048 2048
 
 GeD_0.EnergyResolution Gaus 10      10        0.417
 GeD_0.EnergyResolution Gaus 20      20        0.425
@@ -24,29 +33,11 @@ GeD_0.EnergyResolution Gaus 5000    5000      1.3819
 GeD_0.EnergyResolution Gaus 10000   10000     1.9094
 GeD_0.EnergyResolution Gaus 100000  100000    5.907
 
+
 GeD_0.TriggerThreshold     130.
 GeD_0.NoiseThresholdEqualsTriggerThreshold  True
 
-
-
-# Simple GuardRingDetector_Q0D0
-
-# GuardRingDetector_Q0D0.SensitiveVolume     GeWaferGuardRing_Q0D0
-# GuardRingDetector_Q0D0.DetectorVolume      GeWaferGuardRing_Q0D0
-
-# GuardRingDetector_Q0D0.TriggerThreshold      400
-# GuardRingDetector_Q0D0.NoiseThresholdEqualsTriggerThreshold true
-
-# GuardRingDetector_Q0D0.EnergyResolution Gaus 10      10        3
-# GuardRingDetector_Q0D0.EnergyResolution Gaus 20      20        3
-# GuardRingDetector_Q0D0.EnergyResolution Gaus 50      50        3
-# GuardRingDetector_Q0D0.EnergyResolution Gaus 100     100       3
-# GuardRingDetector_Q0D0.EnergyResolution Gaus 200     200       3
-# GuardRingDetector_Q0D0.EnergyResolution Gaus 500     500       3
-# GuardRingDetector_Q0D0.EnergyResolution Gaus 1000    1000      3
-# GuardRingDetector_Q0D0.EnergyResolution Gaus 2000    2000      3
-# GuardRingDetector_Q0D0.EnergyResolution Gaus 5000    5000      3
-
+GeD_0.FailureRate 0.0
 
 
 #------------------------------------------------------------
@@ -56,11 +47,5 @@ Trigger GeTrigger_Q0D0
 GeTrigger_Q0D0.Detector GeD_0 1
 GeTrigger_Q0D0.TriggerByChannel true
 GeTrigger_Q0D0.Veto false
-
-# Trigger GuardRingVeto_Q0D0
-# GuardRingVeto_Q0D0.Veto true
-# GuardRingVeto_Q0D0.TriggerByChannel true
-# GuardRingVeto_Q0D0.Detector GuardRingDetector_Q0D0 1
-
 
 

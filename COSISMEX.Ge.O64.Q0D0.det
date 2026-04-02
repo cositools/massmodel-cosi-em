@@ -1,8 +1,19 @@
 //------------------------------------------------------------
 // Detector information:
-
+Include COSISMEX.Ge.Q0D0.geo
 
 Strip3D               GeD_0
+
+
+Volume Q0D0_GeWafer
+Q0D0_GeWafer.Material active_ge_recoil
+Q0D0_GeWafer.Visibility 1
+Q0D0_GeWafer.Color 4
+Q0D0_GeWafer.Shape ActiveWafer_Q0D0
+#Come back and check this. Need to figure out where the 0,0 point is and what we are offsetting
+Q0D0_GeWafer.Mother DetectorQ0D0
+Q0D0_GeWafer.Position {-0.6555+Xshift} {0.0+Yshift} {Zshift}
+
 
 GeD_0.SensitiveVolume      Q0D0_GeWafer
 GeD_0.DetectorVolume       Q0D0_GeWafer
@@ -48,10 +59,20 @@ GeD_0.DriftConstant  0.007
 
 
 
+
 Simple GuardRingDetector_GeD_0
 
-GuardRingDetector_GeD_0.SensitiveVolume     GeWaferGuardRing_Q0D0
-GuardRingDetector_GeD_0.DetectorVolume      GeWaferGuardRing_Q0D0
+Volume GeWaferGuardRing_GeD_0
+GeWaferGuardRing_GeD_0.Material active_ge_recoil
+GeWaferGuardRing_GeD_0.Visibility 1
+GeWaferGuardRing_GeD_0.Color 3
+GeWaferGuardRing_GeD_0.Shape GuardRing
+GeWaferGuardRing_GeD_0.Position  {-0.6555+Xshift} {0.0+Yshift} {Zshift}
+GeWaferGuardRing_GeD_0.Mother DetectorQ0D0
+
+
+GuardRingDetector_GeD_0.SensitiveVolume     GeWaferGuardRing_GeD_0
+GuardRingDetector_GeD_0.DetectorVolume      GeWaferGuardRing_GeD_0
 
 GuardRingDetector_GeD_0.TriggerThreshold      30
 GuardRingDetector_GeD_0.NoiseThresholdEqualsTriggerThreshold true

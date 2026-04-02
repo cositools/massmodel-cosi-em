@@ -53,23 +53,6 @@ GuardRing_AlmostThere_Q0D1.Parameters WholeWafer_Q0D1 ActiveWafer_Q0D1
 Shape Intersection GuardRing_Q0D1
 GuardRing_Q0D1.Parameters WaferOuterBox_Q0D1 GuardRing_AlmostThere_Q0D1
 
-Volume Q0D1_GeWafer
-Q0D1_GeWafer.Material active_ge_recoil
-Q0D1_GeWafer.Visibility 1
-Q0D1_GeWafer.Color 4
-Q0D1_GeWafer.Shape ActiveWafer_Q0D1
-#Come back and check this. Need to figure out where the 0,0 point is and what we are offsetting
-Q0D1_GeWafer.Mother DetectorQ0D1
-Q0D1_GeWafer.Position {-0.6555+Xshift} {0.0+Yshift} {Zshift}
-
-Volume GeWaferGuardRing_Q0D1
-GeWaferGuardRing_Q0D1.Material active_ge_recoil
-GeWaferGuardRing_Q0D1.Visibility 1
-GeWaferGuardRing_Q0D1.Color 3
-GeWaferGuardRing_Q0D1.Shape GuardRing
-GeWaferGuardRing_Q0D1.Position  {-0.6555+Xshift} {0.0+Yshift} {Zshift}
-GeWaferGuardRing_Q0D1.Mother DetectorQ0D1
-
 # Al dead layer on top
 Shape BRIK stripsAl1_Q0D1
 stripsAl1_Q0D1.Parameters 3.71 3.71 0.00025

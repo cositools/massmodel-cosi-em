@@ -4,7 +4,18 @@
 # Attention this is the detector information for the SIMULATIONS, not for revan
 # In ortder to ensure it is not usedf for the normal analysis, the trigger threshold is set x100 higher
 
+Include COSISMEX.Ge.Q0D1.geo
+
+# Simple detector here is a combined volume for GeD and GR
 Simple               GeD_1
+
+Volume Q0D1_GeWafer
+Q0D1_GeWafer.Material active_ge_recoil
+Q0D1_GeWafer.Visibility 1
+Q0D1_GeWafer.Color 4
+Q0D1_GeWafer.Shape WholeWafer_Q0D1
+Q0D1_GeWafer.Mother DetectorQ0D1
+Q0D1_GeWafer.Position {-0.6555+Xshift} {0.0+Yshift} {Zshift}
 
 GeD_1.SensitiveVolume      Q0D1_GeWafer
 GeD_1.DetectorVolume       Q0D1_GeWafer
@@ -26,27 +37,6 @@ GeD_1.TriggerThreshold     13.
 GeD_1.NoiseThresholdEqualsTriggerThreshold  True
 
 
-
-# Simple GuardRingDetector_Q0D1
-
-# GuardRingDetector_Q0D1.SensitiveVolume     GeWaferGuardRing_Q0D0
-# GuardRingDetector_Q0D1.DetectorVolume      GeWaferGuardRing_Q0D0
-
-# GuardRingDetector_Q0D1.TriggerThreshold      40
-# GuardRingDetector_Q0D1.NoiseThresholdEqualsTriggerThreshold true
-
-# GuardRingDetector_Q0D1.EnergyResolution Gaus 10      10        3
-# GuardRingDetector_Q0D1.EnergyResolution Gaus 20      20        3
-# GuardRingDetector_Q0D1.EnergyResolution Gaus 50      50        3
-# GuardRingDetector_Q0D1.EnergyResolution Gaus 100     100       3
-# GuardRingDetector_Q0D1.EnergyResolution Gaus 200     200       3
-# GuardRingDetector_Q0D1.EnergyResolution Gaus 500     500       3
-# GuardRingDetector_Q0D1.EnergyResolution Gaus 1000    1000      3
-# GuardRingDetector_Q0D1.EnergyResolution Gaus 2000    2000      3
-# GuardRingDetector_Q0D1.EnergyResolution Gaus 5000    5000      3
-
-
-
 #------------------------------------------------------------
 # Trigger information:
 
@@ -54,11 +44,6 @@ Trigger GeTrigger_Q0D1
 GeTrigger_Q0D1.Detector GeD_1 1
 GeTrigger_Q0D1.TriggerByChannel true
 GeTrigger_Q0D1.Veto false
-
-# Trigger GuardRingVeto_Q0D1
-# GuardRingVeto_Q0D1.Veto true
-# GuardRingVeto_Q0D1.TriggerByChannel true
-# GuardRingVeto_Q0D1.Detector GuardRingDetector_Q0D1 1
 
 
 
