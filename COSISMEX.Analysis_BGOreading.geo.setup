@@ -10,10 +10,10 @@ Include COSISMEX.mat
 Include COSISMEX.GlobalDimensions.geo
 
 Include COSISMEX.Ge.Inactive.geo
-Include COSISMEX.Ge.DetectorBuild.Q0L0.geo
-Include COSISMEX.Ge.DetectorBuild.Q0L1.geo
-Include COSISMEX.Ge.O64.Q0L0.det
-Include COSISMEX.Ge.O64.Q0L1.det
+Include COSISMEX.Ge.Q0L0.geo
+Include COSISMEX.Ge.Q0L1.geo
+Include COSISMEX.Ge.Analysis.Q0L0.det
+Include COSISMEX.Ge.Analysis.Q0L1.det
 Include COSISMEX.Cryostat.geo
 Include COSISMEX.ACS.geo
 Include COSISMEX.BGO_noVeto.det

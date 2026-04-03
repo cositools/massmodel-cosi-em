@@ -1,8 +1,19 @@
-//------------------------------------------------------------
-// Detector information:
+#------------------------------------------------------------
+# Detector information:
+Include COSISMEX.Ge.DetectorBuild.Q0L1.geo
 
 
 Strip3D               GeD_1
+
+
+Volume GeWafer_Q0_L1
+GeWafer_Q0_L1.Material active_ge_recoil
+GeWafer_Q0_L1.Visibility 1
+GeWafer_Q0_L1.Color 4
+GeWafer_Q0_L1.Shape ActiveWafer_Q0_L1
+GeWafer_Q0_L1.Mother Detector_Q0_L1
+GeWafer_Q0_L1.Position {-0.6555 + Xshift} {0.0 + Yshift} {Zshift}
+
 
 GeD_1.SensitiveVolume      GeWafer_Q0_L1
 GeD_1.DetectorVolume       GeWafer_Q0_L1
@@ -50,6 +61,16 @@ GeD_1.DriftConstant  0.007
 
 Simple GuardRingDetector_GeD_1
 
+
+Volume GeWaferGuardRing_Q0_L1
+GeWaferGuardRing_Q0_L1.Material active_ge_recoil
+GeWaferGuardRing_Q0_L1.Visibility 1
+GeWaferGuardRing_Q0_L1.Color 3
+GeWaferGuardRing_Q0_L1.Shape GuardRing_Q0_L1
+GeWaferGuardRing_Q0_L1.Position  {-0.6555 + Xshift} {0.0 + Yshift} {Zshift}
+GeWaferGuardRing_Q0_L1.Mother Detector_Q0_L1
+
+
 GuardRingDetector_GeD_1.SensitiveVolume     GeWaferGuardRing_Q0_L1
 GuardRingDetector_GeD_1.DetectorVolume      GeWaferGuardRing_Q0_L1
 
@@ -81,4 +102,6 @@ Trigger GuardRingVeto_GeD_1
 GuardRingVeto_GeD_1.Veto true
 GuardRingVeto_GeD_1.TriggerByChannel true
 GuardRingVeto_GeD_1.Detector GuardRingDetector_GeD_1 1
+
+
 
