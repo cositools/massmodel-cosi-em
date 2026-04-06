@@ -64,7 +64,7 @@ Volume GeWaferGuardRing_GeD_1
 GeWaferGuardRing_GeD_1.Material active_ge_recoil
 GeWaferGuardRing_GeD_1.Visibility 1
 GeWaferGuardRing_GeD_1.Color 3
-GeWaferGuardRing_GeD_1.Shape GuardRing
+GeWaferGuardRing_GeD_1.Shape GuardRing_Q0D1
 GeWaferGuardRing_GeD_1.Position  {-0.6555+Xshift} {0.0+Yshift} {Zshift}
 GeWaferGuardRing_GeD_1.Mother DetectorQ0D0
 
