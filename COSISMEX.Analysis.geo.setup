@@ -15,7 +15,7 @@ Include COSISMEX.Ge.Inactive.geo
 Include COSISMEX.Ge.Q0L0.geo
 Include COSISMEX.Ge.Q0L1.geo
 Include COSISMEX.Ge.Analysis.Q0L0.det
-Include COSISMEX.Ge.Q0L0.det
+Include COSISMEX.Ge.Analysis.Q0L0.det
 Include COSISMEX.Cryostat.geo
 Include COSISMEX.ACS.geo
 Include COSISMEX.BGO.det
