@@ -62,17 +62,17 @@ GeD_0.DriftConstant  0.007
 
 Simple GuardRingDetector_GeD_0
 
-Volume GeWaferGuardRing_GeD_0
-GeWaferGuardRing_GeD_0.Material active_ge_recoil
-GeWaferGuardRing_GeD_0.Visibility 1
-GeWaferGuardRing_GeD_0.Color 3
-GeWaferGuardRing_GeD_0.Shape GuardRing_Q0D0
-GeWaferGuardRing_GeD_0.Position  {-0.6555+Xshift} {0.0+Yshift} {Zshift}
-GeWaferGuardRing_GeD_0.Mother DetectorQ0D0
+Volume GeWaferGuardRing_Q0D0
+GeWaferGuardRing_Q0D0.Material active_ge_recoil
+GeWaferGuardRing_Q0D0.Visibility 1
+GeWaferGuardRing_Q0D0.Color 3
+GeWaferGuardRing_Q0D0.Shape GuardRing_Q0D0
+GeWaferGuardRing_Q0D0.Position  {-0.6555+Xshift} {0.0+Yshift} {Zshift}
+GeWaferGuardRing_Q0D0.Mother DetectorQ0D0
 
 
-GuardRingDetector_GeD_0.SensitiveVolume     GeWaferGuardRing_GeD_0
-GuardRingDetector_GeD_0.DetectorVolume      GeWaferGuardRing_GeD_0
+GuardRingDetector_GeD_0.SensitiveVolume     GeWaferGuardRing_Q0D0
+GuardRingDetector_GeD_0.DetectorVolume      GeWaferGuardRing_Q0D0
 
 GuardRingDetector_GeD_0.TriggerThreshold      30
 GuardRingDetector_GeD_0.NoiseThresholdEqualsTriggerThreshold true
