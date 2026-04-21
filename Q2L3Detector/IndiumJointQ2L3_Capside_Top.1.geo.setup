@@ -1,0 +1,297 @@
+Volume IndiumJointQ2L3_Capside_Top_0_2VFSP
+IndiumJointQ2L3_Capside_Top_0_2VFSP.Shape BRIK 0.010158 1.559452 0.005079
+IndiumJointQ2L3_Capside_Top_0_2VFSP.Material Indium
+IndiumJointQ2L3_Capside_Top_0_2VFSP.Position -1.721930 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_0_2VFSP.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_0_2VFSP.Visibility 1
+IndiumJointQ2L3_Capside_Top_0_2VFSP.Color 46
+IndiumJointQ2L3_Capside_Top_0_2VFSP.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_1_WQ3E1
+IndiumJointQ2L3_Capside_Top_1_WQ3E1.Shape BRIK 0.030477 1.549293 0.005079
+IndiumJointQ2L3_Capside_Top_1_WQ3E1.Material Indium
+IndiumJointQ2L3_Capside_Top_1_WQ3E1.Position -1.762568 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_1_WQ3E1.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_1_WQ3E1.Visibility 1
+IndiumJointQ2L3_Capside_Top_1_WQ3E1.Color 46
+IndiumJointQ2L3_Capside_Top_1_WQ3E1.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_2_REMRT
+IndiumJointQ2L3_Capside_Top_2_REMRT.Shape BRIK 0.030477 1.549293 0.005079
+IndiumJointQ2L3_Capside_Top_2_REMRT.Material Indium
+IndiumJointQ2L3_Capside_Top_2_REMRT.Position -1.681293 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_2_REMRT.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_2_REMRT.Visibility 1
+IndiumJointQ2L3_Capside_Top_2_REMRT.Color 46
+IndiumJointQ2L3_Capside_Top_2_REMRT.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_3_AWPIH
+IndiumJointQ2L3_Capside_Top_3_AWPIH.Shape BRIK 0.015238 1.539133 0.005079
+IndiumJointQ2L3_Capside_Top_3_AWPIH.Material Indium
+IndiumJointQ2L3_Capside_Top_3_AWPIH.Position -1.808285 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_3_AWPIH.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_3_AWPIH.Visibility 1
+IndiumJointQ2L3_Capside_Top_3_AWPIH.Color 46
+IndiumJointQ2L3_Capside_Top_3_AWPIH.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_4_6W1UZ
+IndiumJointQ2L3_Capside_Top_4_6W1UZ.Shape BRIK 0.015238 1.539133 0.005079
+IndiumJointQ2L3_Capside_Top_4_6W1UZ.Material Indium
+IndiumJointQ2L3_Capside_Top_4_6W1UZ.Position -1.635576 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_4_6W1UZ.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_4_6W1UZ.Visibility 1
+IndiumJointQ2L3_Capside_Top_4_6W1UZ.Color 46
+IndiumJointQ2L3_Capside_Top_4_6W1UZ.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_5_TEM2E
+IndiumJointQ2L3_Capside_Top_5_TEM2E.Shape BRIK 0.010158 1.528974 0.005079
+IndiumJointQ2L3_Capside_Top_5_TEM2E.Material Indium
+IndiumJointQ2L3_Capside_Top_5_TEM2E.Position -1.833683 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_5_TEM2E.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_5_TEM2E.Visibility 1
+IndiumJointQ2L3_Capside_Top_5_TEM2E.Color 46
+IndiumJointQ2L3_Capside_Top_5_TEM2E.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_6_RULAO
+IndiumJointQ2L3_Capside_Top_6_RULAO.Shape BRIK 0.010158 1.528974 0.005079
+IndiumJointQ2L3_Capside_Top_6_RULAO.Material Indium
+IndiumJointQ2L3_Capside_Top_6_RULAO.Position -1.610178 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_6_RULAO.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_6_RULAO.Visibility 1
+IndiumJointQ2L3_Capside_Top_6_RULAO.Color 46
+IndiumJointQ2L3_Capside_Top_6_RULAO.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_7_4KIQE
+IndiumJointQ2L3_Capside_Top_7_4KIQE.Shape BRIK 0.010158 1.518815 0.005079
+IndiumJointQ2L3_Capside_Top_7_4KIQE.Material Indium
+IndiumJointQ2L3_Capside_Top_7_4KIQE.Position -1.854001 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_7_4KIQE.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_7_4KIQE.Visibility 1
+IndiumJointQ2L3_Capside_Top_7_4KIQE.Color 46
+IndiumJointQ2L3_Capside_Top_7_4KIQE.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_8_530IM
+IndiumJointQ2L3_Capside_Top_8_530IM.Shape BRIK 0.010158 1.518815 0.005079
+IndiumJointQ2L3_Capside_Top_8_530IM.Material Indium
+IndiumJointQ2L3_Capside_Top_8_530IM.Position -1.589860 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_8_530IM.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_8_530IM.Visibility 1
+IndiumJointQ2L3_Capside_Top_8_530IM.Color 46
+IndiumJointQ2L3_Capside_Top_8_530IM.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_9_P5KR1
+IndiumJointQ2L3_Capside_Top_9_P5KR1.Shape BRIK 0.005079 1.508655 0.005079
+IndiumJointQ2L3_Capside_Top_9_P5KR1.Material Indium
+IndiumJointQ2L3_Capside_Top_9_P5KR1.Position -1.869240 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_9_P5KR1.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_9_P5KR1.Visibility 1
+IndiumJointQ2L3_Capside_Top_9_P5KR1.Color 46
+IndiumJointQ2L3_Capside_Top_9_P5KR1.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_10_SJ5MU
+IndiumJointQ2L3_Capside_Top_10_SJ5MU.Shape BRIK 0.005079 1.508655 0.005079
+IndiumJointQ2L3_Capside_Top_10_SJ5MU.Material Indium
+IndiumJointQ2L3_Capside_Top_10_SJ5MU.Position -1.574621 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_10_SJ5MU.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_10_SJ5MU.Visibility 1
+IndiumJointQ2L3_Capside_Top_10_SJ5MU.Color 46
+IndiumJointQ2L3_Capside_Top_10_SJ5MU.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_11_PI42I
+IndiumJointQ2L3_Capside_Top_11_PI42I.Shape BRIK 0.010158 1.498496 0.005079
+IndiumJointQ2L3_Capside_Top_11_PI42I.Material Indium
+IndiumJointQ2L3_Capside_Top_11_PI42I.Position -1.884479 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_11_PI42I.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_11_PI42I.Visibility 1
+IndiumJointQ2L3_Capside_Top_11_PI42I.Color 46
+IndiumJointQ2L3_Capside_Top_11_PI42I.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_12_NVHQQ
+IndiumJointQ2L3_Capside_Top_12_NVHQQ.Shape BRIK 0.010158 1.498496 0.005079
+IndiumJointQ2L3_Capside_Top_12_NVHQQ.Material Indium
+IndiumJointQ2L3_Capside_Top_12_NVHQQ.Position -1.559382 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_12_NVHQQ.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_12_NVHQQ.Visibility 1
+IndiumJointQ2L3_Capside_Top_12_NVHQQ.Color 46
+IndiumJointQ2L3_Capside_Top_12_NVHQQ.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_13_7S3ZN
+IndiumJointQ2L3_Capside_Top_13_7S3ZN.Shape BRIK 0.005079 1.488337 0.005079
+IndiumJointQ2L3_Capside_Top_13_7S3ZN.Material Indium
+IndiumJointQ2L3_Capside_Top_13_7S3ZN.Position -1.899718 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_13_7S3ZN.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_13_7S3ZN.Visibility 1
+IndiumJointQ2L3_Capside_Top_13_7S3ZN.Color 46
+IndiumJointQ2L3_Capside_Top_13_7S3ZN.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_14_QS2T3
+IndiumJointQ2L3_Capside_Top_14_QS2T3.Shape BRIK 0.005079 1.488337 0.005079
+IndiumJointQ2L3_Capside_Top_14_QS2T3.Material Indium
+IndiumJointQ2L3_Capside_Top_14_QS2T3.Position -1.544143 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_14_QS2T3.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_14_QS2T3.Visibility 1
+IndiumJointQ2L3_Capside_Top_14_QS2T3.Color 46
+IndiumJointQ2L3_Capside_Top_14_QS2T3.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_15_CX6QB
+IndiumJointQ2L3_Capside_Top_15_CX6QB.Shape BRIK 0.005079 1.478177 0.005079
+IndiumJointQ2L3_Capside_Top_15_CX6QB.Material Indium
+IndiumJointQ2L3_Capside_Top_15_CX6QB.Position -1.909878 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_15_CX6QB.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_15_CX6QB.Visibility 1
+IndiumJointQ2L3_Capside_Top_15_CX6QB.Color 46
+IndiumJointQ2L3_Capside_Top_15_CX6QB.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_16_STYVE
+IndiumJointQ2L3_Capside_Top_16_STYVE.Shape BRIK 0.005079 1.478177 0.005079
+IndiumJointQ2L3_Capside_Top_16_STYVE.Material Indium
+IndiumJointQ2L3_Capside_Top_16_STYVE.Position -1.533983 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_16_STYVE.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_16_STYVE.Visibility 1
+IndiumJointQ2L3_Capside_Top_16_STYVE.Color 46
+IndiumJointQ2L3_Capside_Top_16_STYVE.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_17_Z8VDE
+IndiumJointQ2L3_Capside_Top_17_Z8VDE.Shape BRIK 0.005079 1.468018 0.005079
+IndiumJointQ2L3_Capside_Top_17_Z8VDE.Material Indium
+IndiumJointQ2L3_Capside_Top_17_Z8VDE.Position -1.920037 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_17_Z8VDE.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_17_Z8VDE.Visibility 1
+IndiumJointQ2L3_Capside_Top_17_Z8VDE.Color 46
+IndiumJointQ2L3_Capside_Top_17_Z8VDE.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_18_FIS9Q
+IndiumJointQ2L3_Capside_Top_18_FIS9Q.Shape BRIK 0.005079 1.468018 0.005079
+IndiumJointQ2L3_Capside_Top_18_FIS9Q.Material Indium
+IndiumJointQ2L3_Capside_Top_18_FIS9Q.Position -1.523824 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_18_FIS9Q.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_18_FIS9Q.Visibility 1
+IndiumJointQ2L3_Capside_Top_18_FIS9Q.Color 46
+IndiumJointQ2L3_Capside_Top_18_FIS9Q.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_19_RPEHS
+IndiumJointQ2L3_Capside_Top_19_RPEHS.Shape BRIK 0.005079 1.457859 0.005079
+IndiumJointQ2L3_Capside_Top_19_RPEHS.Material Indium
+IndiumJointQ2L3_Capside_Top_19_RPEHS.Position -1.930196 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_19_RPEHS.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_19_RPEHS.Visibility 1
+IndiumJointQ2L3_Capside_Top_19_RPEHS.Color 46
+IndiumJointQ2L3_Capside_Top_19_RPEHS.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_20_CD9OX
+IndiumJointQ2L3_Capside_Top_20_CD9OX.Shape BRIK 0.005079 1.457859 0.005079
+IndiumJointQ2L3_Capside_Top_20_CD9OX.Material Indium
+IndiumJointQ2L3_Capside_Top_20_CD9OX.Position -1.513665 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_20_CD9OX.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_20_CD9OX.Visibility 1
+IndiumJointQ2L3_Capside_Top_20_CD9OX.Color 46
+IndiumJointQ2L3_Capside_Top_20_CD9OX.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_21_Y5DMB
+IndiumJointQ2L3_Capside_Top_21_Y5DMB.Shape BRIK 0.005079 1.447700 0.005079
+IndiumJointQ2L3_Capside_Top_21_Y5DMB.Material Indium
+IndiumJointQ2L3_Capside_Top_21_Y5DMB.Position -1.940355 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_21_Y5DMB.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_21_Y5DMB.Visibility 1
+IndiumJointQ2L3_Capside_Top_21_Y5DMB.Color 46
+IndiumJointQ2L3_Capside_Top_21_Y5DMB.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_22_1XM92
+IndiumJointQ2L3_Capside_Top_22_1XM92.Shape BRIK 0.005079 1.447700 0.005079
+IndiumJointQ2L3_Capside_Top_22_1XM92.Material Indium
+IndiumJointQ2L3_Capside_Top_22_1XM92.Position -1.503505 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_22_1XM92.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_22_1XM92.Visibility 1
+IndiumJointQ2L3_Capside_Top_22_1XM92.Color 46
+IndiumJointQ2L3_Capside_Top_22_1XM92.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_23_P6MLO
+IndiumJointQ2L3_Capside_Top_23_P6MLO.Shape BRIK 0.005079 1.427381 0.005079
+IndiumJointQ2L3_Capside_Top_23_P6MLO.Material Indium
+IndiumJointQ2L3_Capside_Top_23_P6MLO.Position -1.950515 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_23_P6MLO.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_23_P6MLO.Visibility 1
+IndiumJointQ2L3_Capside_Top_23_P6MLO.Color 46
+IndiumJointQ2L3_Capside_Top_23_P6MLO.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_24_I5RU5
+IndiumJointQ2L3_Capside_Top_24_I5RU5.Shape BRIK 0.005079 1.427381 0.005079
+IndiumJointQ2L3_Capside_Top_24_I5RU5.Material Indium
+IndiumJointQ2L3_Capside_Top_24_I5RU5.Position -1.493346 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_24_I5RU5.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_24_I5RU5.Visibility 1
+IndiumJointQ2L3_Capside_Top_24_I5RU5.Color 46
+IndiumJointQ2L3_Capside_Top_24_I5RU5.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_25_L8L72
+IndiumJointQ2L3_Capside_Top_25_L8L72.Shape BRIK 0.005079 1.417222 0.005079
+IndiumJointQ2L3_Capside_Top_25_L8L72.Material Indium
+IndiumJointQ2L3_Capside_Top_25_L8L72.Position -1.960674 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_25_L8L72.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_25_L8L72.Visibility 1
+IndiumJointQ2L3_Capside_Top_25_L8L72.Color 46
+IndiumJointQ2L3_Capside_Top_25_L8L72.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_26_47LR4
+IndiumJointQ2L3_Capside_Top_26_47LR4.Shape BRIK 0.005079 1.417222 0.005079
+IndiumJointQ2L3_Capside_Top_26_47LR4.Material Indium
+IndiumJointQ2L3_Capside_Top_26_47LR4.Position -1.483187 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_26_47LR4.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_26_47LR4.Visibility 1
+IndiumJointQ2L3_Capside_Top_26_47LR4.Color 46
+IndiumJointQ2L3_Capside_Top_26_47LR4.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_27_MWWLA
+IndiumJointQ2L3_Capside_Top_27_MWWLA.Shape BRIK 0.005079 1.386744 0.005079
+IndiumJointQ2L3_Capside_Top_27_MWWLA.Material Indium
+IndiumJointQ2L3_Capside_Top_27_MWWLA.Position -1.970833 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_27_MWWLA.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_27_MWWLA.Visibility 1
+IndiumJointQ2L3_Capside_Top_27_MWWLA.Color 46
+IndiumJointQ2L3_Capside_Top_27_MWWLA.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_28_VS7B1
+IndiumJointQ2L3_Capside_Top_28_VS7B1.Shape BRIK 0.005079 1.386744 0.005079
+IndiumJointQ2L3_Capside_Top_28_VS7B1.Material Indium
+IndiumJointQ2L3_Capside_Top_28_VS7B1.Position -1.473028 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_28_VS7B1.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_28_VS7B1.Visibility 1
+IndiumJointQ2L3_Capside_Top_28_VS7B1.Color 46
+IndiumJointQ2L3_Capside_Top_28_VS7B1.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_29_Q767B
+IndiumJointQ2L3_Capside_Top_29_Q767B.Shape BRIK 0.005079 1.366425 0.005079
+IndiumJointQ2L3_Capside_Top_29_Q767B.Material Indium
+IndiumJointQ2L3_Capside_Top_29_Q767B.Position -1.980993 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_29_Q767B.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_29_Q767B.Visibility 1
+IndiumJointQ2L3_Capside_Top_29_Q767B.Color 46
+IndiumJointQ2L3_Capside_Top_29_Q767B.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_30_BOG2O
+IndiumJointQ2L3_Capside_Top_30_BOG2O.Shape BRIK 0.005079 1.366425 0.005079
+IndiumJointQ2L3_Capside_Top_30_BOG2O.Material Indium
+IndiumJointQ2L3_Capside_Top_30_BOG2O.Position -1.462868 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_30_BOG2O.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_30_BOG2O.Visibility 1
+IndiumJointQ2L3_Capside_Top_30_BOG2O.Color 46
+IndiumJointQ2L3_Capside_Top_30_BOG2O.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_31_1GCTV
+IndiumJointQ2L3_Capside_Top_31_1GCTV.Shape BRIK 0.005079 1.315629 0.005079
+IndiumJointQ2L3_Capside_Top_31_1GCTV.Material Indium
+IndiumJointQ2L3_Capside_Top_31_1GCTV.Position -1.991152 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_31_1GCTV.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_31_1GCTV.Visibility 1
+IndiumJointQ2L3_Capside_Top_31_1GCTV.Color 46
+IndiumJointQ2L3_Capside_Top_31_1GCTV.Mother DetectorQ2L3Wrapper
+
+Volume IndiumJointQ2L3_Capside_Top_32_LA5X4
+IndiumJointQ2L3_Capside_Top_32_LA5X4.Shape BRIK 0.005079 1.315629 0.005079
+IndiumJointQ2L3_Capside_Top_32_LA5X4.Material Indium
+IndiumJointQ2L3_Capside_Top_32_LA5X4.Position -1.452709 -4.465320 23.155910
+IndiumJointQ2L3_Capside_Top_32_LA5X4.Rotation 0 0 0
+IndiumJointQ2L3_Capside_Top_32_LA5X4.Visibility 1
+IndiumJointQ2L3_Capside_Top_32_LA5X4.Color 46
+IndiumJointQ2L3_Capside_Top_32_LA5X4.Mother DetectorQ2L3Wrapper
+

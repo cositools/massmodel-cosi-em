@@ -1,0 +1,123 @@
+Include Q3L1Detector/UpdatedHolderQ3L1_withButtons.200.geo.setup
+
+#Indium gasket to cold finder
+
+Volume IndiumGasketQ3L1Wrapper
+IndiumGasketQ3L1Wrapper.Shape BRIK 1000 1000 1000
+IndiumGasketQ3L1Wrapper.Material Vacuum
+IndiumGasketQ3L1Wrapper.Visibility 0
+IndiumGasketQ3L1Wrapper.Position 0.005019 0 0
+IndiumGasketQ3L1Wrapper.Rotation 0 0 0
+IndiumGasketQ3L1Wrapper.Virtual True
+IndiumGasketQ3L1Wrapper.Mother DetectorQ3L1Wrapper
+
+Include Q3L1Detector/Indium_GasketQ3L1_DetectorHoldertoColdFinder.100.geo.setup
+
+#Joints and Isolators
+Include Q3L1Detector/IndiumJointQ3L1_Holderside_Top.1.geo.setup
+Include Q3L1Detector/IsolatorQ3L1_Holderside.10.geo.setup
+Include Q3L1Detector/IndiumJointQ3L1_Holderside_Bottom.1.geo.setup
+Include Q3L1Detector/IndiumJointQ3L1_Capside_Top.1.geo.setup
+Include Q3L1Detector/IsolatorQ3L1_Capside.10.geo.setup
+Include Q3L1Detector/IndiumJointQ3L1_Capside_Bottom.1.geo.setup
+
+#Holder Clamps
+
+Volume DetectorQ3L1HolderClampWrapper
+DetectorQ3L1HolderClampWrapper.Shape BRIK 1000 1000 1000
+DetectorQ3L1HolderClampWrapper.Material Vacuum
+DetectorQ3L1HolderClampWrapper.Visibility 0
+DetectorQ3L1HolderClampWrapper.Position 0 0 -0.002001
+DetectorQ3L1HolderClampWrapper.Rotation 0 0 0
+DetectorQ3L1HolderClampWrapper.Virtual True
+DetectorQ3L1HolderClampWrapper.Mother DetectorQ3L1Wrapper
+
+Include Q3L1Detector/Detector_Holder_ClampQ3L1_HVside.50.geo.setup
+Include Q3L1Detector/Detector_Holder_ClampQ3L1_LVside.50.geo.setup
+
+Volume DetectorQ3L1HolderClampPadWrapper
+DetectorQ3L1HolderClampPadWrapper.Shape BRIK 1000 1000 1000
+DetectorQ3L1HolderClampPadWrapper.Material Vacuum
+DetectorQ3L1HolderClampPadWrapper.Visibility 0
+DetectorQ3L1HolderClampPadWrapper.Position 0 0 0.003369
+DetectorQ3L1HolderClampPadWrapper.Rotation 0 0 0
+DetectorQ3L1HolderClampPadWrapper.Virtual True
+DetectorQ3L1HolderClampPadWrapper.Mother DetectorQ3L1HolderClampWrapper
+
+Include Q3L1Detector/Detector_Holder_Clamp_PadQ3L1_HVside.10.geo.setup
+Include Q3L1Detector/Detector_Holder_Clamp_PadQ3L1_LVside.10.geo.setup
+
+#Include LV (dc) interposer board
+
+Volume Q3L1LVInterposerDWrapper
+Q3L1LVInterposerDWrapper.Shape BRIK 1000 1000 1000
+Q3L1LVInterposerDWrapper.Material Vacuum
+Q3L1LVInterposerDWrapper.Visibility 0
+Q3L1LVInterposerDWrapper.Position 0 0 0
+Q3L1LVInterposerDWrapper.Rotation 0 0 0
+Q3L1LVInterposerDWrapper.Virtual True
+Q3L1LVInterposerDWrapper.Mother DetectorQ3L1Wrapper
+
+Include Q3L1Detector/InterposerQ3L1_dc_detector_pcb.20.geo.setup
+
+Volume Q3L1LVInterposerTWrapper
+Q3L1LVInterposerTWrapper.Shape BRIK 1000 1000 1000
+Q3L1LVInterposerTWrapper.Material Vacuum
+Q3L1LVInterposerTWrapper.Visibility 0
+Q3L1LVInterposerTWrapper.Position 0 {-0.018204-0.003228} 0
+Q3L1LVInterposerTWrapper.Rotation 0 0 0
+Q3L1LVInterposerTWrapper.Virtual True
+Q3L1LVInterposerTWrapper.Mother DetectorQ3L1Wrapper
+
+Include Q3L1Detector/InterposerQ3L1_dc_terminal_pcb.100.geo.setup
+
+Volume Q3L1LVInterposerTConnectorWrapper
+Q3L1LVInterposerTConnectorWrapper.Shape BRIK 1000 1000 1000
+Q3L1LVInterposerTConnectorWrapper.Material Vacuum
+Q3L1LVInterposerTConnectorWrapper.Visibility 0
+Q3L1LVInterposerTConnectorWrapper.Position 0 -0.007925 0
+Q3L1LVInterposerTConnectorWrapper.Rotation 0 0 0
+Q3L1LVInterposerTConnectorWrapper.Virtual True
+Q3L1LVInterposerTConnectorWrapper.Mother Q3L1LVInterposerTWrapper
+
+Include Q3L1Detector/InterposerQ3L1_dc_terminal_connector_holderside.20.geo.setup
+Include Q3L1Detector/InterposerQ3L1_dc_terminal_connector_capside.20.geo.setup
+
+#Include HV (ac) interposer board
+
+Volume Q3L1HVInterposerDWrapper
+Q3L1HVInterposerDWrapper.Shape BRIK 1000 1000 1000
+Q3L1HVInterposerDWrapper.Material Vacuum
+Q3L1HVInterposerDWrapper.Visibility 0
+Q3L1HVInterposerDWrapper.Position 0 0 0.00184
+Q3L1HVInterposerDWrapper.Rotation 0 0 0
+Q3L1HVInterposerDWrapper.Virtual True
+Q3L1HVInterposerDWrapper.Mother DetectorQ3L1Wrapper
+
+Include Q3L1Detector/InterposerQ3L1_ac_detector_pcb.20.geo.setup
+
+Volume Q3L1HVInterposerTWrapper
+Q3L1HVInterposerTWrapper.Shape BRIK 1000 1000 1000
+Q3L1HVInterposerTWrapper.Material Vacuum
+Q3L1HVInterposerTWrapper.Visibility 0
+Q3L1HVInterposerTWrapper.Position {-0.007285-0.000556} 0 0
+Q3L1HVInterposerTWrapper.Rotation 0 0 0
+Q3L1HVInterposerTWrapper.Virtual True
+Q3L1HVInterposerTWrapper.Mother DetectorQ3L1Wrapper
+
+Include Q3L1Detector/InterposerQ3L1_ac_terminal_pcb.100.geo.setup
+Include Q3L1Detector/InterposerQ3L1_ac_terminal_connector_nside.20.geo.setup
+Include Q3L1Detector/InterposerQ3L1_ac_terminal_connector_fside.20.geo.setup
+
+Volume Q3L1HVInterposerTCapacitorWrapper
+Q3L1HVInterposerTCapacitorWrapper.Shape BRIK 1000 1000 1000
+Q3L1HVInterposerTCapacitorWrapper.Material Vacuum
+Q3L1HVInterposerTCapacitorWrapper.Visibility 0
+Q3L1HVInterposerTCapacitorWrapper.Position 0.006119 0 0
+Q3L1HVInterposerTCapacitorWrapper.Rotation 0 0 0
+Q3L1HVInterposerTCapacitorWrapper.Virtual True
+Q3L1HVInterposerTCapacitorWrapper.Mother Q3L1HVInterposerTWrapper
+
+Include Q3L1Detector/InterposerQ3L1_ac_capacitors.100.geo.setup
+
+
