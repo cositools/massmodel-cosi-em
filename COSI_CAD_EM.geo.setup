@@ -26,209 +26,426 @@ WorldVolume.Mother 0
 #ACS Shields
 #Include EM_ACSWalls.geo
 
+# ---------------------------
+# ---------------------------
 
-#Detector stack - Mother volume will change
+#DetectorStackHolder
+
+Volume DetectorStackHolderWrapper
+DetectorStackHolderWrapper.Shape BRIK 1000 1000 1000
+DetectorStackHolderWrapper.Material Vacuum
+DetectorStackHolderWrapper.Visibility 0
+DetectorStackHolderWrapper.Position 0 0 0
+DetectorStackHolderWrapper.Rotation 0 0 0
+DetectorStackHolderWrapper.Virtual True
+DetectorStackHolderWrapper.Mother WorldVolume
+
+Include U_frame.200.geo.setup
+
+Volume DetectorSideStructureQ2Q3Wrapper
+DetectorSideStructureQ2Q3Wrapper.Shape BRIK 1000 1000 1000
+DetectorSideStructureQ2Q3Wrapper.Material Vacuum
+DetectorSideStructureQ2Q3Wrapper.Visibility 0
+DetectorSideStructureQ2Q3Wrapper.Position 0.060148 0 0
+DetectorSideStructureQ2Q3Wrapper.Rotation 0 0 0
+DetectorSideStructureQ2Q3Wrapper.Virtual True
+DetectorSideStructureQ2Q3Wrapper.Mother DetectorStackHolderWrapper
+
+Include DetectorSideStructureQ2Q3.100.geo.setup
+
+Volume DetectorSideSkirtQ2Q3Wrapper
+DetectorSideSkirtQ2Q3Wrapper.Shape BRIK 1000 1000 1000
+DetectorSideSkirtQ2Q3Wrapper.Material Vacuum
+DetectorSideSkirtQ2Q3Wrapper.Visibility 0
+DetectorSideSkirtQ2Q3Wrapper.Position {0.060148+0.001639} 0 0
+DetectorSideSkirtQ2Q3Wrapper.Rotation 0 0 0
+DetectorSideSkirtQ2Q3Wrapper.Virtual True
+DetectorSideSkirtQ2Q3Wrapper.Mother DetectorStackHolderWrapper
+
+Include DetectorSideSkirtQ2Q3.100.geo.setup
+
+Volume DetectorSideSkirtQ1Q2Wrapper
+DetectorSideSkirtQ1Q2Wrapper.Shape BRIK 1000 1000 1000
+DetectorSideSkirtQ1Q2Wrapper.Material Vacuum
+DetectorSideSkirtQ1Q2Wrapper.Visibility 0
+DetectorSideSkirtQ1Q2Wrapper.Position 0.0319485 {-0.012908-0.006168} 0
+DetectorSideSkirtQ1Q2Wrapper.Rotation 0 0 0
+DetectorSideSkirtQ1Q2Wrapper.Virtual True
+DetectorSideSkirtQ1Q2Wrapper.Mother DetectorStackHolderWrapper
+
+Include DetectorSideSkirtQ1Q2.120.geo.setup
+
+Volume DetectorSideStructureQ0Q1Wrapper
+DetectorSideStructureQ0Q1Wrapper.Shape BRIK 1000 1000 1000
+DetectorSideStructureQ0Q1Wrapper.Material Vacuum
+DetectorSideStructureQ0Q1Wrapper.Visibility 0
+DetectorSideStructureQ0Q1Wrapper.Position -0.018987 0 0
+DetectorSideStructureQ0Q1Wrapper.Rotation 0 0 0
+DetectorSideStructureQ0Q1Wrapper.Virtual True
+DetectorSideStructureQ0Q1Wrapper.Mother DetectorStackHolderWrapper
+
+Include DetectorSideStructureQ0Q1.100.geo.setup
+
+Volume DetectorSideSkirtQ0Q3Wrapper
+DetectorSideSkirtQ0Q3Wrapper.Shape BRIK 1000 1000 1000
+DetectorSideSkirtQ0Q3Wrapper.Material Vacuum
+DetectorSideSkirtQ0Q3Wrapper.Visibility 0
+DetectorSideSkirtQ0Q3Wrapper.Position 0 0.032333 0
+DetectorSideSkirtQ0Q3Wrapper.Rotation 0 0 0
+DetectorSideSkirtQ0Q3Wrapper.Virtual True
+DetectorSideSkirtQ0Q3Wrapper.Mother DetectorStackHolderWrapper
+
+Include DetectorSideSkirtQ0Q3.120.geo.setup
+
+Volume DetectorSideSkirtQ0Q1Wrapper
+DetectorSideSkirtQ0Q1Wrapper.Shape BRIK 1000 1000 1000
+DetectorSideSkirtQ0Q1Wrapper.Material Vacuum
+DetectorSideSkirtQ0Q1Wrapper.Visibility 0
+DetectorSideSkirtQ0Q1Wrapper.Position -0.020626 0 0
+DetectorSideSkirtQ0Q1Wrapper.Rotation 0 0 0
+DetectorSideSkirtQ0Q1Wrapper.Virtual True
+DetectorSideSkirtQ0Q1Wrapper.Mother DetectorStackHolderWrapper
+
+Include DetectorSideSkirtQ0Q1.100.geo.setup
+
+
+# ---------------------------
+# ---------------------------
+# ---------------------------
+# ---------------------------
+
+#Detector stack
 
 Volume DetectorStackWrapper
 DetectorStackWrapper.Shape BRIK 1000 1000 1000
 DetectorStackWrapper.Material Vacuum
 DetectorStackWrapper.Visibility 0
-DetectorStackWrapper.Position 0 0 0
+#DetectorStackWrapper.Position 0 0 0.064
+DetectorStackWrapper.Position 0 0 {0.064-0.001128}
 DetectorStackWrapper.Rotation 0 0 0
 DetectorStackWrapper.Virtual True
-DetectorStackWrapper.Mother WorldVolume
+DetectorStackWrapper.Mother DetectorStackHolderWrapper
+
+#For a single detector
+
+#X-position is CAD holder position {-7.639} + constants + shift
+#Y-position is CAD holder position {-0.752} + constants + shift
+#Z-position is CAD holder position {23.298} + shift
+
+#Singledetector X position: -7.639 + IngotRadius - DetectorHalfWidth + GuardRingSize + 0.73455295178
+#Singledetector Y position: -0.752-DetectorHalfWidth+GuardRingSize+0.0119285
+#Singledetector Z position: 23.298+0.052831
+
+Constant SingledetectorX {-7.639+2.08955295178}
+Constant SingledetectorY {-0.752-3.7130715}
+Constant SingledetectorZ  {23.298+0.052831}
+
 
 # --------------------------
 
-# Q0L0 Detector Holder
+Constant Q0_xshift -0.018219
+
+# Q0L0 Detector
 
 Volume DetectorQ0L0Wrapper
 DetectorQ0L0Wrapper.Shape BRIK 1000 1000 1000
 DetectorQ0L0Wrapper.Material Vacuum
 DetectorQ0L0Wrapper.Visibility 0
-DetectorQ0L0Wrapper.Position 0 0 46.596
+DetectorQ0L0Wrapper.Position Q0_xshift 0 46.596
 DetectorQ0L0Wrapper.Rotation 0 180 180
 DetectorQ0L0Wrapper.Virtual True
 DetectorQ0L0Wrapper.Mother DetectorStackWrapper
 
-Include HolderGeDQ0L0.geo
-
-# Q0L0 Detector
-
-Include GeDQ0L0.Inactive.geo
-Q0L0SingleDetector.Position {-7.639+2.08955295178} {-0.752-3.7130715} {23.298+0.052831}
+#Include HolderGeDQ0L0.geo
+#Include GeDQ0L0.Inactive.geo
+Q0L0SingleDetector.Position SingledetectorX SingledetectorY SingledetectorZ
 Q0L0SingleDetector.Mother DetectorQ0L0Wrapper
 
 # --------------------------
 
-# Q0L1 Detector Holder
+# Q0L1 Detector
 
 Volume DetectorQ0L1Wrapper
 DetectorQ0L1Wrapper.Shape BRIK 1000 1000 1000
 DetectorQ0L1Wrapper.Material Vacuum
 DetectorQ0L1Wrapper.Visibility 0
-DetectorQ0L1Wrapper.Position 0 0 {46.596-5.080+2.546618}
+DetectorQ0L1Wrapper.Position Q0_xshift 0 {46.596-5.080+2.546618}
 DetectorQ0L1Wrapper.Rotation 0 180 180
 DetectorQ0L1Wrapper.Virtual True
 DetectorQ0L1Wrapper.Mother DetectorStackWrapper
 
-Include HolderGeDQ0L1.geo
-
-# Q0L1 Detector
-
-Include GeDQ0L1.Inactive.geo
-Q0L1SingleDetector.Position {-7.639+2.08955295178} {-0.752-3.7130715} {23.298+0.052831}
+#Include HolderGeDQ0L1.geo
+#Include GeDQ0L1.Inactive.geo
+Q0L1SingleDetector.Position SingledetectorX SingledetectorY SingledetectorZ
 Q0L1SingleDetector.Mother DetectorQ0L1Wrapper
 
 
 # --------------------------
 
-# Q0L2 Detector Holder
+# Q0L2 Detector
 
 Volume DetectorQ0L2Wrapper
 DetectorQ0L2Wrapper.Shape BRIK 1000 1000 1000
 DetectorQ0L2Wrapper.Material Vacuum
 DetectorQ0L2Wrapper.Visibility 0
-DetectorQ0L2Wrapper.Position 0 0 {46.596-10.16+5.093237}
+DetectorQ0L2Wrapper.Position Q0_xshift 0 {46.596-10.16+5.093237}
 DetectorQ0L2Wrapper.Rotation 0 180 180
 DetectorQ0L2Wrapper.Virtual True
 DetectorQ0L2Wrapper.Mother DetectorStackWrapper
 
-Include HolderGeDQ0L2.geo
-
-# Q0L2 Detector
-
-Include GeDQ0L2.Inactive.geo
-Q0L2SingleDetector.Position {-7.639+2.08955295178} {-0.752-3.7130715} {23.298+0.052831}
+#Include HolderGeDQ0L2.geo
+#Include GeDQ0L2.Inactive.geo
+Q0L2SingleDetector.Position SingledetectorX SingledetectorY SingledetectorZ
 Q0L2SingleDetector.Mother DetectorQ0L2Wrapper
 
 
 # --------------------------
 
-# Q0L3 Detector Holder
+# Q0L3 Detector
 
 Volume DetectorQ0L3Wrapper
 DetectorQ0L3Wrapper.Shape BRIK 1000 1000 1000
 DetectorQ0L3Wrapper.Material Vacuum
 DetectorQ0L3Wrapper.Visibility 0
-DetectorQ0L3Wrapper.Position 0 0 {46.596-15.24+7.639856}
+DetectorQ0L3Wrapper.Position Q0_xshift 0 {46.596-15.24+7.639855}
 DetectorQ0L3Wrapper.Rotation 0 180 180
 DetectorQ0L3Wrapper.Virtual True
 DetectorQ0L3Wrapper.Mother DetectorStackWrapper
 
 Include HolderGeDQ0L3.geo
-
-# Q0L3 Detector
-
 Include GeDQ0L3.Inactive.geo
-Q0L3SingleDetector.Position {-7.639+2.08955295178} {-0.752-3.7130715} {23.298+0.052831}
+Q0L3SingleDetector.Position SingledetectorX SingledetectorY SingledetectorZ
 Q0L3SingleDetector.Mother DetectorQ0L3Wrapper
 
 # ---------------------------
+# --------------------------
 
-# Q1L0 Detector Holder
+Constant Q1_xshift -0.018219
+
+# Q1L0 Detector
 
 Volume DetectorQ1L0Wrapper
 DetectorQ1L0Wrapper.Shape BRIK 1000 1000 1000
 DetectorQ1L0Wrapper.Material Vacuum
 DetectorQ1L0Wrapper.Visibility 0
-DetectorQ1L0Wrapper.Position 0 0 0
+DetectorQ1L0Wrapper.Position Q1_xshift 0 0
 DetectorQ1L0Wrapper.Rotation 0 0 0
 DetectorQ1L0Wrapper.Virtual True
 DetectorQ1L0Wrapper.Mother DetectorStackWrapper
 
-Include HolderGeDQ1L0.geo
-
-
-# Q1L0 Detector
-
-#X-position is CAD holder position {-7.639} + constants + shift
-#Y-position is CAD holder position {-0.752} + constants + shift
-#Z-position is CAD holder position {23.298} + shift
-Include GeDQ1L0.Inactive.geo
-#SingleDetector.Position {-7.639 + IngotRadius - DetectorHalfWidth + GuardRingSize + 0.73455295178} {-0.752-DetectorHalfWidth+GuardRingSize+0.0119285} {23.298+0.052831}
-Q1L0SingleDetector.Position {-7.639+2.08955295178} {-0.752-3.7130715} {23.298+0.052831}
+#Include HolderGeDQ1L0.geo
+#Include GeDQ1L0.Inactive.geo
+Q1L0SingleDetector.Position SingledetectorX SingledetectorY SingledetectorZ
 Q1L0SingleDetector.Mother DetectorQ1L0Wrapper
 
 # ---------------------------
 
-# Q1L1 Detector Holder
+# Q1L1 Detector
 
 Volume DetectorQ1L1Wrapper
 DetectorQ1L1Wrapper.Shape BRIK 1000 1000 1000
 DetectorQ1L1Wrapper.Material Vacuum
 DetectorQ1L1Wrapper.Visibility 0
-DetectorQ1L1Wrapper.Position 0 0 {-5.080+2.546618}
+DetectorQ1L1Wrapper.Position Q1_xshift 0 {-5.080+2.546618}
 DetectorQ1L1Wrapper.Rotation 0 0 0
 DetectorQ1L1Wrapper.Virtual True
 DetectorQ1L1Wrapper.Mother DetectorStackWrapper
 
-Include HolderGeDQ1L1.geo
-
-# Q1L1 Detector
-
-Include GeDQ1L1.Inactive.geo
-Q1L1SingleDetector.Position {-7.639+2.08955295178} {-0.752-3.7130715} {23.298+0.052831}
+#Include HolderGeDQ1L1.geo
+#Include GeDQ1L1.Inactive.geo
+Q1L1SingleDetector.Position SingledetectorX SingledetectorY SingledetectorZ
 Q1L1SingleDetector.Mother DetectorQ1L1Wrapper
 
 # --------------------------
 
-# Q1L2 Detector Holder
+# Q1L2 Detector
 
 Volume DetectorQ1L2Wrapper
 DetectorQ1L2Wrapper.Shape BRIK 1000 1000 1000
 DetectorQ1L2Wrapper.Material Vacuum
 DetectorQ1L2Wrapper.Visibility 0
 # 2.546618*2=5.093236 good plus a little one right now
-DetectorQ1L2Wrapper.Position 0 0 {-10.16+5.093237}
+DetectorQ1L2Wrapper.Position Q1_xshift 0 {-10.16+5.093237}
 DetectorQ1L2Wrapper.Rotation 0 0 0
 DetectorQ1L2Wrapper.Virtual True
 DetectorQ1L2Wrapper.Mother DetectorStackWrapper
 
-Include HolderGeDQ1L2.geo
-
-# Q1L2 Detector
-
-Include GeDQ1L2.Inactive.geo
-Q1L2SingleDetector.Position {-7.639+2.08955295178} {-0.752-3.7130715} {23.298+0.052831}
+#Include HolderGeDQ1L2.geo
+#Include GeDQ1L2.Inactive.geo
+Q1L2SingleDetector.Position SingledetectorX SingledetectorY SingledetectorZ
 Q1L2SingleDetector.Mother DetectorQ1L2Wrapper
 
 # ---------------------------
 
-# Q1L3 Detector Holder
+# Q1L3 Detector
 
 Volume DetectorQ1L3Wrapper
 DetectorQ1L3Wrapper.Shape BRIK 1000 1000 1000
 DetectorQ1L3Wrapper.Material Vacuum
 DetectorQ1L3Wrapper.Visibility 0
 # 2.546618*3=7.639854
-DetectorQ1L3Wrapper.Position 0 0 {-15.24+7.639856}
+DetectorQ1L3Wrapper.Position Q1_xshift 0 {-15.24+7.639856}
 DetectorQ1L3Wrapper.Rotation 0 0 0
 DetectorQ1L3Wrapper.Virtual True
 DetectorQ1L3Wrapper.Mother DetectorStackWrapper
 
 Include HolderGeDQ1L3.geo
-
-# Q1L3 Detector
-
 Include GeDQ1L3.Inactive.geo
-Q1L3SingleDetector.Position {-7.639+2.08955295178} {-0.752-3.7130715} {23.298+0.052831}
+Q1L3SingleDetector.Position SingledetectorX SingledetectorY SingledetectorZ
 Q1L3SingleDetector.Mother DetectorQ1L3Wrapper
 
-
 # ---------------------------
 # ---------------------------
 
-#DetectorStackHolder
-Volume DetectorStackHolderWrapper
-DetectorStackHolderWrapper.Shape BRIK 1000 1000 1000
-DetectorStackHolderWrapper.Material Vacuum
-DetectorStackHolderWrapper.Visibility 0
-DetectorStackHolderWrapper.Position 0.022707 0 -7.00002036
-DetectorStackHolderWrapper.Rotation 0 0 0
-DetectorStackHolderWrapper.Virtual True
-DetectorStackHolderWrapper.Mother DetectorStackWrapper
+Constant Q2_xshift 0.083942
 
-#Include DetectorStackHolder.300.geo.setup
+# Q2L0 Detector
+
+Volume DetectorQ2L0Wrapper
+DetectorQ2L0Wrapper.Shape BRIK 1000 1000 1000
+DetectorQ2L0Wrapper.Material Vacuum
+DetectorQ2L0Wrapper.Visibility 0
+DetectorQ2L0Wrapper.Position Q2_xshift 0 46.596
+DetectorQ2L0Wrapper.Rotation 180 0 180
+DetectorQ2L0Wrapper.Virtual True
+DetectorQ2L0Wrapper.Mother DetectorStackWrapper
+
+#Include HolderGeDQ2L0.geo
+#Include GeDQ2L0.Inactive.geo
+Q2L0SingleDetector.Position SingledetectorX SingledetectorY SingledetectorZ
+Q2L0SingleDetector.Mother DetectorQ2L0Wrapper
+
+# --------------------------
+
+# Q2L1 Detector
+
+Volume DetectorQ2L1Wrapper
+DetectorQ2L1Wrapper.Shape BRIK 1000 1000 1000
+DetectorQ2L1Wrapper.Material Vacuum
+DetectorQ2L1Wrapper.Visibility 0
+DetectorQ2L1Wrapper.Position Q2_xshift 0 {46.596-5.080+2.546618}
+DetectorQ2L1Wrapper.Rotation 180 0 180
+DetectorQ2L1Wrapper.Virtual True
+DetectorQ2L1Wrapper.Mother DetectorStackWrapper
+
+#Include HolderGeDQ2L1.geo
+#Include GeDQ2L1.Inactive.geo
+Q2L1SingleDetector.Position SingledetectorX SingledetectorY SingledetectorZ
+Q2L1SingleDetector.Mother DetectorQ2L1Wrapper
+
+# --------------------------
+
+# Q2L2 Detector
+
+Volume DetectorQ2L2Wrapper
+DetectorQ2L2Wrapper.Shape BRIK 1000 1000 1000
+DetectorQ2L2Wrapper.Material Vacuum
+DetectorQ2L2Wrapper.Visibility 0
+DetectorQ2L2Wrapper.Position Q2_xshift 0 {46.596-10.16+5.093237}
+DetectorQ2L2Wrapper.Rotation 180 0 180
+DetectorQ2L2Wrapper.Virtual True
+DetectorQ2L2Wrapper.Mother DetectorStackWrapper
+
+#Include HolderGeDQ2L2.geo
+#Include GeDQ2L2.Inactive.geo
+Q2L2SingleDetector.Position SingledetectorX SingledetectorY SingledetectorZ
+Q2L2SingleDetector.Mother DetectorQ2L2Wrapper
+
+
+# --------------------------
+
+# Q2L3 Detector
+
+Volume DetectorQ2L3Wrapper
+DetectorQ2L3Wrapper.Shape BRIK 1000 1000 1000
+DetectorQ2L3Wrapper.Material Vacuum
+DetectorQ2L3Wrapper.Visibility 0
+DetectorQ2L3Wrapper.Position Q2_xshift 0 {46.596-15.24+7.639855}
+DetectorQ2L3Wrapper.Rotation 180 0 180
+DetectorQ2L3Wrapper.Virtual True
+DetectorQ2L3Wrapper.Mother DetectorStackWrapper
+
+Include HolderGeDQ2L3.geo
+Include GeDQ2L3.Inactive.geo
+Q2L3SingleDetector.Position SingledetectorX SingledetectorY SingledetectorZ
+Q2L3SingleDetector.Mother DetectorQ2L3Wrapper
+
+# --------------------------
+# --------------------------
+
+Constant Q3_xshift 0.083942
+
+
+# Q3L0 Detector
+
+Volume DetectorQ3L0Wrapper
+DetectorQ3L0Wrapper.Shape BRIK 1000 1000 1000
+DetectorQ3L0Wrapper.Material Vacuum
+DetectorQ3L0Wrapper.Visibility 0
+DetectorQ3L0Wrapper.Position Q3_xshift 0 0
+DetectorQ3L0Wrapper.Rotation 0 0 180
+DetectorQ3L0Wrapper.Virtual True
+DetectorQ3L0Wrapper.Mother DetectorStackWrapper
+
+#Include HolderGeDQ3L0.geo
+#Include GeDQ3L0.Inactive.geo
+Q3L0SingleDetector.Position SingledetectorX SingledetectorY SingledetectorZ
+Q3L0SingleDetector.Mother DetectorQ3L0Wrapper
+
+# --------------------------
+
+# Q3L1 Detector
+
+Volume DetectorQ3L1Wrapper
+DetectorQ3L1Wrapper.Shape BRIK 1000 1000 1000
+DetectorQ3L1Wrapper.Material Vacuum
+DetectorQ3L1Wrapper.Visibility 0
+DetectorQ3L1Wrapper.Position Q3_xshift 0 {-5.080+2.546618}
+DetectorQ3L1Wrapper.Rotation 0 0 180
+DetectorQ3L1Wrapper.Virtual True
+DetectorQ3L1Wrapper.Mother DetectorStackWrapper
+
+#Include HolderGeDQ3L1.geo
+#Include GeDQ3L1.Inactive.geo
+Q3L1SingleDetector.Position SingledetectorX SingledetectorY SingledetectorZ
+Q3L1SingleDetector.Mother DetectorQ3L1Wrapper
+
+# --------------------------
+
+# Q3L2 Detector
+
+Volume DetectorQ3L2Wrapper
+DetectorQ3L2Wrapper.Shape BRIK 1000 1000 1000
+DetectorQ3L2Wrapper.Material Vacuum
+DetectorQ3L2Wrapper.Visibility 0
+DetectorQ3L2Wrapper.Position Q3_xshift 0 {-10.16+5.093237}
+DetectorQ3L2Wrapper.Rotation 0 0 180
+DetectorQ3L2Wrapper.Virtual True
+DetectorQ3L2Wrapper.Mother DetectorStackWrapper
+
+#Include HolderGeDQ3L2.geo
+#Include GeDQ3L2.Inactive.geo
+Q3L2SingleDetector.Position SingledetectorX SingledetectorY SingledetectorZ
+Q3L2SingleDetector.Mother DetectorQ3L2Wrapper
+
+
+# --------------------------
+
+# Q3L3 Detector
+
+Volume DetectorQ3L3Wrapper
+DetectorQ3L3Wrapper.Shape BRIK 1000 1000 1000
+DetectorQ3L3Wrapper.Material Vacuum
+DetectorQ3L3Wrapper.Visibility 0
+DetectorQ3L3Wrapper.Position Q3_xshift 0 {-15.24+7.639856}
+DetectorQ3L3Wrapper.Rotation 0 0 180
+DetectorQ3L3Wrapper.Virtual True
+DetectorQ3L3Wrapper.Mother DetectorStackWrapper
+
+Include HolderGeDQ3L3.geo
+Include GeDQ3L3.Inactive.geo
+Q3L3SingleDetector.Position SingledetectorX SingledetectorY SingledetectorZ
+Q3L3SingleDetector.Mother DetectorQ3L3Wrapper
+
 
 
