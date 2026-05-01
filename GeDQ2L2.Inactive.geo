@@ -38,7 +38,7 @@ Q2L2GuardRing.Parameters Q2L2WaferOuterBox Q2L2GuardRing_AlmostThere
 # Detector and Guard Ring
 
 Volume Q2L2_GeWafer
-Q2L2_GeWafer.Material active_ge_recoil
+Q2L2_GeWafer.Material Aluminium
 Q2L2_GeWafer.Visibility 1
 Q2L2_GeWafer.Color 4
 Q2L2_GeWafer.Shape Q2L2ActiveWafer
@@ -46,7 +46,7 @@ Q2L2_GeWafer.Mother Q2L2SingleDetector
 Q2L2_GeWafer.Position {-0.6555} {0.0} {0.0}
 
 Volume Q2L2GeWaferGuardRing
-Q2L2GeWaferGuardRing.Material active_ge_recoil
+Q2L2GeWaferGuardRing.Material Aluminium
 Q2L2GeWaferGuardRing.Visibility 1
 Q2L2GeWaferGuardRing.Color 3
 Q2L2GeWaferGuardRing.Shape Q2L2GuardRing

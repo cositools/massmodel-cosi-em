@@ -38,7 +38,7 @@ Q3L0GuardRing.Parameters Q3L0WaferOuterBox Q3L0GuardRing_AlmostThere
 # Detector and Guard Ring
 
 Volume Q3L0_GeWafer
-Q3L0_GeWafer.Material active_ge_recoil
+Q3L0_GeWafer.Material Aluminium
 Q3L0_GeWafer.Visibility 1
 Q3L0_GeWafer.Color 4
 Q3L0_GeWafer.Shape Q3L0ActiveWafer
@@ -46,7 +46,7 @@ Q3L0_GeWafer.Mother Q3L0SingleDetector
 Q3L0_GeWafer.Position {-0.6555} {0.0} {0.0}
 
 Volume Q3L0GeWaferGuardRing
-Q3L0GeWaferGuardRing.Material active_ge_recoil
+Q3L0GeWaferGuardRing.Material Aluminium
 Q3L0GeWaferGuardRing.Visibility 1
 Q3L0GeWaferGuardRing.Color 3
 Q3L0GeWaferGuardRing.Shape Q3L0GuardRing
@@ -91,7 +91,7 @@ Q3L0stripsAlbot.Position {-0.6555} {0.0} {-0.80025-DetectorHalfHeight+0.75}
 # Handles
 
 Volume Q3L0GeDead1
-Q3L0GeDead1.Material Germanium
+Q3L0GeDead1.Material Aluminium
 Q3L0GeDead1.Visibility 1
 Q3L0GeDead1.Color 6
 Q3L0GeDead1.Shape TRD1 1.569 3.05 0.102 0.4155
@@ -108,7 +108,7 @@ Q3L0GeDead1_02.Position  {-5.096}  {0.0}  {-0.698-DetectorHalfHeight+0.75}
 Q3L0GeDead1_02.Rotation 90.0  0.0  90.0
 
 Volume Q3L0GeDead2
-Q3L0GeDead2.Material Germanium
+Q3L0GeDead2.Material Aluminium
 Q3L0GeDead2.Visibility 1
 Q3L0GeDead2.Color 6
 Q3L0GeDead2.Shape TRD1 1.569 2.766 0.198 0.2875

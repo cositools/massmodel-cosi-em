@@ -1,5 +1,7 @@
 # A single germanium detector volume for the COSI EM Cryostat
 
+Constant DetectorQ0L0HalfHeight 0.75
+
 Volume Q0L0SingleDetector
 Q0L0SingleDetector.Material Vacuum
 Q0L0SingleDetector.Shape BRIK  1000 1000 1000
@@ -9,20 +11,20 @@ Q0L0SingleDetector.Virtual true
 # Redoing this to follow EXACTLY what is done in special Max
 # Create the whole wafer
 Shape BRIK Q0L0WaferOuterBox
-Q0L0WaferOuterBox.Parameters DetectorHalfWidth  DetectorHalfWidth  DetectorHalfHeight
+Q0L0WaferOuterBox.Parameters DetectorHalfWidth  DetectorHalfWidth  DetectorQ0L0HalfHeight
 
 Shape TUBE Q0L0WaferCutDisk
-Q0L0WaferCutDisk.Parameters 0.0 IngotRadius DetectorHalfHeight
+Q0L0WaferCutDisk.Parameters 0.0 IngotRadius DetectorQ0L0HalfHeight
 
 Shape Intersection Q0L0WholeWafer
 Q0L0WholeWafer.Parameters Q0L0WaferOuterBox Q0L0WaferCutDisk
 
 # Create the active wafer
 Shape BRIK Q0L0ActiveWaferOuterBox
-Q0L0ActiveWaferOuterBox.Parameters { DetectorHalfWidth - GuardRingSize }  { DetectorHalfWidth - GuardRingSize }  DetectorHalfHeight
+Q0L0ActiveWaferOuterBox.Parameters { DetectorHalfWidth - GuardRingSize }  { DetectorHalfWidth - GuardRingSize }  DetectorQ0L0HalfHeight
 
 Shape TUBE Q0L0ActiveWaferCutDisk
-Q0L0ActiveWaferCutDisk.Parameters 0.0 { IngotRadius - GuardRingSize } DetectorHalfHeight
+Q0L0ActiveWaferCutDisk.Parameters 0.0 { IngotRadius - GuardRingSize } DetectorQ0L0HalfHeight
 
 Shape Intersection Q0L0ActiveWafer
 Q0L0ActiveWafer.Parameters Q0L0ActiveWaferOuterBox Q0L0ActiveWaferCutDisk
@@ -68,7 +70,7 @@ Q0L0stripsAl.Visibility 1
 Q0L0stripsAl.Color 7
 Q0L0stripsAl.Shape Q0L0AlDead1
 Q0L0stripsAl.Mother Q0L0SingleDetector
-Q0L0stripsAl.Position {-0.6555} {0.0} {0.80025+DetectorHalfHeight-0.75}
+Q0L0stripsAl.Position {-0.6555} {0.0} {0.80025+DetectorQ0L0HalfHeight-0.75}
 
 Shape BRIK Q0L0stripsAl2
 Q0L0stripsAl2.Parameters 3.71 3.71 0.00025
@@ -85,7 +87,7 @@ Q0L0stripsAlbot.Visibility 1
 Q0L0stripsAlbot.Color 7
 Q0L0stripsAlbot.Shape Q0L0AlDead2
 Q0L0stripsAlbot.Mother Q0L0SingleDetector
-Q0L0stripsAlbot.Position {-0.6555} {0.0} {-0.80025-DetectorHalfHeight+0.75}
+Q0L0stripsAlbot.Position {-0.6555} {0.0} {-0.80025-DetectorQ0L0HalfHeight+0.75}
 
 
 # Handles
@@ -100,11 +102,11 @@ Q0L0GeDead1.Copy Q0L0GeDead1_01
 Q0L0GeDead1.Copy Q0L0GeDead1_02
 
 Q0L0GeDead1_01.Mother Q0L0SingleDetector
-Q0L0GeDead1_01.Position  {3.785}  {0.0}  {-0.698-DetectorHalfHeight+0.75}
+Q0L0GeDead1_01.Position  {3.785}  {0.0}  {-0.698-DetectorQ0L0HalfHeight+0.75}
 Q0L0GeDead1_01.Rotation 90.0  0.0 -90.0
 
 Q0L0GeDead1_02.Mother Q0L0SingleDetector
-Q0L0GeDead1_02.Position  {-5.096}  {0.0}  {-0.698-DetectorHalfHeight+0.75}
+Q0L0GeDead1_02.Position  {-5.096}  {0.0}  {-0.698-DetectorQ0L0HalfHeight+0.75}
 Q0L0GeDead1_02.Rotation 90.0  0.0  90.0
 
 Volume Q0L0GeDead2
@@ -117,11 +119,11 @@ Q0L0GeDead2.Copy Q0L0GeDead2_01
 Q0L0GeDead2.Copy Q0L0GeDead2_02
 
 Q0L0GeDead2_01.Mother Q0L0SingleDetector
-Q0L0GeDead2_01.Position  {3.913}  {0.0}  {-0.398-DetectorHalfHeight+0.75}
+Q0L0GeDead2_01.Position  {3.913}  {0.0}  {-0.398-DetectorQ0L0HalfHeight+0.75}
 Q0L0GeDead2_01.Rotation 90.0  0.0 -90.0
 
 Q0L0GeDead2_02.Mother Q0L0SingleDetector
-Q0L0GeDead2_02.Position  {-5.224}   {0.0}  {-0.398-DetectorHalfHeight+0.75}
+Q0L0GeDead2_02.Position  {-5.224}   {0.0}  {-0.398-DetectorQ0L0HalfHeight+0.75}
 Q0L0GeDead2_02.Rotation 90.0  0.0  90.0
 
 
