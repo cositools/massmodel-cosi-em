@@ -203,7 +203,7 @@ DetectorQ0L0Wrapper.Mother DetectorStackWrapper
 
 Include HolderGeDQ0L0.geo
 Include GeDQ0L0.geo
-Include GeD_0.SimsOnly.det
+Include GeD_0.Analysis.det
 Q0L0SingleDetector.Position SingledetectorX SingledetectorY SingledetectorZ
 Q0L0SingleDetector.Mother DetectorQ0L0Wrapper
 

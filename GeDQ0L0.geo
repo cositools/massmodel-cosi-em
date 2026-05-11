@@ -37,24 +37,6 @@ Q0L0GuardRing_AlmostThere.Parameters Q0L0WholeWafer Q0L0ActiveWafer
 Shape Intersection Q0L0GuardRing
 Q0L0GuardRing.Parameters Q0L0WaferOuterBox Q0L0GuardRing_AlmostThere
 
-# Detector and Guard Ring
-
-Volume Q0L0_GeWafer
-Q0L0_GeWafer.Material active_ge_recoil
-Q0L0_GeWafer.Visibility 1
-Q0L0_GeWafer.Color 4
-Q0L0_GeWafer.Shape Q0L0ActiveWafer
-Q0L0_GeWafer.Mother Q0L0SingleDetector
-Q0L0_GeWafer.Position {-0.6555} {0.0} {0.0}
-
-Volume Q0L0GeWaferGuardRing
-Q0L0GeWaferGuardRing.Material active_ge_recoil
-Q0L0GeWaferGuardRing.Visibility 1
-Q0L0GeWaferGuardRing.Color 3
-Q0L0GeWaferGuardRing.Shape Q0L0GuardRing
-Q0L0GeWaferGuardRing.Position  {-0.6555} {0.0} {0.0}
-Q0L0GeWaferGuardRing.Mother Q0L0SingleDetector
-
 # Al dead layer on top
 Shape BRIK Q0L0stripsAl1
 Q0L0stripsAl1.Parameters 3.71 3.71 0.00025
