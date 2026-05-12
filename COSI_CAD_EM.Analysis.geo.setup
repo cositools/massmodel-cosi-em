@@ -38,6 +38,21 @@ Include PIPdeck.geo
 
 #ACS Shields
 Include EM_ACSWalls.geo
+Include BGO.det
+
+#EMI Shields
+
+Volume EMIShieldsWrapper
+EMIShieldsWrapper.Shape BRIK 1000 1000 1000
+EMIShieldsWrapper.Material Vacuum
+EMIShieldsWrapper.Visibility 0
+EMIShieldsWrapper.Position 0 0 0.020164
+EMIShieldsWrapper.Rotation 0 0 0
+EMIShieldsWrapper.Virtual True
+EMIShieldsWrapper.Mother WorldVolume
+
+Include EMI_Shields_Q0X.100.geo.setup
+Include EMI_Shields_Q0Y.100.geo.setup
 
 # ---------------------------
 # ---------------------------
