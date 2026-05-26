@@ -38,7 +38,7 @@ Include PIPdeck.geo
 
 #ACS Shields
 Include EM_ACSWalls.geo
-Include BGO.det
+#Include BGO.det
 
 #EMI Shields
 
