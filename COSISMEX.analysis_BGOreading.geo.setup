@@ -30,3 +30,6 @@ WorldVolume.Mother 0
 ShieldedTelescope.Mother WorldVolume
 ShieldedTelescope.Rotation 0.0 0.0 0.0
 ShieldedTelescope.Position 0 0 0
+
+# Added to avoid rounding errors in nuclearizer
+DetectorSearchTolerance 0.00001
