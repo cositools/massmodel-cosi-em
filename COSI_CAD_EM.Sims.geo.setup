@@ -2,6 +2,8 @@
 Name COSI-CAD-EM
 Version 1
 
+DetectorSearchTolerance 0.00001
+
 Include EM-CAD.GlobalDimensions.geo
 Include EM-CAD.Materials.mat
 
