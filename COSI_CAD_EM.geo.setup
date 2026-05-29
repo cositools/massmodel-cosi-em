@@ -42,6 +42,9 @@ Include PIPdeck.geo
 Include EM_ACSWalls.geo
 #Include BGO.det
 
+#Thermal shields
+Include EM_IRShields.geo
+
 #EMI Shields
 
 Volume EMIShieldsWrapper
@@ -147,7 +150,7 @@ FixedMountQ0Q1Wrapper.Rotation 0 0 0
 FixedMountQ0Q1Wrapper.Virtual True
 FixedMountQ0Q1Wrapper.Mother DetectorStackHolderWrapper
 
-Include Fixed_MountQ0Q1.120.geo.setup
+#Include Fixed_MountQ0Q1.120.geo.setup
 
 Volume FixedMountQ1Q2Wrapper
 FixedMountQ1Q2Wrapper.Shape BRIK 1000 1000 1000
@@ -158,7 +161,7 @@ FixedMountQ1Q2Wrapper.Rotation 0 0 0
 FixedMountQ1Q2Wrapper.Virtual True
 FixedMountQ1Q2Wrapper.Mother DetectorStackHolderWrapper
 
-Include Fixed_MountQ1Q2.120.geo.setup
+#Include Fixed_MountQ1Q2.120.geo.setup
 
 Volume FixedMountQ2Q3Wrapper
 FixedMountQ2Q3Wrapper.Shape BRIK 1000 1000 1000
@@ -169,7 +172,7 @@ FixedMountQ2Q3Wrapper.Rotation 0 0 0
 FixedMountQ2Q3Wrapper.Virtual True
 FixedMountQ2Q3Wrapper.Mother DetectorStackHolderWrapper
 
-Include Fixed_MountQ2Q3.120.geo.setup
+#Include Fixed_MountQ2Q3.120.geo.setup
 
 # ---------------------------
 # ---------------------------
