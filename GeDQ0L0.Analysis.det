@@ -2,7 +2,7 @@
 // Detector information:
 Include GeDQ0L0.geo
 
-Strip3D               GeD_Q0L0
+Strip2D               GeD_Q0L0
 
 # Detector and Guard Ring
 
