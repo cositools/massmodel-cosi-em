@@ -73,7 +73,6 @@ al6061.ComponentByMass Zn 0.0013
 al6061.ComponentByMass Ti 0.0008
 al6061.ComponentByMass Al 0.9728
 
-
 Material al6061_honeycomb
 al6061_honeycomb.Density 0.052
 al6061_honeycomb.ComponentByMass Si 0.006
@@ -98,6 +97,17 @@ al7075.ComponentByMass Cr 0.0023
 al7075.ComponentByMass Zn 0.056
 al7075.ComponentByMass Ti 0.002
 al7075.ComponentByMass Al 0.8867
+
+Material al5052
+al5052.Density 2.68
+al5052.ComponentByMass Si 0.0012
+al5052.ComponentByMass Fe 0.002
+al5052.ComponentByMass Cu 0.0005
+al5052.ComponentByMass Mn 0.0005
+al5052.ComponentByMass Mg 0.025
+al5052.ComponentByMass Cr 0.0025
+al5052.ComponentByMass Zn 0.0005
+al5052.ComponentByMass Al 0.9678
 
 Material nicd_cells
 nicd_cells.Density 10
