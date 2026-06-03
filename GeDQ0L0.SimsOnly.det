@@ -1,0 +1,103 @@
+//------------------------------------------------------------
+// Detector information:
+Include GeDQ0L0.geo
+
+Simple               GeD_Q0L0
+
+# Detector and Guard Ring
+
+Volume Q0L0_GeWafer
+Q0L0_GeWafer.Material active_ge_recoil
+Q0L0_GeWafer.Visibility 1
+Q0L0_GeWafer.Color 4
+Q0L0_GeWafer.Shape Q0L0ActiveWafer
+Q0L0_GeWafer.Mother Q0L0SingleDetector
+Q0L0_GeWafer.Position {-0.6555} {0.0} {0.0}
+
+Volume Q0L0GeWaferGuardRing
+Q0L0GeWaferGuardRing.Material active_ge_recoil
+Q0L0GeWaferGuardRing.Visibility 1
+Q0L0GeWaferGuardRing.Color 3
+Q0L0GeWaferGuardRing.Shape Q0L0GuardRing
+Q0L0GeWaferGuardRing.Position  {-0.6555} {0.0} {0.0}
+Q0L0GeWaferGuardRing.Mother Q0L0SingleDetector
+
+
+GeD_0.SensitiveVolume      Q0L0_GeWafer
+GeD_0.DetectorVolume       Q0L0_GeWafer
+
+#GeD_0.Offset                0.0 0.0
+#GeD_0.StripNumber            64  64
+
+# COSI
+GeD_0.EnergyResolution   Gauss      0.0      0.0  1.32
+GeD_0.EnergyResolution   Gauss     60.0     60.0  1.32
+GeD_0.EnergyResolution   Gauss    122.0    122.0  1.42
+GeD_0.EnergyResolution   Gauss    365.0    365.0  1.58
+GeD_0.EnergyResolution   Gauss    662.0    662.0  1.68
+GeD_0.EnergyResolution   Gauss   1275.0   1275.0  1.79
+GeD_0.EnergyResolution   Gauss   1836.0   1836.0  1.86
+
+GeD_0.Overflow 1800
+
+# Both
+#GeD_0.DepthResolutionThreshold 20.0
+#GeD_0.DepthResolution      0.0  { 0.3 / 2.35 }
+#GeD_0.DepthResolution     20.0  { 0.3 / 2.35 }
+#GeD_0.DepthResolution     50.0  { 0.1 / 2.35 }
+#GeD_0.DepthResolution     60.0  { 0.08 / 2.35 }
+#GeD_0.DepthResolution     70.0  { 0.075 / 2.35 }
+#GeD_0.DepthResolution     80.0  { 0.065 / 2.35 }
+#GeD_0.DepthResolution    122.0  { 0.06 / 2.35 }
+#GeD_0.DepthResolution    356.0  { 0.05 / 2.35 }
+#GeD_0.DepthResolution    662.0  { 0.05 / 2.35 }
+#GeD_0.DepthResolution   1836.0  { 0.05 / 2.35 }
+
+
+# ASIC
+GeD_0.TriggerThreshold     18
+GeD_0.NoiseThresholdEqualsTriggerThreshold  True
+
+
+# If I go smaller it gets too slow
+#GeD_0.EnergyPerElectron 0.2
+
+# Jarred scaled to 1500 V
+#GeD_0.DriftConstant  0.007
+
+
+Simple GuardRingDetector_GeD_Q0L0
+
+GuardRingDetector_GeD_0.SensitiveVolume     Q0L0GeWaferGuardRing
+GuardRingDetector_GeD_0.DetectorVolume      Q0L0GeWaferGuardRing
+
+GuardRingDetector_GeD_0.TriggerThreshold      30
+GuardRingDetector_GeD_0.NoiseThresholdEqualsTriggerThreshold true
+
+GuardRingDetector_GeD_0.EnergyResolution Gaus 10      10        3.3
+GuardRingDetector_GeD_0.EnergyResolution Gaus 20      20        3.3
+GuardRingDetector_GeD_0.EnergyResolution Gaus 50      50        3.3
+GuardRingDetector_GeD_0.EnergyResolution Gaus 100     100       3.3
+GuardRingDetector_GeD_0.EnergyResolution Gaus 200     200       3.3
+GuardRingDetector_GeD_0.EnergyResolution Gaus 500     500       3.3
+GuardRingDetector_GeD_0.EnergyResolution Gaus 1000    1000      3.3
+GuardRingDetector_GeD_0.EnergyResolution Gaus 2000    2000      3.3
+GuardRingDetector_GeD_0.EnergyResolution Gaus 5000    5000      3.3
+
+
+#------------------------------------------------------------
+# Trigger information:
+
+Trigger GeTrigger_GeD_0
+GeTrigger_GeD_0.Detector GeD_0 1
+GeTrigger_GeD_0.TriggerByChannel true
+GeTrigger_GeD_0.Veto false
+
+
+Trigger GuardRingVeto_GeD_0
+GuardRingVeto_GeD_0.Veto true
+GuardRingVeto_GeD_0.TriggerByChannel true
+GuardRingVeto_GeD_0.Detector GuardRingDetector_GeD_0 1
+
+
+
