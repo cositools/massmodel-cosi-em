@@ -12,7 +12,7 @@ SurroundingSphere 80  0.0  0.0  -45.0  80.0
 Include COSISMEX.GlobalDimensions.geo
 Include COSISMEX.mat
 Include COSISMEX.ACS.geo
-Include COSISMEX.BGO.det
+Include COSISMEX.ACS.det
 
 
 # Volume definitions:

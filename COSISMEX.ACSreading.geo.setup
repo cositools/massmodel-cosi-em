@@ -1,10 +1,8 @@
-
-Name COSI-SMEX 
-Version 32
+Version 21
 
 
 # You have to correct this surounding sphere:
-SurroundingSphere 89  0.0  0.0  -40.0  89.0
+SurroundingSphere 85  0.0  0.0  -42.0  85.0
 ShowSurroundingSphere  false
 
 
@@ -12,13 +10,13 @@ Include COSISMEX.mat
 Include COSISMEX.GlobalDimensions.geo
 
 Include COSISMEX.Ge.Inactive.geo
-Include COSISMEX.Ge.DetectorBuild.Q0L0.geo
-Include COSISMEX.Ge.DetectorBuild.Q0L1.geo
-Include COSISMEX.Ge.SimsOnly.Q0L0.det
-Include COSISMEX.Ge.SimsOnly.Q0L1.det
+Include COSISMEX.Ge.Q0L0.geo
+Include COSISMEX.Ge.Q0L1.geo
+Include COSISMEX.Ge.Q0L0.det
+Include COSISMEX.Ge.Q0L1.det
 Include COSISMEX.Cryostat.geo
 Include COSISMEX.ACS.geo
-Include COSISMEX.BGO.det
+Include COSISMEX.ACS_noVeto.det
 
 
 # Volume definitions:
@@ -29,8 +27,6 @@ WorldVolume.Material vacuum
 WorldVolume.Shape TUBS 0 376 400 0 360
 WorldVolume.Mother 0
 
-
 ShieldedTelescope.Mother WorldVolume
 ShieldedTelescope.Rotation 0.0 0.0 0.0
 ShieldedTelescope.Position 0 0 0
-

@@ -11,8 +11,8 @@ SurroundingSphere 80  0.0  0.0  -45.0  80.0
 # Required include files
 Include COSISMEX.GlobalDimensions.geo
 Include COSISMEX.mat
-Include COSISMEX.Ge.DetectorBuild.Q0L0.geo
-Include COSISMEX.Ge.O64.Q0L0.det
+Include COSISMEX.Ge.Q0L0.geo
+Include COSISMEX.Ge.Q0L0.det
 
 
 # Volume definitions:

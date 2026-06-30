@@ -50,22 +50,9 @@ GuardRing_AlmostThere_Q0_L1.Parameters WholeWafer_Q0_L1 ActiveWafer_Q0_L1
 Shape Intersection GuardRing_Q0_L1
 GuardRing_Q0_L1.Parameters WaferOuterBox_Q0_L1 GuardRing_AlmostThere_Q0_L1
 
-Volume GeWafer_Q0_L1
-GeWafer_Q0_L1.Material active_ge_recoil
-GeWafer_Q0_L1.Visibility 1
-GeWafer_Q0_L1.Color 4
-GeWafer_Q0_L1.Shape ActiveWafer_Q0_L1
-#Come back and check this. Need to figure out where the 0,0 point is and what we are offsetting
-GeWafer_Q0_L1.Mother Detector_Q0_L1
-GeWafer_Q0_L1.Position {-0.6555 + Xshift} {0.0 + Yshift} {Zshift}
+### The final volume of the active detector GeWafer_Q0_L1 is defined in the .det files for each detector
+### since the simulation model and analysis model need different shapes to define this volume
 
-Volume GeWaferGuardRing_Q0_L1
-GeWaferGuardRing_Q0_L1.Material active_ge_recoil
-GeWaferGuardRing_Q0_L1.Visibility 1
-GeWaferGuardRing_Q0_L1.Color 3
-GeWaferGuardRing_Q0_L1.Shape GuardRing_Q0_L1
-GeWaferGuardRing_Q0_L1.Position  {-0.6555 + Xshift} {0.0 + Yshift} {Zshift}
-GeWaferGuardRing_Q0_L1.Mother Detector_Q0_L1
 
 # Al dead layer on top
 Shape BRIK stripsAl1_Q0_L1
