@@ -1,6 +1,6 @@
 #------------------------------------------------------------
 # Detector information:
-Include COSISMEX.Ge.DetectorBuild.QQQQ.geo
+Include COSISMEX.Ge.QQQQ.geo
 
 
 Strip3D               GeD_X

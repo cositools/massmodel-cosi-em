@@ -4,11 +4,7 @@ f_geo = open("COSISMEX.Ge.DetectorBuild.geo.template","r")
 ged_geo_template = f_geo.read()
 f_geo.close()
 
-f_det_sims = open("COSISMEX.Ge.DetectorBuild.SimsOnly.det.template","r")
-ged_det_sims_template = f_det_sims.read()
-f_det_sims.close()
-
-f_det_anl = open("COSISMEX.Ge.DetectorBuild.Analysis.det.template","r")
+f_det_anl = open("COSISMEX.Ge.DetectorBuild.det.template","r")
 ged_det_anl_template = f_det_anl.read()
 f_det_anl.close()
 
@@ -50,12 +46,7 @@ for i,detheight in enumerate(DetectorHeight_E):
 	fout.write( ged_geo_template.replace('QQ_QQ', 'Q0_L'+str(i)) )
 	fout.close()
 
-	fname = 'COSISMEX.Ge.SimsOnly.Q0L' + str(i) + '.det'; fnames.append(fname)
-	fout = open(fname,'w')
-	fout.write( ged_det_sims_template.replace('QQ_QQ', 'Q0_L'+str(i)).replace('QQQQ', 'Q0L'+str(i)).replace('GeD_X', 'GeD_'+str(i)) )
-	fout.close()
-
-	fname = 'COSISMEX.Ge.Analysis.Q0L' + str(i) + '.det'; fnames.append(fname)
+	fname = 'COSISMEX.Ge.Q0L' + str(i) + '.det'; fnames.append(fname)
 	fout = open(fname,'w')
 	fout.write( ged_det_anl_template.replace('QQ_QQ', 'Q0_L'+str(i)).replace('QQQQ', 'Q0L'+str(i)).replace('GeD_X', 'GeD_'+str(i)) )
 	fout.close()
