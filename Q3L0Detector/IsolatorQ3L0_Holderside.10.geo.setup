@@ -1,0 +1,297 @@
+Volume IsolatorQ3L0_Holderside_0_0XC5U
+IsolatorQ3L0_Holderside_0_0XC5U.Shape BRIK 0.010159 1.559569 0.050799
+IsolatorQ3L0_Holderside_0_0XC5U.Material AlN
+IsolatorQ3L0_Holderside_0_0XC5U.Position -10.746930 -4.465320 23.211790
+IsolatorQ3L0_Holderside_0_0XC5U.Rotation 0 0 0
+IsolatorQ3L0_Holderside_0_0XC5U.Visibility 1
+IsolatorQ3L0_Holderside_0_0XC5U.Color 38
+IsolatorQ3L0_Holderside_0_0XC5U.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_1_MTA1R
+IsolatorQ3L0_Holderside_1_MTA1R.Shape BRIK 0.030479 1.549409 0.050799
+IsolatorQ3L0_Holderside_1_MTA1R.Material AlN
+IsolatorQ3L0_Holderside_1_MTA1R.Position -10.787570 -4.465320 23.211790
+IsolatorQ3L0_Holderside_1_MTA1R.Rotation 0 0 0
+IsolatorQ3L0_Holderside_1_MTA1R.Visibility 1
+IsolatorQ3L0_Holderside_1_MTA1R.Color 38
+IsolatorQ3L0_Holderside_1_MTA1R.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_2_2JLRU
+IsolatorQ3L0_Holderside_2_2JLRU.Shape BRIK 0.030479 1.549409 0.050799
+IsolatorQ3L0_Holderside_2_2JLRU.Material AlN
+IsolatorQ3L0_Holderside_2_2JLRU.Position -10.706290 -4.465320 23.211790
+IsolatorQ3L0_Holderside_2_2JLRU.Rotation 0 0 0
+IsolatorQ3L0_Holderside_2_2JLRU.Visibility 1
+IsolatorQ3L0_Holderside_2_2JLRU.Color 38
+IsolatorQ3L0_Holderside_2_2JLRU.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_3_5XH1Y
+IsolatorQ3L0_Holderside_3_5XH1Y.Shape BRIK 0.015239 1.539249 0.050799
+IsolatorQ3L0_Holderside_3_5XH1Y.Material AlN
+IsolatorQ3L0_Holderside_3_5XH1Y.Position -10.833290 -4.465320 23.211790
+IsolatorQ3L0_Holderside_3_5XH1Y.Rotation 0 0 0
+IsolatorQ3L0_Holderside_3_5XH1Y.Visibility 1
+IsolatorQ3L0_Holderside_3_5XH1Y.Color 38
+IsolatorQ3L0_Holderside_3_5XH1Y.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_4_3QFFP
+IsolatorQ3L0_Holderside_4_3QFFP.Shape BRIK 0.015239 1.539249 0.050799
+IsolatorQ3L0_Holderside_4_3QFFP.Material AlN
+IsolatorQ3L0_Holderside_4_3QFFP.Position -10.660569 -4.465320 23.211790
+IsolatorQ3L0_Holderside_4_3QFFP.Rotation 0 0 0
+IsolatorQ3L0_Holderside_4_3QFFP.Visibility 1
+IsolatorQ3L0_Holderside_4_3QFFP.Color 38
+IsolatorQ3L0_Holderside_4_3QFFP.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_5_CZ1MT
+IsolatorQ3L0_Holderside_5_CZ1MT.Shape BRIK 0.010159 1.529089 0.050799
+IsolatorQ3L0_Holderside_5_CZ1MT.Material AlN
+IsolatorQ3L0_Holderside_5_CZ1MT.Position -10.858691 -4.465320 23.211790
+IsolatorQ3L0_Holderside_5_CZ1MT.Rotation 0 0 0
+IsolatorQ3L0_Holderside_5_CZ1MT.Visibility 1
+IsolatorQ3L0_Holderside_5_CZ1MT.Color 38
+IsolatorQ3L0_Holderside_5_CZ1MT.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_6_2VAID
+IsolatorQ3L0_Holderside_6_2VAID.Shape BRIK 0.010159 1.529089 0.050799
+IsolatorQ3L0_Holderside_6_2VAID.Material AlN
+IsolatorQ3L0_Holderside_6_2VAID.Position -10.635169 -4.465320 23.211790
+IsolatorQ3L0_Holderside_6_2VAID.Rotation 0 0 0
+IsolatorQ3L0_Holderside_6_2VAID.Visibility 1
+IsolatorQ3L0_Holderside_6_2VAID.Color 38
+IsolatorQ3L0_Holderside_6_2VAID.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_7_H0U3E
+IsolatorQ3L0_Holderside_7_H0U3E.Shape BRIK 0.010159 1.518929 0.050799
+IsolatorQ3L0_Holderside_7_H0U3E.Material AlN
+IsolatorQ3L0_Holderside_7_H0U3E.Position -10.879011 -4.465320 23.211790
+IsolatorQ3L0_Holderside_7_H0U3E.Rotation 0 0 0
+IsolatorQ3L0_Holderside_7_H0U3E.Visibility 1
+IsolatorQ3L0_Holderside_7_H0U3E.Color 38
+IsolatorQ3L0_Holderside_7_H0U3E.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_8_XB7JL
+IsolatorQ3L0_Holderside_8_XB7JL.Shape BRIK 0.010159 1.518929 0.050799
+IsolatorQ3L0_Holderside_8_XB7JL.Material AlN
+IsolatorQ3L0_Holderside_8_XB7JL.Position -10.614849 -4.465320 23.211790
+IsolatorQ3L0_Holderside_8_XB7JL.Rotation 0 0 0
+IsolatorQ3L0_Holderside_8_XB7JL.Visibility 1
+IsolatorQ3L0_Holderside_8_XB7JL.Color 38
+IsolatorQ3L0_Holderside_8_XB7JL.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_9_UEXNN
+IsolatorQ3L0_Holderside_9_UEXNN.Shape BRIK 0.005079 1.508769 0.050799
+IsolatorQ3L0_Holderside_9_UEXNN.Material AlN
+IsolatorQ3L0_Holderside_9_UEXNN.Position -10.894251 -4.465320 23.211790
+IsolatorQ3L0_Holderside_9_UEXNN.Rotation 0 0 0
+IsolatorQ3L0_Holderside_9_UEXNN.Visibility 1
+IsolatorQ3L0_Holderside_9_UEXNN.Color 38
+IsolatorQ3L0_Holderside_9_UEXNN.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_10_N0MZT
+IsolatorQ3L0_Holderside_10_N0MZT.Shape BRIK 0.005079 1.508769 0.050799
+IsolatorQ3L0_Holderside_10_N0MZT.Material AlN
+IsolatorQ3L0_Holderside_10_N0MZT.Position -10.599609 -4.465320 23.211790
+IsolatorQ3L0_Holderside_10_N0MZT.Rotation 0 0 0
+IsolatorQ3L0_Holderside_10_N0MZT.Visibility 1
+IsolatorQ3L0_Holderside_10_N0MZT.Color 38
+IsolatorQ3L0_Holderside_10_N0MZT.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_11_DK3AR
+IsolatorQ3L0_Holderside_11_DK3AR.Shape BRIK 0.010159 1.498609 0.050799
+IsolatorQ3L0_Holderside_11_DK3AR.Material AlN
+IsolatorQ3L0_Holderside_11_DK3AR.Position -10.909491 -4.465320 23.211790
+IsolatorQ3L0_Holderside_11_DK3AR.Rotation 0 0 0
+IsolatorQ3L0_Holderside_11_DK3AR.Visibility 1
+IsolatorQ3L0_Holderside_11_DK3AR.Color 38
+IsolatorQ3L0_Holderside_11_DK3AR.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_12_J96NX
+IsolatorQ3L0_Holderside_12_J96NX.Shape BRIK 0.010159 1.498609 0.050799
+IsolatorQ3L0_Holderside_12_J96NX.Material AlN
+IsolatorQ3L0_Holderside_12_J96NX.Position -10.584369 -4.465320 23.211790
+IsolatorQ3L0_Holderside_12_J96NX.Rotation 0 0 0
+IsolatorQ3L0_Holderside_12_J96NX.Visibility 1
+IsolatorQ3L0_Holderside_12_J96NX.Color 38
+IsolatorQ3L0_Holderside_12_J96NX.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_13_5Q6EZ
+IsolatorQ3L0_Holderside_13_5Q6EZ.Shape BRIK 0.005079 1.488449 0.050799
+IsolatorQ3L0_Holderside_13_5Q6EZ.Material AlN
+IsolatorQ3L0_Holderside_13_5Q6EZ.Position -10.924731 -4.465320 23.211790
+IsolatorQ3L0_Holderside_13_5Q6EZ.Rotation 0 0 0
+IsolatorQ3L0_Holderside_13_5Q6EZ.Visibility 1
+IsolatorQ3L0_Holderside_13_5Q6EZ.Color 38
+IsolatorQ3L0_Holderside_13_5Q6EZ.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_14_J6LXF
+IsolatorQ3L0_Holderside_14_J6LXF.Shape BRIK 0.005079 1.488449 0.050799
+IsolatorQ3L0_Holderside_14_J6LXF.Material AlN
+IsolatorQ3L0_Holderside_14_J6LXF.Position -10.569129 -4.465320 23.211790
+IsolatorQ3L0_Holderside_14_J6LXF.Rotation 0 0 0
+IsolatorQ3L0_Holderside_14_J6LXF.Visibility 1
+IsolatorQ3L0_Holderside_14_J6LXF.Color 38
+IsolatorQ3L0_Holderside_14_J6LXF.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_15_QURX9
+IsolatorQ3L0_Holderside_15_QURX9.Shape BRIK 0.005079 1.478288 0.050799
+IsolatorQ3L0_Holderside_15_QURX9.Material AlN
+IsolatorQ3L0_Holderside_15_QURX9.Position -10.934891 -4.465320 23.211790
+IsolatorQ3L0_Holderside_15_QURX9.Rotation 0 0 0
+IsolatorQ3L0_Holderside_15_QURX9.Visibility 1
+IsolatorQ3L0_Holderside_15_QURX9.Color 38
+IsolatorQ3L0_Holderside_15_QURX9.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_16_1YBQB
+IsolatorQ3L0_Holderside_16_1YBQB.Shape BRIK 0.005079 1.478288 0.050799
+IsolatorQ3L0_Holderside_16_1YBQB.Material AlN
+IsolatorQ3L0_Holderside_16_1YBQB.Position -10.558969 -4.465320 23.211790
+IsolatorQ3L0_Holderside_16_1YBQB.Rotation 0 0 0
+IsolatorQ3L0_Holderside_16_1YBQB.Visibility 1
+IsolatorQ3L0_Holderside_16_1YBQB.Color 38
+IsolatorQ3L0_Holderside_16_1YBQB.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_17_5UNU2
+IsolatorQ3L0_Holderside_17_5UNU2.Shape BRIK 0.005079 1.468128 0.050799
+IsolatorQ3L0_Holderside_17_5UNU2.Material AlN
+IsolatorQ3L0_Holderside_17_5UNU2.Position -10.945051 -4.465320 23.211790
+IsolatorQ3L0_Holderside_17_5UNU2.Rotation 0 0 0
+IsolatorQ3L0_Holderside_17_5UNU2.Visibility 1
+IsolatorQ3L0_Holderside_17_5UNU2.Color 38
+IsolatorQ3L0_Holderside_17_5UNU2.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_18_C0V1X
+IsolatorQ3L0_Holderside_18_C0V1X.Shape BRIK 0.005079 1.468128 0.050799
+IsolatorQ3L0_Holderside_18_C0V1X.Material AlN
+IsolatorQ3L0_Holderside_18_C0V1X.Position -10.548809 -4.465320 23.211790
+IsolatorQ3L0_Holderside_18_C0V1X.Rotation 0 0 0
+IsolatorQ3L0_Holderside_18_C0V1X.Visibility 1
+IsolatorQ3L0_Holderside_18_C0V1X.Color 38
+IsolatorQ3L0_Holderside_18_C0V1X.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_19_APFMC
+IsolatorQ3L0_Holderside_19_APFMC.Shape BRIK 0.005079 1.457968 0.050799
+IsolatorQ3L0_Holderside_19_APFMC.Material AlN
+IsolatorQ3L0_Holderside_19_APFMC.Position -10.955211 -4.465320 23.211790
+IsolatorQ3L0_Holderside_19_APFMC.Rotation 0 0 0
+IsolatorQ3L0_Holderside_19_APFMC.Visibility 1
+IsolatorQ3L0_Holderside_19_APFMC.Color 38
+IsolatorQ3L0_Holderside_19_APFMC.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_20_N6L0E
+IsolatorQ3L0_Holderside_20_N6L0E.Shape BRIK 0.005079 1.457968 0.050799
+IsolatorQ3L0_Holderside_20_N6L0E.Material AlN
+IsolatorQ3L0_Holderside_20_N6L0E.Position -10.538649 -4.465320 23.211790
+IsolatorQ3L0_Holderside_20_N6L0E.Rotation 0 0 0
+IsolatorQ3L0_Holderside_20_N6L0E.Visibility 1
+IsolatorQ3L0_Holderside_20_N6L0E.Color 38
+IsolatorQ3L0_Holderside_20_N6L0E.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_21_PWTP9
+IsolatorQ3L0_Holderside_21_PWTP9.Shape BRIK 0.005079 1.437648 0.050799
+IsolatorQ3L0_Holderside_21_PWTP9.Material AlN
+IsolatorQ3L0_Holderside_21_PWTP9.Position -10.965371 -4.465320 23.211790
+IsolatorQ3L0_Holderside_21_PWTP9.Rotation 0 0 0
+IsolatorQ3L0_Holderside_21_PWTP9.Visibility 1
+IsolatorQ3L0_Holderside_21_PWTP9.Color 38
+IsolatorQ3L0_Holderside_21_PWTP9.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_22_YVL4O
+IsolatorQ3L0_Holderside_22_YVL4O.Shape BRIK 0.005079 1.437648 0.050799
+IsolatorQ3L0_Holderside_22_YVL4O.Material AlN
+IsolatorQ3L0_Holderside_22_YVL4O.Position -10.528489 -4.465320 23.211790
+IsolatorQ3L0_Holderside_22_YVL4O.Rotation 0 0 0
+IsolatorQ3L0_Holderside_22_YVL4O.Visibility 1
+IsolatorQ3L0_Holderside_22_YVL4O.Color 38
+IsolatorQ3L0_Holderside_22_YVL4O.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_23_HCEKP
+IsolatorQ3L0_Holderside_23_HCEKP.Shape BRIK 0.005079 1.427488 0.050799
+IsolatorQ3L0_Holderside_23_HCEKP.Material AlN
+IsolatorQ3L0_Holderside_23_HCEKP.Position -10.975531 -4.465320 23.211790
+IsolatorQ3L0_Holderside_23_HCEKP.Rotation 0 0 0
+IsolatorQ3L0_Holderside_23_HCEKP.Visibility 1
+IsolatorQ3L0_Holderside_23_HCEKP.Color 38
+IsolatorQ3L0_Holderside_23_HCEKP.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_24_4SNWM
+IsolatorQ3L0_Holderside_24_4SNWM.Shape BRIK 0.005079 1.427488 0.050799
+IsolatorQ3L0_Holderside_24_4SNWM.Material AlN
+IsolatorQ3L0_Holderside_24_4SNWM.Position -10.518328 -4.465320 23.211790
+IsolatorQ3L0_Holderside_24_4SNWM.Rotation 0 0 0
+IsolatorQ3L0_Holderside_24_4SNWM.Visibility 1
+IsolatorQ3L0_Holderside_24_4SNWM.Color 38
+IsolatorQ3L0_Holderside_24_4SNWM.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_25_JQX0P
+IsolatorQ3L0_Holderside_25_JQX0P.Shape BRIK 0.005079 1.417328 0.050799
+IsolatorQ3L0_Holderside_25_JQX0P.Material AlN
+IsolatorQ3L0_Holderside_25_JQX0P.Position -10.985691 -4.465320 23.211790
+IsolatorQ3L0_Holderside_25_JQX0P.Rotation 0 0 0
+IsolatorQ3L0_Holderside_25_JQX0P.Visibility 1
+IsolatorQ3L0_Holderside_25_JQX0P.Color 38
+IsolatorQ3L0_Holderside_25_JQX0P.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_26_FHY9J
+IsolatorQ3L0_Holderside_26_FHY9J.Shape BRIK 0.005079 1.417328 0.050799
+IsolatorQ3L0_Holderside_26_FHY9J.Material AlN
+IsolatorQ3L0_Holderside_26_FHY9J.Position -10.508168 -4.465320 23.211790
+IsolatorQ3L0_Holderside_26_FHY9J.Rotation 0 0 0
+IsolatorQ3L0_Holderside_26_FHY9J.Visibility 1
+IsolatorQ3L0_Holderside_26_FHY9J.Color 38
+IsolatorQ3L0_Holderside_26_FHY9J.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_27_LWWLW
+IsolatorQ3L0_Holderside_27_LWWLW.Shape BRIK 0.005079 1.386848 0.050799
+IsolatorQ3L0_Holderside_27_LWWLW.Material AlN
+IsolatorQ3L0_Holderside_27_LWWLW.Position -10.995852 -4.465320 23.211790
+IsolatorQ3L0_Holderside_27_LWWLW.Rotation 0 0 0
+IsolatorQ3L0_Holderside_27_LWWLW.Visibility 1
+IsolatorQ3L0_Holderside_27_LWWLW.Color 38
+IsolatorQ3L0_Holderside_27_LWWLW.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_28_OC93P
+IsolatorQ3L0_Holderside_28_OC93P.Shape BRIK 0.005079 1.386848 0.050799
+IsolatorQ3L0_Holderside_28_OC93P.Material AlN
+IsolatorQ3L0_Holderside_28_OC93P.Position -10.498008 -4.465320 23.211790
+IsolatorQ3L0_Holderside_28_OC93P.Rotation 0 0 0
+IsolatorQ3L0_Holderside_28_OC93P.Visibility 1
+IsolatorQ3L0_Holderside_28_OC93P.Color 38
+IsolatorQ3L0_Holderside_28_OC93P.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_29_HJI21
+IsolatorQ3L0_Holderside_29_HJI21.Shape BRIK 0.005079 1.366528 0.050799
+IsolatorQ3L0_Holderside_29_HJI21.Material AlN
+IsolatorQ3L0_Holderside_29_HJI21.Position -11.006012 -4.465320 23.211790
+IsolatorQ3L0_Holderside_29_HJI21.Rotation 0 0 0
+IsolatorQ3L0_Holderside_29_HJI21.Visibility 1
+IsolatorQ3L0_Holderside_29_HJI21.Color 38
+IsolatorQ3L0_Holderside_29_HJI21.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_30_RA7OS
+IsolatorQ3L0_Holderside_30_RA7OS.Shape BRIK 0.005079 1.366528 0.050799
+IsolatorQ3L0_Holderside_30_RA7OS.Material AlN
+IsolatorQ3L0_Holderside_30_RA7OS.Position -10.487848 -4.465320 23.211790
+IsolatorQ3L0_Holderside_30_RA7OS.Rotation 0 0 0
+IsolatorQ3L0_Holderside_30_RA7OS.Visibility 1
+IsolatorQ3L0_Holderside_30_RA7OS.Color 38
+IsolatorQ3L0_Holderside_30_RA7OS.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_31_KRPLF
+IsolatorQ3L0_Holderside_31_KRPLF.Shape BRIK 0.005079 1.315727 0.050799
+IsolatorQ3L0_Holderside_31_KRPLF.Material AlN
+IsolatorQ3L0_Holderside_31_KRPLF.Position -11.016172 -4.465320 23.211790
+IsolatorQ3L0_Holderside_31_KRPLF.Rotation 0 0 0
+IsolatorQ3L0_Holderside_31_KRPLF.Visibility 1
+IsolatorQ3L0_Holderside_31_KRPLF.Color 38
+IsolatorQ3L0_Holderside_31_KRPLF.Mother DetectorQ3L0Wrapper
+
+Volume IsolatorQ3L0_Holderside_32_JTXH1
+IsolatorQ3L0_Holderside_32_JTXH1.Shape BRIK 0.005079 1.315727 0.050799
+IsolatorQ3L0_Holderside_32_JTXH1.Material AlN
+IsolatorQ3L0_Holderside_32_JTXH1.Position -10.477688 -4.465320 23.211790
+IsolatorQ3L0_Holderside_32_JTXH1.Rotation 0 0 0
+IsolatorQ3L0_Holderside_32_JTXH1.Visibility 1
+IsolatorQ3L0_Holderside_32_JTXH1.Color 38
+IsolatorQ3L0_Holderside_32_JTXH1.Mother DetectorQ3L0Wrapper
+

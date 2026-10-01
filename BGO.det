@@ -1,0 +1,44 @@
+#------------------------------------------------------------
+# Detector information:
+
+Scintillator     ACS_X0_0
+ACS_X0_0.DetectorVolume	    BGO_X0_0_Crystal
+ACS_X0_0.SensitiveVolume    BGO_X0_0_Crystal
+ACS_X0_0.TriggerThreshold   80.0
+ACS_X0_0.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_X0_0.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_X0_0.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_X0_1
+ACS_X0_1.DetectorVolume     BGO_X0_1_Crystal
+ACS_X0_1.SensitiveVolume    BGO_X0_1_Crystal
+ACS_X0_1.TriggerThreshold   80.0
+ACS_X0_1.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_X0_1.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_X0_1.NoiseThresholdEqualsTriggerThreshold true
+
+Scintillator     ACS_X0_2
+ACS_X0_2.DetectorVolume     BGO_X0_2_Crystal
+ACS_X0_2.SensitiveVolume    BGO_X0_2_Crystal
+ACS_X0_2.TriggerThreshold   80.0
+ACS_X0_2.EnergyResolution   Gauss    0.0    0.0   10.0
+ACS_X0_2.EnergyResolution   Gauss  100.0  100.0   10.0
+ACS_X0_2.NoiseThresholdEqualsTriggerThreshold true
+
+
+
+Trigger ACS_Veto_X0_0
+ACS_Veto_X0_0.Veto true
+ACS_Veto_X0_0.TriggerByDetector true
+ACS_Veto_X0_0.Detector ACS_X0_0 1
+
+Trigger ACS_Veto_X0_1
+ACS_Veto_X0_1.Veto true
+ACS_Veto_X0_1.TriggerByDetector true
+ACS_Veto_X0_1.Detector ACS_X0_1 1
+ 
+Trigger ACS_Veto_X0_2
+ACS_Veto_X0_2.Veto true
+ACS_Veto_X0_2.TriggerByDetector true
+ACS_Veto_X0_2.Detector ACS_X0_2 1
+                                                  

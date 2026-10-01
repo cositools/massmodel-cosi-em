@@ -1,0 +1,105 @@
+
+#Thermal shields
+
+#Inner
+
+Volume ThermalShieldsWrapper
+ThermalShieldsWrapper.Shape BRIK 1000 1000 1000
+ThermalShieldsWrapper.Material Vacuum
+ThermalShieldsWrapper.Visibility 0
+#ThermalShieldsWrapper.Position 0 0 0.020164
+ThermalShieldsWrapper.Position 0 0 0
+ThermalShieldsWrapper.Rotation 0 0 0
+ThermalShieldsWrapper.Virtual True
+ThermalShieldsWrapper.Mother WorldVolume
+
+Include Thermal_Shield_Bottom_Inner.10.geo.setup
+
+Include Thermal_Shield_Q0Q1_Inner.60.geo.setup
+
+Volume ThermalShieldsQ1Q2InnerWrapper
+ThermalShieldsQ1Q2InnerWrapper.Shape BRIK 1000 1000 1000
+ThermalShieldsQ1Q2InnerWrapper.Material Vacuum
+ThermalShieldsQ1Q2InnerWrapper.Visibility 0
+ThermalShieldsQ1Q2InnerWrapper.Position 0 {-0.118066-0.022999} 0
+ThermalShieldsQ1Q2InnerWrapper.Rotation 0 0 0
+ThermalShieldsQ1Q2InnerWrapper.Virtual True
+ThermalShieldsQ1Q2InnerWrapper.Mother ThermalShieldsWrapper
+
+Include Thermal_Shield_Q1Q2_Inner.60.geo.setup
+
+Include Thermal_Shield_Q2Q3_Inner.60.geo.setup
+
+Volume ThermalShieldsQ3Q0InnerWrapper
+ThermalShieldsQ3Q0InnerWrapper.Shape BRIK 1000 1000 1000
+ThermalShieldsQ3Q0InnerWrapper.Material Vacuum
+ThermalShieldsQ3Q0InnerWrapper.Visibility 0
+ThermalShieldsQ3Q0InnerWrapper.Position 0 {0.118066+0.022999} 0
+ThermalShieldsQ3Q0InnerWrapper.Rotation 0 0 0
+ThermalShieldsQ3Q0InnerWrapper.Virtual True
+ThermalShieldsQ3Q0InnerWrapper.Mother ThermalShieldsWrapper
+
+Include Thermal_Shield_Q3Q0_Inner.60.geo.setup
+
+Volume ThermalShieldsTopInnerWrapper
+ThermalShieldsTopInnerWrapper.Shape BRIK 1000 1000 1000
+ThermalShieldsTopInnerWrapper.Material Vacuum
+ThermalShieldsTopInnerWrapper.Visibility 0
+ThermalShieldsTopInnerWrapper.Position 0 0 0.114225
+ThermalShieldsTopInnerWrapper.Rotation 0 0 0
+ThermalShieldsTopInnerWrapper.Virtual True
+ThermalShieldsTopInnerWrapper.Mother ThermalShieldsWrapper
+
+Include Thermal_Shield_Top_Inner.10.geo.setup
+
+
+#Outer
+
+Include Thermal_Shield_Bottom_Outer.20.geo.setup
+
+Volume ThermalShieldsQ0Q1OuterWrapper
+ThermalShieldsQ0Q1OuterWrapper.Shape BRIK 1000 1000 1000
+ThermalShieldsQ0Q1OuterWrapper.Material Vacuum
+ThermalShieldsQ0Q1OuterWrapper.Visibility 0
+ThermalShieldsQ0Q1OuterWrapper.Position -0.039074 0 0
+ThermalShieldsQ0Q1OuterWrapper.Rotation 0 0 0
+ThermalShieldsQ0Q1OuterWrapper.Virtual True
+ThermalShieldsQ0Q1OuterWrapper.Mother ThermalShieldsWrapper
+
+Include Thermal_Shield_Q0Q1_Outer.120.geo.setup
+
+Volume ThermalShieldsQ1Q2OuterWrapper
+ThermalShieldsQ1Q2OuterWrapper.Shape BRIK 1000 1000 1000
+ThermalShieldsQ1Q2OuterWrapper.Material Vacuum
+ThermalShieldsQ1Q2OuterWrapper.Visibility 0
+ThermalShieldsQ1Q2OuterWrapper.Position 0 -0.170249 0
+ThermalShieldsQ1Q2OuterWrapper.Rotation 0 0 0
+ThermalShieldsQ1Q2OuterWrapper.Virtual True
+ThermalShieldsQ1Q2OuterWrapper.Mother ThermalShieldsWrapper
+
+Include Thermal_Shield_Q1Q2_Outer.60.geo.setup
+
+Include Thermal_Shield_Q2Q3_Outer.120.geo.setup
+
+
+Volume ThermalShieldsQ3Q0OuterWrapper
+ThermalShieldsQ3Q0OuterWrapper.Shape BRIK 1000 1000 1000
+ThermalShieldsQ3Q0OuterWrapper.Material Vacuum
+ThermalShieldsQ3Q0OuterWrapper.Visibility 0
+ThermalShieldsQ3Q0OuterWrapper.Position 0 0.030167 0
+ThermalShieldsQ3Q0OuterWrapper.Rotation 0 0 0
+ThermalShieldsQ3Q0OuterWrapper.Virtual True
+ThermalShieldsQ3Q0OuterWrapper.Mother ThermalShieldsWrapper
+
+Include Thermal_Shield_Q3Q0_Outer.60.geo.setup
+
+Volume ThermalShieldsTopOuterWrapper
+ThermalShieldsTopOuterWrapper.Shape BRIK 1000 1000 1000
+ThermalShieldsTopOuterWrapper.Material Vacuum
+ThermalShieldsTopOuterWrapper.Visibility 0
+ThermalShieldsTopOuterWrapper.Position 0 0 0.122901
+ThermalShieldsTopOuterWrapper.Rotation 0 0 0
+ThermalShieldsTopOuterWrapper.Virtual True
+ThermalShieldsTopOuterWrapper.Mother ThermalShieldsWrapper
+
+Include Thermal_Shield_Top_Outer.10.geo.setup

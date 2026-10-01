@@ -1,0 +1,297 @@
+Volume IndiumJointQ1L3_Holderside_0_8A7NQ
+IndiumJointQ1L3_Holderside_0_8A7NQ.Shape BRIK 0.010158 1.559452 0.005079
+IndiumJointQ1L3_Holderside_0_8A7NQ.Material Indium
+IndiumJointQ1L3_Holderside_0_8A7NQ.Position -10.746930 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_0_8A7NQ.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_0_8A7NQ.Visibility 1
+IndiumJointQ1L3_Holderside_0_8A7NQ.Color 46
+IndiumJointQ1L3_Holderside_0_8A7NQ.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_1_ZX4WM
+IndiumJointQ1L3_Holderside_1_ZX4WM.Shape BRIK 0.030477 1.549293 0.005079
+IndiumJointQ1L3_Holderside_1_ZX4WM.Material Indium
+IndiumJointQ1L3_Holderside_1_ZX4WM.Position -10.787568 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_1_ZX4WM.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_1_ZX4WM.Visibility 1
+IndiumJointQ1L3_Holderside_1_ZX4WM.Color 46
+IndiumJointQ1L3_Holderside_1_ZX4WM.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_2_60Q9J
+IndiumJointQ1L3_Holderside_2_60Q9J.Shape BRIK 0.030477 1.549293 0.005079
+IndiumJointQ1L3_Holderside_2_60Q9J.Material Indium
+IndiumJointQ1L3_Holderside_2_60Q9J.Position -10.706293 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_2_60Q9J.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_2_60Q9J.Visibility 1
+IndiumJointQ1L3_Holderside_2_60Q9J.Color 46
+IndiumJointQ1L3_Holderside_2_60Q9J.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_3_8BD8D
+IndiumJointQ1L3_Holderside_3_8BD8D.Shape BRIK 0.015238 1.539133 0.005079
+IndiumJointQ1L3_Holderside_3_8BD8D.Material Indium
+IndiumJointQ1L3_Holderside_3_8BD8D.Position -10.833284 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_3_8BD8D.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_3_8BD8D.Visibility 1
+IndiumJointQ1L3_Holderside_3_8BD8D.Color 46
+IndiumJointQ1L3_Holderside_3_8BD8D.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_4_Z1MCJ
+IndiumJointQ1L3_Holderside_4_Z1MCJ.Shape BRIK 0.015238 1.539133 0.005079
+IndiumJointQ1L3_Holderside_4_Z1MCJ.Material Indium
+IndiumJointQ1L3_Holderside_4_Z1MCJ.Position -10.660576 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_4_Z1MCJ.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_4_Z1MCJ.Visibility 1
+IndiumJointQ1L3_Holderside_4_Z1MCJ.Color 46
+IndiumJointQ1L3_Holderside_4_Z1MCJ.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_5_XAK89
+IndiumJointQ1L3_Holderside_5_XAK89.Shape BRIK 0.010158 1.528974 0.005079
+IndiumJointQ1L3_Holderside_5_XAK89.Material Indium
+IndiumJointQ1L3_Holderside_5_XAK89.Position -10.858683 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_5_XAK89.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_5_XAK89.Visibility 1
+IndiumJointQ1L3_Holderside_5_XAK89.Color 46
+IndiumJointQ1L3_Holderside_5_XAK89.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_6_AZ1F1
+IndiumJointQ1L3_Holderside_6_AZ1F1.Shape BRIK 0.010158 1.528974 0.005079
+IndiumJointQ1L3_Holderside_6_AZ1F1.Material Indium
+IndiumJointQ1L3_Holderside_6_AZ1F1.Position -10.635178 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_6_AZ1F1.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_6_AZ1F1.Visibility 1
+IndiumJointQ1L3_Holderside_6_AZ1F1.Color 46
+IndiumJointQ1L3_Holderside_6_AZ1F1.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_7_M9C6M
+IndiumJointQ1L3_Holderside_7_M9C6M.Shape BRIK 0.010158 1.518815 0.005079
+IndiumJointQ1L3_Holderside_7_M9C6M.Material Indium
+IndiumJointQ1L3_Holderside_7_M9C6M.Position -10.879001 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_7_M9C6M.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_7_M9C6M.Visibility 1
+IndiumJointQ1L3_Holderside_7_M9C6M.Color 46
+IndiumJointQ1L3_Holderside_7_M9C6M.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_8_GH64Y
+IndiumJointQ1L3_Holderside_8_GH64Y.Shape BRIK 0.010158 1.518815 0.005079
+IndiumJointQ1L3_Holderside_8_GH64Y.Material Indium
+IndiumJointQ1L3_Holderside_8_GH64Y.Position -10.614859 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_8_GH64Y.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_8_GH64Y.Visibility 1
+IndiumJointQ1L3_Holderside_8_GH64Y.Color 46
+IndiumJointQ1L3_Holderside_8_GH64Y.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_9_V0K32
+IndiumJointQ1L3_Holderside_9_V0K32.Shape BRIK 0.005079 1.508655 0.005079
+IndiumJointQ1L3_Holderside_9_V0K32.Material Indium
+IndiumJointQ1L3_Holderside_9_V0K32.Position -10.894240 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_9_V0K32.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_9_V0K32.Visibility 1
+IndiumJointQ1L3_Holderside_9_V0K32.Color 46
+IndiumJointQ1L3_Holderside_9_V0K32.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_10_7KFA1
+IndiumJointQ1L3_Holderside_10_7KFA1.Shape BRIK 0.005079 1.508655 0.005079
+IndiumJointQ1L3_Holderside_10_7KFA1.Material Indium
+IndiumJointQ1L3_Holderside_10_7KFA1.Position -10.599620 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_10_7KFA1.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_10_7KFA1.Visibility 1
+IndiumJointQ1L3_Holderside_10_7KFA1.Color 46
+IndiumJointQ1L3_Holderside_10_7KFA1.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_11_OLQAF
+IndiumJointQ1L3_Holderside_11_OLQAF.Shape BRIK 0.010158 1.498496 0.005079
+IndiumJointQ1L3_Holderside_11_OLQAF.Material Indium
+IndiumJointQ1L3_Holderside_11_OLQAF.Position -10.909479 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_11_OLQAF.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_11_OLQAF.Visibility 1
+IndiumJointQ1L3_Holderside_11_OLQAF.Color 46
+IndiumJointQ1L3_Holderside_11_OLQAF.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_12_FFQ2X
+IndiumJointQ1L3_Holderside_12_FFQ2X.Shape BRIK 0.010158 1.498496 0.005079
+IndiumJointQ1L3_Holderside_12_FFQ2X.Material Indium
+IndiumJointQ1L3_Holderside_12_FFQ2X.Position -10.584381 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_12_FFQ2X.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_12_FFQ2X.Visibility 1
+IndiumJointQ1L3_Holderside_12_FFQ2X.Color 46
+IndiumJointQ1L3_Holderside_12_FFQ2X.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_13_5AOCG
+IndiumJointQ1L3_Holderside_13_5AOCG.Shape BRIK 0.005079 1.488337 0.005079
+IndiumJointQ1L3_Holderside_13_5AOCG.Material Indium
+IndiumJointQ1L3_Holderside_13_5AOCG.Position -10.924718 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_13_5AOCG.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_13_5AOCG.Visibility 1
+IndiumJointQ1L3_Holderside_13_5AOCG.Color 46
+IndiumJointQ1L3_Holderside_13_5AOCG.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_14_JCT3A
+IndiumJointQ1L3_Holderside_14_JCT3A.Shape BRIK 0.005079 1.488337 0.005079
+IndiumJointQ1L3_Holderside_14_JCT3A.Material Indium
+IndiumJointQ1L3_Holderside_14_JCT3A.Position -10.569143 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_14_JCT3A.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_14_JCT3A.Visibility 1
+IndiumJointQ1L3_Holderside_14_JCT3A.Color 46
+IndiumJointQ1L3_Holderside_14_JCT3A.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_15_5QYGD
+IndiumJointQ1L3_Holderside_15_5QYGD.Shape BRIK 0.005079 1.478177 0.005079
+IndiumJointQ1L3_Holderside_15_5QYGD.Material Indium
+IndiumJointQ1L3_Holderside_15_5QYGD.Position -10.934877 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_15_5QYGD.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_15_5QYGD.Visibility 1
+IndiumJointQ1L3_Holderside_15_5QYGD.Color 46
+IndiumJointQ1L3_Holderside_15_5QYGD.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_16_QZD8J
+IndiumJointQ1L3_Holderside_16_QZD8J.Shape BRIK 0.005079 1.478177 0.005079
+IndiumJointQ1L3_Holderside_16_QZD8J.Material Indium
+IndiumJointQ1L3_Holderside_16_QZD8J.Position -10.558983 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_16_QZD8J.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_16_QZD8J.Visibility 1
+IndiumJointQ1L3_Holderside_16_QZD8J.Color 46
+IndiumJointQ1L3_Holderside_16_QZD8J.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_17_IYMN1
+IndiumJointQ1L3_Holderside_17_IYMN1.Shape BRIK 0.005079 1.468018 0.005079
+IndiumJointQ1L3_Holderside_17_IYMN1.Material Indium
+IndiumJointQ1L3_Holderside_17_IYMN1.Position -10.945037 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_17_IYMN1.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_17_IYMN1.Visibility 1
+IndiumJointQ1L3_Holderside_17_IYMN1.Color 46
+IndiumJointQ1L3_Holderside_17_IYMN1.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_18_8STCZ
+IndiumJointQ1L3_Holderside_18_8STCZ.Shape BRIK 0.005079 1.468018 0.005079
+IndiumJointQ1L3_Holderside_18_8STCZ.Material Indium
+IndiumJointQ1L3_Holderside_18_8STCZ.Position -10.548824 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_18_8STCZ.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_18_8STCZ.Visibility 1
+IndiumJointQ1L3_Holderside_18_8STCZ.Color 46
+IndiumJointQ1L3_Holderside_18_8STCZ.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_19_4Y0Z6
+IndiumJointQ1L3_Holderside_19_4Y0Z6.Shape BRIK 0.005079 1.457859 0.005079
+IndiumJointQ1L3_Holderside_19_4Y0Z6.Material Indium
+IndiumJointQ1L3_Holderside_19_4Y0Z6.Position -10.955196 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_19_4Y0Z6.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_19_4Y0Z6.Visibility 1
+IndiumJointQ1L3_Holderside_19_4Y0Z6.Color 46
+IndiumJointQ1L3_Holderside_19_4Y0Z6.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_20_0I9UH
+IndiumJointQ1L3_Holderside_20_0I9UH.Shape BRIK 0.005079 1.457859 0.005079
+IndiumJointQ1L3_Holderside_20_0I9UH.Material Indium
+IndiumJointQ1L3_Holderside_20_0I9UH.Position -10.538665 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_20_0I9UH.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_20_0I9UH.Visibility 1
+IndiumJointQ1L3_Holderside_20_0I9UH.Color 46
+IndiumJointQ1L3_Holderside_20_0I9UH.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_21_UA2FR
+IndiumJointQ1L3_Holderside_21_UA2FR.Shape BRIK 0.005079 1.447700 0.005079
+IndiumJointQ1L3_Holderside_21_UA2FR.Material Indium
+IndiumJointQ1L3_Holderside_21_UA2FR.Position -10.965355 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_21_UA2FR.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_21_UA2FR.Visibility 1
+IndiumJointQ1L3_Holderside_21_UA2FR.Color 46
+IndiumJointQ1L3_Holderside_21_UA2FR.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_22_PGJR5
+IndiumJointQ1L3_Holderside_22_PGJR5.Shape BRIK 0.005079 1.447700 0.005079
+IndiumJointQ1L3_Holderside_22_PGJR5.Material Indium
+IndiumJointQ1L3_Holderside_22_PGJR5.Position -10.528505 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_22_PGJR5.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_22_PGJR5.Visibility 1
+IndiumJointQ1L3_Holderside_22_PGJR5.Color 46
+IndiumJointQ1L3_Holderside_22_PGJR5.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_23_9TDVN
+IndiumJointQ1L3_Holderside_23_9TDVN.Shape BRIK 0.005079 1.427381 0.005079
+IndiumJointQ1L3_Holderside_23_9TDVN.Material Indium
+IndiumJointQ1L3_Holderside_23_9TDVN.Position -10.975515 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_23_9TDVN.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_23_9TDVN.Visibility 1
+IndiumJointQ1L3_Holderside_23_9TDVN.Color 46
+IndiumJointQ1L3_Holderside_23_9TDVN.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_24_FC7PK
+IndiumJointQ1L3_Holderside_24_FC7PK.Shape BRIK 0.005079 1.427381 0.005079
+IndiumJointQ1L3_Holderside_24_FC7PK.Material Indium
+IndiumJointQ1L3_Holderside_24_FC7PK.Position -10.518346 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_24_FC7PK.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_24_FC7PK.Visibility 1
+IndiumJointQ1L3_Holderside_24_FC7PK.Color 46
+IndiumJointQ1L3_Holderside_24_FC7PK.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_25_8T0LA
+IndiumJointQ1L3_Holderside_25_8T0LA.Shape BRIK 0.005079 1.417222 0.005079
+IndiumJointQ1L3_Holderside_25_8T0LA.Material Indium
+IndiumJointQ1L3_Holderside_25_8T0LA.Position -10.985674 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_25_8T0LA.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_25_8T0LA.Visibility 1
+IndiumJointQ1L3_Holderside_25_8T0LA.Color 46
+IndiumJointQ1L3_Holderside_25_8T0LA.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_26_LJXXN
+IndiumJointQ1L3_Holderside_26_LJXXN.Shape BRIK 0.005079 1.417222 0.005079
+IndiumJointQ1L3_Holderside_26_LJXXN.Material Indium
+IndiumJointQ1L3_Holderside_26_LJXXN.Position -10.508187 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_26_LJXXN.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_26_LJXXN.Visibility 1
+IndiumJointQ1L3_Holderside_26_LJXXN.Color 46
+IndiumJointQ1L3_Holderside_26_LJXXN.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_27_GQ0AX
+IndiumJointQ1L3_Holderside_27_GQ0AX.Shape BRIK 0.005079 1.386744 0.005079
+IndiumJointQ1L3_Holderside_27_GQ0AX.Material Indium
+IndiumJointQ1L3_Holderside_27_GQ0AX.Position -10.995833 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_27_GQ0AX.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_27_GQ0AX.Visibility 1
+IndiumJointQ1L3_Holderside_27_GQ0AX.Color 46
+IndiumJointQ1L3_Holderside_27_GQ0AX.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_28_59X1D
+IndiumJointQ1L3_Holderside_28_59X1D.Shape BRIK 0.005079 1.386744 0.005079
+IndiumJointQ1L3_Holderside_28_59X1D.Material Indium
+IndiumJointQ1L3_Holderside_28_59X1D.Position -10.498027 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_28_59X1D.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_28_59X1D.Visibility 1
+IndiumJointQ1L3_Holderside_28_59X1D.Color 46
+IndiumJointQ1L3_Holderside_28_59X1D.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_29_QGE8G
+IndiumJointQ1L3_Holderside_29_QGE8G.Shape BRIK 0.005079 1.366425 0.005079
+IndiumJointQ1L3_Holderside_29_QGE8G.Material Indium
+IndiumJointQ1L3_Holderside_29_QGE8G.Position -11.005993 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_29_QGE8G.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_29_QGE8G.Visibility 1
+IndiumJointQ1L3_Holderside_29_QGE8G.Color 46
+IndiumJointQ1L3_Holderside_29_QGE8G.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_30_NEKMW
+IndiumJointQ1L3_Holderside_30_NEKMW.Shape BRIK 0.005079 1.366425 0.005079
+IndiumJointQ1L3_Holderside_30_NEKMW.Material Indium
+IndiumJointQ1L3_Holderside_30_NEKMW.Position -10.487868 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_30_NEKMW.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_30_NEKMW.Visibility 1
+IndiumJointQ1L3_Holderside_30_NEKMW.Color 46
+IndiumJointQ1L3_Holderside_30_NEKMW.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_31_0ZNI5
+IndiumJointQ1L3_Holderside_31_0ZNI5.Shape BRIK 0.005079 1.315629 0.005079
+IndiumJointQ1L3_Holderside_31_0ZNI5.Material Indium
+IndiumJointQ1L3_Holderside_31_0ZNI5.Position -11.016152 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_31_0ZNI5.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_31_0ZNI5.Visibility 1
+IndiumJointQ1L3_Holderside_31_0ZNI5.Color 46
+IndiumJointQ1L3_Holderside_31_0ZNI5.Mother DetectorQ1L3Wrapper
+
+Volume IndiumJointQ1L3_Holderside_32_8TPQP
+IndiumJointQ1L3_Holderside_32_8TPQP.Shape BRIK 0.005079 1.315629 0.005079
+IndiumJointQ1L3_Holderside_32_8TPQP.Material Indium
+IndiumJointQ1L3_Holderside_32_8TPQP.Position -10.477709 -4.465320 23.267670
+IndiumJointQ1L3_Holderside_32_8TPQP.Rotation 0 0 0
+IndiumJointQ1L3_Holderside_32_8TPQP.Visibility 1
+IndiumJointQ1L3_Holderside_32_8TPQP.Color 46
+IndiumJointQ1L3_Holderside_32_8TPQP.Mother DetectorQ1L3Wrapper
+

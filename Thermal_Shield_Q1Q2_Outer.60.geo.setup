@@ -1,0 +1,423 @@
+Volume Thermal_Shield_Q1Q2_Outer_0_D3OGN
+Thermal_Shield_Q1Q2_Outer_0_D3OGN.Shape BRIK 13.950281 0.127983 0.511936
+Thermal_Shield_Q1Q2_Outer_0_D3OGN.Material al5052
+Thermal_Shield_Q1Q2_Outer_0_D3OGN.Position 0.127984 -13.024226 11.422221
+Thermal_Shield_Q1Q2_Outer_0_D3OGN.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_0_D3OGN.Visibility 1
+Thermal_Shield_Q1Q2_Outer_0_D3OGN.Color 96
+Thermal_Shield_Q1Q2_Outer_0_D3OGN.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_1_VD3GK
+Thermal_Shield_Q1Q2_Outer_1_VD3GK.Shape BRIK 0.255967 0.127983 7.167117
+Thermal_Shield_Q1Q2_Outer_1_VD3GK.Material al5052
+Thermal_Shield_Q1Q2_Outer_1_VD3GK.Position -13.566329 -13.024226 19.101275
+Thermal_Shield_Q1Q2_Outer_1_VD3GK.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_1_VD3GK.Visibility 1
+Thermal_Shield_Q1Q2_Outer_1_VD3GK.Color 96
+Thermal_Shield_Q1Q2_Outer_1_VD3GK.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_2_SP5Q7
+Thermal_Shield_Q1Q2_Outer_2_SP5Q7.Shape BRIK 2.687668 0.127983 0.767904
+Thermal_Shield_Q1Q2_Outer_2_SP5Q7.Material al5052
+Thermal_Shield_Q1Q2_Outer_2_SP5Q7.Position -10.366723 -13.024226 12.702063
+Thermal_Shield_Q1Q2_Outer_2_SP5Q7.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_2_SP5Q7.Visibility 1
+Thermal_Shield_Q1Q2_Outer_2_SP5Q7.Color 96
+Thermal_Shield_Q1Q2_Outer_2_SP5Q7.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_3_28M9G
+Thermal_Shield_Q1Q2_Outer_3_28M9G.Shape BRIK 1.919763 0.127983 7.167117
+Thermal_Shield_Q1Q2_Outer_3_28M9G.Material al5052
+Thermal_Shield_Q1Q2_Outer_3_28M9G.Position -5.503322 -13.024226 19.101275
+Thermal_Shield_Q1Q2_Outer_3_28M9G.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_3_28M9G.Visibility 1
+Thermal_Shield_Q1Q2_Outer_3_28M9G.Color 96
+Thermal_Shield_Q1Q2_Outer_3_28M9G.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_4_WOP7Y
+Thermal_Shield_Q1Q2_Outer_4_WOP7Y.Shape BRIK 3.455574 0.127983 0.767904
+Thermal_Shield_Q1Q2_Outer_4_WOP7Y.Material al5052
+Thermal_Shield_Q1Q2_Outer_4_WOP7Y.Position 0.127984 -13.024226 12.702063
+Thermal_Shield_Q1Q2_Outer_4_WOP7Y.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_4_WOP7Y.Visibility 1
+Thermal_Shield_Q1Q2_Outer_4_WOP7Y.Color 96
+Thermal_Shield_Q1Q2_Outer_4_WOP7Y.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_5_5IIQZ
+Thermal_Shield_Q1Q2_Outer_5_5IIQZ.Shape BRIK 1.919763 0.127983 7.167117
+Thermal_Shield_Q1Q2_Outer_5_5IIQZ.Material al5052
+Thermal_Shield_Q1Q2_Outer_5_5IIQZ.Position 5.759291 -13.024226 19.101275
+Thermal_Shield_Q1Q2_Outer_5_5IIQZ.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_5_5IIQZ.Visibility 1
+Thermal_Shield_Q1Q2_Outer_5_5IIQZ.Color 96
+Thermal_Shield_Q1Q2_Outer_5_5IIQZ.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_6_INO50
+Thermal_Shield_Q1Q2_Outer_6_INO50.Shape BRIK 2.687668 0.127983 0.767904
+Thermal_Shield_Q1Q2_Outer_6_INO50.Material al5052
+Thermal_Shield_Q1Q2_Outer_6_INO50.Position 10.622692 -13.024226 12.702063
+Thermal_Shield_Q1Q2_Outer_6_INO50.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_6_INO50.Visibility 1
+Thermal_Shield_Q1Q2_Outer_6_INO50.Color 96
+Thermal_Shield_Q1Q2_Outer_6_INO50.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_7_8KYZC
+Thermal_Shield_Q1Q2_Outer_7_8KYZC.Shape BRIK 0.255967 0.127983 7.167117
+Thermal_Shield_Q1Q2_Outer_7_8KYZC.Material al5052
+Thermal_Shield_Q1Q2_Outer_7_8KYZC.Position 13.822298 -13.024226 19.101275
+Thermal_Shield_Q1Q2_Outer_7_8KYZC.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_7_8KYZC.Visibility 1
+Thermal_Shield_Q1Q2_Outer_7_8KYZC.Color 96
+Thermal_Shield_Q1Q2_Outer_7_8KYZC.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_8_K21RT
+Thermal_Shield_Q1Q2_Outer_8_K21RT.Shape BRIK 0.127983 0.127983 1.919763
+Thermal_Shield_Q1Q2_Outer_8_K21RT.Material al5052
+Thermal_Shield_Q1Q2_Outer_8_K21RT.Position -13.182377 -13.024226 14.109890
+Thermal_Shield_Q1Q2_Outer_8_K21RT.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_8_K21RT.Visibility 1
+Thermal_Shield_Q1Q2_Outer_8_K21RT.Color 96
+Thermal_Shield_Q1Q2_Outer_8_K21RT.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_9_A26XH
+Thermal_Shield_Q1Q2_Outer_9_A26XH.Shape BRIK 0.127983 0.127983 7.039132
+Thermal_Shield_Q1Q2_Outer_9_A26XH.Material al5052
+Thermal_Shield_Q1Q2_Outer_9_A26XH.Position -7.551070 -13.024226 19.229259
+Thermal_Shield_Q1Q2_Outer_9_A26XH.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_9_A26XH.Visibility 1
+Thermal_Shield_Q1Q2_Outer_9_A26XH.Color 96
+Thermal_Shield_Q1Q2_Outer_9_A26XH.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_10_6TANI
+Thermal_Shield_Q1Q2_Outer_10_6TANI.Shape BRIK 0.127983 0.127983 7.039132
+Thermal_Shield_Q1Q2_Outer_10_6TANI.Material al5052
+Thermal_Shield_Q1Q2_Outer_10_6TANI.Position -3.455575 -13.024226 19.229259
+Thermal_Shield_Q1Q2_Outer_10_6TANI.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_10_6TANI.Visibility 1
+Thermal_Shield_Q1Q2_Outer_10_6TANI.Color 96
+Thermal_Shield_Q1Q2_Outer_10_6TANI.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_11_ZBSA7
+Thermal_Shield_Q1Q2_Outer_11_ZBSA7.Shape BRIK 0.127983 0.127983 7.039132
+Thermal_Shield_Q1Q2_Outer_11_ZBSA7.Material al5052
+Thermal_Shield_Q1Q2_Outer_11_ZBSA7.Position 3.711542 -13.024226 19.229259
+Thermal_Shield_Q1Q2_Outer_11_ZBSA7.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_11_ZBSA7.Visibility 1
+Thermal_Shield_Q1Q2_Outer_11_ZBSA7.Color 96
+Thermal_Shield_Q1Q2_Outer_11_ZBSA7.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_12_Q21EM
+Thermal_Shield_Q1Q2_Outer_12_Q21EM.Shape BRIK 0.127983 0.127983 7.039132
+Thermal_Shield_Q1Q2_Outer_12_Q21EM.Material al5052
+Thermal_Shield_Q1Q2_Outer_12_Q21EM.Position 7.807040 -13.024226 19.229259
+Thermal_Shield_Q1Q2_Outer_12_Q21EM.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_12_Q21EM.Visibility 1
+Thermal_Shield_Q1Q2_Outer_12_Q21EM.Color 96
+Thermal_Shield_Q1Q2_Outer_12_Q21EM.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_13_50LNS
+Thermal_Shield_Q1Q2_Outer_13_50LNS.Shape BRIK 0.127983 0.127983 1.919763
+Thermal_Shield_Q1Q2_Outer_13_50LNS.Material al5052
+Thermal_Shield_Q1Q2_Outer_13_50LNS.Position 13.438345 -13.024226 14.109890
+Thermal_Shield_Q1Q2_Outer_13_50LNS.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_13_50LNS.Visibility 1
+Thermal_Shield_Q1Q2_Outer_13_50LNS.Color 96
+Thermal_Shield_Q1Q2_Outer_13_50LNS.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_14_6138W
+Thermal_Shield_Q1Q2_Outer_14_6138W.Shape BRIK 2.431700 0.127983 1.279841
+Thermal_Shield_Q1Q2_Outer_14_6138W.Material al5052
+Thermal_Shield_Q1Q2_Outer_14_6138W.Position -10.622692 -13.024226 14.749811
+Thermal_Shield_Q1Q2_Outer_14_6138W.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_14_6138W.Visibility 1
+Thermal_Shield_Q1Q2_Outer_14_6138W.Color 96
+Thermal_Shield_Q1Q2_Outer_14_6138W.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_15_10K3F
+Thermal_Shield_Q1Q2_Outer_15_10K3F.Shape BRIK 0.127983 0.127983 6.399211
+Thermal_Shield_Q1Q2_Outer_15_10K3F.Material al5052
+Thermal_Shield_Q1Q2_Outer_15_10K3F.Position -7.807038 -13.024226 19.869181
+Thermal_Shield_Q1Q2_Outer_15_10K3F.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_15_10K3F.Visibility 1
+Thermal_Shield_Q1Q2_Outer_15_10K3F.Color 96
+Thermal_Shield_Q1Q2_Outer_15_10K3F.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_16_EMLFL
+Thermal_Shield_Q1Q2_Outer_16_EMLFL.Shape BRIK 0.639920 0.127983 6.399211
+Thermal_Shield_Q1Q2_Outer_16_EMLFL.Material al5052
+Thermal_Shield_Q1Q2_Outer_16_EMLFL.Position -2.687668 -13.024226 19.869181
+Thermal_Shield_Q1Q2_Outer_16_EMLFL.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_16_EMLFL.Visibility 1
+Thermal_Shield_Q1Q2_Outer_16_EMLFL.Color 96
+Thermal_Shield_Q1Q2_Outer_16_EMLFL.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_17_X5NY6
+Thermal_Shield_Q1Q2_Outer_17_X5NY6.Shape BRIK 1.919763 0.127983 1.919763
+Thermal_Shield_Q1Q2_Outer_17_X5NY6.Material al5052
+Thermal_Shield_Q1Q2_Outer_17_X5NY6.Position 0.127984 -13.024226 15.389732
+Thermal_Shield_Q1Q2_Outer_17_X5NY6.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_17_X5NY6.Visibility 1
+Thermal_Shield_Q1Q2_Outer_17_X5NY6.Color 96
+Thermal_Shield_Q1Q2_Outer_17_X5NY6.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_18_V8L3M
+Thermal_Shield_Q1Q2_Outer_18_V8L3M.Shape BRIK 0.639920 0.127983 6.399211
+Thermal_Shield_Q1Q2_Outer_18_V8L3M.Material al5052
+Thermal_Shield_Q1Q2_Outer_18_V8L3M.Position 2.943638 -13.024226 19.869181
+Thermal_Shield_Q1Q2_Outer_18_V8L3M.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_18_V8L3M.Visibility 1
+Thermal_Shield_Q1Q2_Outer_18_V8L3M.Color 96
+Thermal_Shield_Q1Q2_Outer_18_V8L3M.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_19_PK9U8
+Thermal_Shield_Q1Q2_Outer_19_PK9U8.Shape BRIK 0.127983 0.127983 6.399211
+Thermal_Shield_Q1Q2_Outer_19_PK9U8.Material al5052
+Thermal_Shield_Q1Q2_Outer_19_PK9U8.Position 8.063008 -13.024226 19.869181
+Thermal_Shield_Q1Q2_Outer_19_PK9U8.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_19_PK9U8.Visibility 1
+Thermal_Shield_Q1Q2_Outer_19_PK9U8.Color 96
+Thermal_Shield_Q1Q2_Outer_19_PK9U8.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_20_1J4B3
+Thermal_Shield_Q1Q2_Outer_20_1J4B3.Shape BRIK 2.431700 0.127983 0.895889
+Thermal_Shield_Q1Q2_Outer_20_1J4B3.Material al5052
+Thermal_Shield_Q1Q2_Outer_20_1J4B3.Position 10.878661 -13.024226 14.365859
+Thermal_Shield_Q1Q2_Outer_20_1J4B3.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_20_1J4B3.Visibility 1
+Thermal_Shield_Q1Q2_Outer_20_1J4B3.Color 96
+Thermal_Shield_Q1Q2_Outer_20_1J4B3.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_21_VGTZW
+Thermal_Shield_Q1Q2_Outer_21_VGTZW.Shape BRIK 0.127983 0.127983 6.271227
+Thermal_Shield_Q1Q2_Outer_21_VGTZW.Material al5052
+Thermal_Shield_Q1Q2_Outer_21_VGTZW.Position -8.063007 -13.024226 19.997165
+Thermal_Shield_Q1Q2_Outer_21_VGTZW.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_21_VGTZW.Visibility 1
+Thermal_Shield_Q1Q2_Outer_21_VGTZW.Color 96
+Thermal_Shield_Q1Q2_Outer_21_VGTZW.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_22_3ZIUC
+Thermal_Shield_Q1Q2_Outer_22_3ZIUC.Shape BRIK 0.127983 0.127983 6.271227
+Thermal_Shield_Q1Q2_Outer_22_3ZIUC.Material al5052
+Thermal_Shield_Q1Q2_Outer_22_3ZIUC.Position -1.919763 -13.024226 19.997165
+Thermal_Shield_Q1Q2_Outer_22_3ZIUC.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_22_3ZIUC.Visibility 1
+Thermal_Shield_Q1Q2_Outer_22_3ZIUC.Color 96
+Thermal_Shield_Q1Q2_Outer_22_3ZIUC.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_23_21B3X
+Thermal_Shield_Q1Q2_Outer_23_21B3X.Shape BRIK 0.127983 0.127983 6.271227
+Thermal_Shield_Q1Q2_Outer_23_21B3X.Material al5052
+Thermal_Shield_Q1Q2_Outer_23_21B3X.Position 2.175732 -13.024226 19.997165
+Thermal_Shield_Q1Q2_Outer_23_21B3X.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_23_21B3X.Visibility 1
+Thermal_Shield_Q1Q2_Outer_23_21B3X.Color 96
+Thermal_Shield_Q1Q2_Outer_23_21B3X.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_24_POGOL
+Thermal_Shield_Q1Q2_Outer_24_POGOL.Shape BRIK 0.127983 0.127983 6.271227
+Thermal_Shield_Q1Q2_Outer_24_POGOL.Material al5052
+Thermal_Shield_Q1Q2_Outer_24_POGOL.Position 8.318976 -13.024226 19.997165
+Thermal_Shield_Q1Q2_Outer_24_POGOL.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_24_POGOL.Visibility 1
+Thermal_Shield_Q1Q2_Outer_24_POGOL.Color 96
+Thermal_Shield_Q1Q2_Outer_24_POGOL.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_25_9EMXK
+Thermal_Shield_Q1Q2_Outer_25_9EMXK.Shape BRIK 1.535810 0.127983 5.503321
+Thermal_Shield_Q1Q2_Outer_25_9EMXK.Material al5052
+Thermal_Shield_Q1Q2_Outer_25_9EMXK.Position 9.982771 -13.024226 20.765071
+Thermal_Shield_Q1Q2_Outer_25_9EMXK.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_25_9EMXK.Visibility 1
+Thermal_Shield_Q1Q2_Outer_25_9EMXK.Color 96
+Thermal_Shield_Q1Q2_Outer_25_9EMXK.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_26_NLZHF
+Thermal_Shield_Q1Q2_Outer_26_NLZHF.Shape BRIK 0.767904 0.127983 5.503321
+Thermal_Shield_Q1Q2_Outer_26_NLZHF.Material al5052
+Thermal_Shield_Q1Q2_Outer_26_NLZHF.Position 12.542456 -13.024226 20.765071
+Thermal_Shield_Q1Q2_Outer_26_NLZHF.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_26_NLZHF.Visibility 1
+Thermal_Shield_Q1Q2_Outer_26_NLZHF.Color 96
+Thermal_Shield_Q1Q2_Outer_26_NLZHF.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_27_QQGSA
+Thermal_Shield_Q1Q2_Outer_27_QQGSA.Shape BRIK 0.127983 0.127983 1.151857
+Thermal_Shield_Q1Q2_Outer_27_QQGSA.Material al5052
+Thermal_Shield_Q1Q2_Outer_27_QQGSA.Position 11.646567 -13.024226 16.669575
+Thermal_Shield_Q1Q2_Outer_27_QQGSA.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_27_QQGSA.Visibility 1
+Thermal_Shield_Q1Q2_Outer_27_QQGSA.Color 96
+Thermal_Shield_Q1Q2_Outer_27_QQGSA.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_28_SN03F
+Thermal_Shield_Q1Q2_Outer_28_SN03F.Shape BRIK 0.767904 0.127983 5.119369
+Thermal_Shield_Q1Q2_Outer_28_SN03F.Material al5052
+Thermal_Shield_Q1Q2_Outer_28_SN03F.Position -12.286487 -13.024226 21.149023
+Thermal_Shield_Q1Q2_Outer_28_SN03F.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_28_SN03F.Visibility 1
+Thermal_Shield_Q1Q2_Outer_28_SN03F.Color 96
+Thermal_Shield_Q1Q2_Outer_28_SN03F.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_29_L0ODB
+Thermal_Shield_Q1Q2_Outer_29_L0ODB.Shape BRIK 1.535810 0.127983 5.119369
+Thermal_Shield_Q1Q2_Outer_29_L0ODB.Material al5052
+Thermal_Shield_Q1Q2_Outer_29_L0ODB.Position -9.726802 -13.024226 21.149023
+Thermal_Shield_Q1Q2_Outer_29_L0ODB.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_29_L0ODB.Visibility 1
+Thermal_Shield_Q1Q2_Outer_29_L0ODB.Color 96
+Thermal_Shield_Q1Q2_Outer_29_L0ODB.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_30_XU2Z1
+Thermal_Shield_Q1Q2_Outer_30_XU2Z1.Shape BRIK 0.127983 0.127983 1.919763
+Thermal_Shield_Q1Q2_Outer_30_XU2Z1.Material al5052
+Thermal_Shield_Q1Q2_Outer_30_XU2Z1.Position -13.182377 -13.024226 18.205386
+Thermal_Shield_Q1Q2_Outer_30_XU2Z1.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_30_XU2Z1.Visibility 1
+Thermal_Shield_Q1Q2_Outer_30_XU2Z1.Color 96
+Thermal_Shield_Q1Q2_Outer_30_XU2Z1.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_31_0ZTGB
+Thermal_Shield_Q1Q2_Outer_31_0ZTGB.Shape BRIK 0.127983 0.127983 1.151857
+Thermal_Shield_Q1Q2_Outer_31_0ZTGB.Material al5052
+Thermal_Shield_Q1Q2_Outer_31_0ZTGB.Position -11.390597 -13.024226 17.437480
+Thermal_Shield_Q1Q2_Outer_31_0ZTGB.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_31_0ZTGB.Visibility 1
+Thermal_Shield_Q1Q2_Outer_31_0ZTGB.Color 96
+Thermal_Shield_Q1Q2_Outer_31_0ZTGB.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_32_4J178
+Thermal_Shield_Q1Q2_Outer_32_4J178.Shape BRIK 0.127983 0.127983 1.919763
+Thermal_Shield_Q1Q2_Outer_32_4J178.Material al5052
+Thermal_Shield_Q1Q2_Outer_32_4J178.Position 13.438345 -13.024226 18.205386
+Thermal_Shield_Q1Q2_Outer_32_4J178.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_32_4J178.Visibility 1
+Thermal_Shield_Q1Q2_Outer_32_4J178.Color 96
+Thermal_Shield_Q1Q2_Outer_32_4J178.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_33_JEF10
+Thermal_Shield_Q1Q2_Outer_33_JEF10.Shape BRIK 0.895889 0.127983 4.479447
+Thermal_Shield_Q1Q2_Outer_33_JEF10.Material al5052
+Thermal_Shield_Q1Q2_Outer_33_JEF10.Position -0.895889 -13.024226 21.788944
+Thermal_Shield_Q1Q2_Outer_33_JEF10.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_33_JEF10.Visibility 1
+Thermal_Shield_Q1Q2_Outer_33_JEF10.Color 96
+Thermal_Shield_Q1Q2_Outer_33_JEF10.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_34_VI07I
+Thermal_Shield_Q1Q2_Outer_34_VI07I.Shape BRIK 0.895889 0.127983 4.479447
+Thermal_Shield_Q1Q2_Outer_34_VI07I.Material al5052
+Thermal_Shield_Q1Q2_Outer_34_VI07I.Position 1.151859 -13.024226 21.788944
+Thermal_Shield_Q1Q2_Outer_34_VI07I.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_34_VI07I.Visibility 1
+Thermal_Shield_Q1Q2_Outer_34_VI07I.Color 96
+Thermal_Shield_Q1Q2_Outer_34_VI07I.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_35_IVACE
+Thermal_Shield_Q1Q2_Outer_35_IVACE.Shape BRIK 0.127983 0.127983 1.023873
+Thermal_Shield_Q1Q2_Outer_35_IVACE.Material al5052
+Thermal_Shield_Q1Q2_Outer_35_IVACE.Position 0.127984 -13.024226 18.845307
+Thermal_Shield_Q1Q2_Outer_35_IVACE.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_35_IVACE.Visibility 1
+Thermal_Shield_Q1Q2_Outer_35_IVACE.Color 96
+Thermal_Shield_Q1Q2_Outer_35_IVACE.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_36_7ONOE
+Thermal_Shield_Q1Q2_Outer_36_7ONOE.Shape BRIK 0.127983 0.127983 1.151857
+Thermal_Shield_Q1Q2_Outer_36_7ONOE.Material al5052
+Thermal_Shield_Q1Q2_Outer_36_7ONOE.Position 11.646567 -13.024226 19.229259
+Thermal_Shield_Q1Q2_Outer_36_7ONOE.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_36_7ONOE.Visibility 1
+Thermal_Shield_Q1Q2_Outer_36_7ONOE.Color 96
+Thermal_Shield_Q1Q2_Outer_36_7ONOE.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_37_BDP1I
+Thermal_Shield_Q1Q2_Outer_37_BDP1I.Shape BRIK 0.127983 0.127983 1.151857
+Thermal_Shield_Q1Q2_Outer_37_BDP1I.Material al5052
+Thermal_Shield_Q1Q2_Outer_37_BDP1I.Position -11.390597 -13.024226 19.997165
+Thermal_Shield_Q1Q2_Outer_37_BDP1I.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_37_BDP1I.Visibility 1
+Thermal_Shield_Q1Q2_Outer_37_BDP1I.Color 96
+Thermal_Shield_Q1Q2_Outer_37_BDP1I.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_38_H3AL0
+Thermal_Shield_Q1Q2_Outer_38_H3AL0.Shape BRIK 0.127983 0.127983 3.071621
+Thermal_Shield_Q1Q2_Outer_38_H3AL0.Material al5052
+Thermal_Shield_Q1Q2_Outer_38_H3AL0.Position 0.127984 -13.024226 23.196772
+Thermal_Shield_Q1Q2_Outer_38_H3AL0.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_38_H3AL0.Visibility 1
+Thermal_Shield_Q1Q2_Outer_38_H3AL0.Color 96
+Thermal_Shield_Q1Q2_Outer_38_H3AL0.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_39_43B8U
+Thermal_Shield_Q1Q2_Outer_39_43B8U.Shape BRIK 0.127983 0.127983 1.919763
+Thermal_Shield_Q1Q2_Outer_39_43B8U.Material al5052
+Thermal_Shield_Q1Q2_Outer_39_43B8U.Position -13.182377 -13.024226 22.300881
+Thermal_Shield_Q1Q2_Outer_39_43B8U.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_39_43B8U.Visibility 1
+Thermal_Shield_Q1Q2_Outer_39_43B8U.Color 96
+Thermal_Shield_Q1Q2_Outer_39_43B8U.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_40_RBWA5
+Thermal_Shield_Q1Q2_Outer_40_RBWA5.Shape BRIK 0.127983 0.127983 1.919763
+Thermal_Shield_Q1Q2_Outer_40_RBWA5.Material al5052
+Thermal_Shield_Q1Q2_Outer_40_RBWA5.Position 13.438345 -13.024226 22.300881
+Thermal_Shield_Q1Q2_Outer_40_RBWA5.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_40_RBWA5.Visibility 1
+Thermal_Shield_Q1Q2_Outer_40_RBWA5.Color 96
+Thermal_Shield_Q1Q2_Outer_40_RBWA5.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_41_GGAG8
+Thermal_Shield_Q1Q2_Outer_41_GGAG8.Shape BRIK 0.127983 0.127983 1.151857
+Thermal_Shield_Q1Q2_Outer_41_GGAG8.Material al5052
+Thermal_Shield_Q1Q2_Outer_41_GGAG8.Position 11.646567 -13.024226 21.788944
+Thermal_Shield_Q1Q2_Outer_41_GGAG8.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_41_GGAG8.Visibility 1
+Thermal_Shield_Q1Q2_Outer_41_GGAG8.Color 96
+Thermal_Shield_Q1Q2_Outer_41_GGAG8.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_42_NYCCM
+Thermal_Shield_Q1Q2_Outer_42_NYCCM.Shape BRIK 0.127983 0.127983 1.151857
+Thermal_Shield_Q1Q2_Outer_42_NYCCM.Material al5052
+Thermal_Shield_Q1Q2_Outer_42_NYCCM.Position -11.390597 -13.024226 22.556849
+Thermal_Shield_Q1Q2_Outer_42_NYCCM.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_42_NYCCM.Visibility 1
+Thermal_Shield_Q1Q2_Outer_42_NYCCM.Color 96
+Thermal_Shield_Q1Q2_Outer_42_NYCCM.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_43_BGQH8
+Thermal_Shield_Q1Q2_Outer_43_BGQH8.Shape BRIK 0.127983 0.127983 1.535810
+Thermal_Shield_Q1Q2_Outer_43_BGQH8.Material al5052
+Thermal_Shield_Q1Q2_Outer_43_BGQH8.Position 11.646567 -13.024226 24.732582
+Thermal_Shield_Q1Q2_Outer_43_BGQH8.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_43_BGQH8.Visibility 1
+Thermal_Shield_Q1Q2_Outer_43_BGQH8.Color 96
+Thermal_Shield_Q1Q2_Outer_43_BGQH8.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_44_TG3E5
+Thermal_Shield_Q1Q2_Outer_44_TG3E5.Shape BRIK 0.127983 0.127983 1.151857
+Thermal_Shield_Q1Q2_Outer_44_TG3E5.Material al5052
+Thermal_Shield_Q1Q2_Outer_44_TG3E5.Position -11.390597 -13.024226 25.116535
+Thermal_Shield_Q1Q2_Outer_44_TG3E5.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_44_TG3E5.Visibility 1
+Thermal_Shield_Q1Q2_Outer_44_TG3E5.Color 96
+Thermal_Shield_Q1Q2_Outer_44_TG3E5.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_45_M9MG9
+Thermal_Shield_Q1Q2_Outer_45_M9MG9.Shape BRIK 0.127983 0.127983 0.895889
+Thermal_Shield_Q1Q2_Outer_45_M9MG9.Material al5052
+Thermal_Shield_Q1Q2_Outer_45_M9MG9.Position -13.182377 -13.024226 25.372503
+Thermal_Shield_Q1Q2_Outer_45_M9MG9.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_45_M9MG9.Visibility 1
+Thermal_Shield_Q1Q2_Outer_45_M9MG9.Color 96
+Thermal_Shield_Q1Q2_Outer_45_M9MG9.Mother ThermalShieldsQ1Q2OuterWrapper
+
+Volume Thermal_Shield_Q1Q2_Outer_46_9Q0XY
+Thermal_Shield_Q1Q2_Outer_46_9Q0XY.Shape BRIK 0.127983 0.127983 0.895889
+Thermal_Shield_Q1Q2_Outer_46_9Q0XY.Material al5052
+Thermal_Shield_Q1Q2_Outer_46_9Q0XY.Position 13.438345 -13.024226 25.372503
+Thermal_Shield_Q1Q2_Outer_46_9Q0XY.Rotation 0 0 0
+Thermal_Shield_Q1Q2_Outer_46_9Q0XY.Visibility 1
+Thermal_Shield_Q1Q2_Outer_46_9Q0XY.Color 96
+Thermal_Shield_Q1Q2_Outer_46_9Q0XY.Mother ThermalShieldsQ1Q2OuterWrapper
+
